@@ -1,0 +1,24 @@
+.skeleton-card-title{ 
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skeletonSkeletonSkillsExperienceAdditional_Card{
+    min-height: 30px; 
+    margin-top: 0 !important;
+    padding: 0;
+    @media(max-width:595px){
+        display: none;
+    }
+} 
+
+.borderline_skeleton{
+    border-bottom: 2px solid #d3d3d3; 
+    width: 100%;  
+    border-bottom: 2px solid #d3d3d3;
+    padding: 5px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: .7rem;
+}

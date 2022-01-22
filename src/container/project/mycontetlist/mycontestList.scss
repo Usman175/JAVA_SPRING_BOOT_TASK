@@ -1,0 +1,277 @@
+.all-projects-card-title {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  @media(max-width:700px){
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+}
+//  skeleton loading classes
+.skeletonLoading_mobile{
+  display: none;
+  @media(max-width:595px){
+    display: block;
+  }
+} 
+// 
+.myContest_page{
+  @media(min-width:1555px) {  
+    min-height: 65vh;
+  } 
+  @media(min-width:2355px) {  
+    min-height: 75vh;
+  }
+  @media(min-width:2655px) {  
+    min-height: 85vh;
+  } 
+}
+.card_box{
+
+  .showMorePc_featureContest{
+    @media(min-width:695px) {  
+      margin: 0 0 2rem;
+    }
+  }
+
+  .contestCardBox_adjustBottom{ 
+    @media(max-width:1600px) and (min-width: 700px){
+    position: absolute;
+    bottom: 8px;
+    } 
+  }
+
+  .myContest_listCardsCol{
+    padding-right: 3px;
+    .showMorePc_featureContest{
+      @media(min-width:1300px) {  
+        width: 101.5%;
+      }
+    }
+    .view-more-less { 
+      @media(min-width:1300px) {  
+        font-size: 13px;
+      }
+  }
+  }
+
+  .contestType_winningArea_topCol{
+    padding-left: 10px;
+    @media(max-width: 768px) {  
+      padding-right: 0;
+    }
+    @media(max-width: 338px) {  
+      padding-left: 9.5px;
+      padding-right: 0;
+    }
+    h4{
+      @media(max-width: 396px) {  
+        font-size: 13px !important;
+      }
+      @media(max-width: 365px) {  
+        font-size: 12px !important;
+      }
+      @media(max-width: 335px) {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 21em;
+      }
+    }
+
+    .contest-type-winning-area{ 
+      @media(max-width: 396px) {  
+        margin-right: 3px;
+      }
+      @media(max-width: 335px) {  
+        margin-right: 0;
+      }
+      img { 
+        @media(max-width: 396px) {  
+          width: 21px;
+        } 
+        @media(max-width: 335px) {  
+          width: 15px !important;
+        }
+      }
+    }
+  }
+  
+// diamond img featured cards
+
+.diamond_cardFeaturedContestImg{
+  width:8%; 
+  margin-top:-10px;  
+  margin-left: -5px;
+  margin-right: 5px;
+}
+// 
+
+  .custom-plus_btn {
+    background-color: #669900;
+    color: white; 
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px; 
+  }
+}
+.projects-card-detail-right-areaPcView{
+  display: block;
+  @media(max-width:700px){
+    display: none;
+  }
+}
+.projects-card-detail-right-areaMobileView{
+  display: none;
+  @media(max-width:700px){
+    display: block;
+  }
+}
+.projects-card-detail-right-ButtonMobileView{
+  display: none;
+  @media(max-width:700px){
+    display: block;
+    left: 50%;
+    font-size: 14px;
+    border-radius: 25px;
+    padding: 4px 30px;
+    position: relative;
+    transform: translateX(-50%);
+    margin: 10px 0;
+    color: #0d2146; 
+  }
+}
+.projects-card-detail-right-area {
+  height: 95%;
+  padding-left: 15px;
+  border-left: 2px solid lightgray;
+  @media(max-width:700px){
+    margin-top: 7px;
+    height: auto;
+  }
+  .project-name {
+    font-weight: 500 !important;
+    color: #0d2146;
+  }
+  .projects-card-detail-item-area {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    height: 55%;
+    @media(min-width:1000px){
+      display: block;
+      margin-top: 15px;
+    }
+    .projects-card-detail-item:first-child {
+      font-weight: 500;
+      color: green;
+    }
+    .projects-card-detail-item {
+      font-weight: 550;
+      line-height: 25px;
+    }
+  }
+}
+.all-project-top-filter-area {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 20px;
+  margin: 20px 0px 10px 0px;
+  .all-project-top-filter-area-item {
+    cursor: pointer;
+
+    margin: 0px 2px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    color: #343a40;
+    i {
+      font-size: 7px;
+      margin: 0px 7px;
+      line-height: 13px;
+    }
+  }
+  .all-project-top-filter-area-item.active {
+    color: #439cc5;
+    font-weight: 500;
+  }
+}
+
+.Offer-Milestone-area {
+  border: 2px dotted lightgrey;
+  margin-bottom: 15px;
+  // border-radius: 16px;
+  padding: 7px 22px 9px 15px;
+  position: relative;
+  font-weight: 600;
+  margin-left: -4px;
+  .Offer-Milestone-area-badge {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-color: #289567;
+    // border-top-left-radius: 16px;
+    padding: 1px 11px;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+  }
+  i {
+    color: #289567;
+    font-weight: 300;
+    font-size: 14px;
+    position: absolute;
+    top: 2px;
+    right: 4px;
+    cursor: pointer;
+  }
+  .offered-milestone-block {
+    height: 0px;
+    overflow: hidden;
+  }
+  .offered-milestone-block.active {
+    height: auto;
+    transition: 1s all;
+    overflow: hidden;
+  }
+}
+.Offer-Milestone-area.active {
+  padding: 25px 22px 9px 15px;
+}
+/* #439cc5 */ 
+.iconRight_showProjectTypeMobileTopClass{ 
+      @media(max-width:695px) {  
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 0;
+      }
+.iconRight_showProjectType_button{ 
+  @media(max-width:695px) { 
+border: 1px solid #ccc;
+    border-radius: 50%;
+    /* padding: 0.5rem; */
+    width: 25px;
+    color: red;
+    font-size: 22px;
+    align-items: center;
+    text-align: center;
+    height: 25px;
+    justify-content: center;
+    align-self: center;
+    display: flex; 
+}
+}
+}
+.contest-type-winning-area{
+  margin-right: 5px;
+  img{
+    width: 23px;
+  }
+  }

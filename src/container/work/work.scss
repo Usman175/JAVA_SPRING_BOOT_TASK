@@ -1,0 +1,126 @@
+.custom-address-button-margin {
+  margin-left: 20px !important;
+  background: #0d2146;
+  @media (max-width: 335px) {
+    margin-left: 0 !important;
+  }
+}
+
+.custom-address-button2-margin {
+  margin-left: 20px !important;
+  background: #0d2146;
+
+  @media (max-width: 595px) {
+    margin-left: 0 !important;
+  }
+}
+
+.registerAddress_btn {
+  position: relative;
+  top: 29px;
+  background: #0d2146 !important;
+  right: -15px;
+  @media (max-width: 595px) {
+    transform: translateX(-50%);
+    right: 0;
+  }
+  @media (max-width: 395px) {
+    transform: translateX(-50%);
+    right: -10px;
+  }
+  @media (max-width: 335px) {
+    transform: translateX(-30%);
+    right: -10px;
+  }
+}
+
+.addressManipulation_formMobile {
+  label {
+    @media (max-width: 795px) and (min-width: 605px) {
+        font-size: 13px;
+    }
+    @media (max-width: 595px) {
+      margin-left: 5px;
+    }
+  }
+}
+
+.registerAddress_tableMobile {
+  .feedback_tbl {  
+  & th:nth-child(1) {
+    @media (max-width: 795px) and (min-width: 605px) {
+        padding: 20px 5px 20px 10px !important;
+    }
+    @media (max-width: 595px) {
+      padding: 20px 10px 20px 10px !important; 
+    }
+  }
+  & th:nth-child(2) {
+    @media (max-width: 795px) and (min-width: 605px) {
+      padding: 20px 15px 20px 10px;
+    }
+    @media (max-width: 595px) {
+      padding: 20px 18px 20px 18px;
+    }
+  }
+  & th:nth-child(3) {
+    @media (max-width: 795px) and (min-width: 605px) {
+      padding: 20px 10px 20px 10px;
+    }
+    @media (max-width: 595px) {
+      padding: 20px 18px 20px 18px;
+    }
+  }
+  & th:nth-child(4) {
+    @media (max-width: 795px) and (min-width: 605px) {
+        padding: 20px 20px 20px 23px;
+    }
+    @media (max-width: 595px) {
+        padding: 20px 20px 20px 20px;
+    }
+  }
+
+  & th:nth-child(5) {
+    @media (max-width: 795px) and (min-width: 605px) {
+        padding: 20px 13px 20px 13px;
+    }
+    @media (max-width: 595px) {
+        padding: 20px 23px 20px 23px;
+    }
+  }
+
+  & th:nth-child(6) {
+    @media (max-width: 795px) and (min-width: 605px) {
+        padding: 20px 23px 20px 23px;
+    }
+    @media (max-width: 595px) {
+        padding: 20px 65px 20px 65px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: pre;
+    }
+  }
+
+  & th:nth-child(7) {
+    @media (max-width: 795px) and (min-width: 605px) {
+        padding: 20px 23px 20px 23px;
+    }
+    @media (max-width: 595px) {
+        padding: 20px 25px 20px 20px;
+    }
+  }
+
+  & td:nth-child(1) {
+    @media (max-width: 595px) {
+      padding: 1.5em 1.25em 1.5em 0.25em;
+    }
+  }
+  & tr:nth-child(even) {
+    & td:nth-child(1) {
+      @media (max-width: 595px) {
+        padding: 0.87em 1.25em 0.87em 0.25em;
+      }
+    }
+  }
+}
+}

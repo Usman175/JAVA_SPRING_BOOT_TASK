@@ -1,0 +1,227 @@
+.card-box-container {
+    padding: 22px 0;
+    border-bottom: 2px solid #8080803d;
+    .card-box-header {
+        font: normal normal normal 12px/16px Roboto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        span{
+            margin-right: 30px;
+            @media (max-width: 595px)  { 
+                margin-left: 10px;
+            }
+            @media (max-width: 335px)  { 
+                margin-left: 5px;
+                margin-right: 10px;
+            }
+        }
+    }
+    .card-box-details {
+        display: flex;
+        justify-content: space-between;
+        @media (max-width: 1250px) and (min-width: 600px)  { 
+            flex-direction: row !important;
+            justify-content: space-between;
+            margin: 20px 0 0;
+        }
+        @media (max-width: 595px)  { 
+            flex-direction: column; 
+            margin: 20px 0 0;
+        }
+        @media (max-width: 595px)  { 
+            align-items: flex-start !important;  
+        }
+        .card-box-client {
+            .card-box-client-buttons {
+                display: flex;
+                margin-right: 21px;
+            }
+        }
+        .card-box-client {
+            width: 75%;
+            .card-box-client-details {
+                display: flex;
+                padding: 2% 0;
+                img {
+                    width: 84px;
+                    height: 82px;
+                    border-radius: 20%;
+                    margin-right: 22px;
+                }
+                .card-box-client-desc {
+                    width: 60%;
+                    font: normal normal normal 14px/19px Roboto;
+                    @media (max-width: 1024px) {
+                        width: 75%;
+                    }
+                    p {
+                        font: normal normal normal 14px/19px Roboto;
+                      
+                        font-size: 14px;
+                        font-weight: 400;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+            .card-box-client-buttons {
+                button {
+                    padding: 1px 50px;
+                    font: normal normal normal 12px/16px Roboto;
+                    background: #dedede 0% 0% no-repeat padding-box;
+                    border: 1px solid #707070;
+                    width: 235px;
+                    height: 23px;
+                    cursor: pointer;
+                    border-radius: calc(0.5 * 50px);
+                }
+                button:last-of-type {
+                    margin-left: 20px;
+                    background-color: white;
+                }
+            }
+        }
+        .card-box-buttons {
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: end;
+            @media (max-width: 595px)  { 
+                flex-direction: row;  
+            }
+            button {
+                width: 170px;
+                height: 36px;
+                font: normal normal normal 14px/19px Roboto;
+                background: white;
+                margin-bottom: 10px;
+                cursor: pointer;
+                border-radius: 3px;
+                border: 1px solid #161c39;
+                @media (max-width: 595px)  { 
+                    margin-bottom: 0; 
+                    margin-right: 12px;
+                }
+                @media (max-width: 395px)  { 
+                    margin-bottom: 0;
+                    width: 160px;
+                    margin-right: 12px;
+                }
+                @media (max-width: 370px)  {  
+                    width: 150px;
+                    margin-right: 12px;
+                }
+                @media (max-width: 335px)  {  
+                    width: 120px;
+                    margin-right: 8px;
+                }
+            }
+            button:hover {
+                background-color: #8080804a;
+            }
+            .accept-contract-button{
+                background-color:  #5e8908 !important;
+                &:hover{
+                    background-color:  #578005 !important;
+                }
+            }
+            button:first-of-type:hover {
+                background-color: #161c39d2;
+            }
+            button:first-of-type {
+                background: #161c39 0% 0% no-repeat padding-box;
+                color: white;
+                border: 0;
+            }
+            button:last-of-type {
+                margin: 0;
+            }
+        }
+        @media (max-width: 1250px) {
+            
+            flex-direction: column;
+            align-items: center;
+            .card-box-client {
+                width: 65%;
+                .card-box-client-details {
+                    .card-box-client-desc {
+                        p {
+                            width: 80%;
+                        }
+                    }
+                }
+                .card-box-client-buttons {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    margin-bottom: 20px;
+                    width: 100%;
+                    button {
+                        margin-bottom: 10px;
+                        padding: 3px 30px;
+                    }
+                    button:last-of-type {
+                        margin-left: 0 !important;
+                    }
+                }
+            }
+            .card-box-buttons {
+                width: auto;
+                justify-content: center;
+            }
+        }
+        @media (max-width: 765px) {
+            .card-box-client {
+                width: 100%;
+                .card-box-client-details {
+                    img {
+                        height: 80px;
+                        width: 80px;
+                        @media (max-width: 500px){
+                            height: 70px;
+                            width: 70px;
+                        }
+                    }
+                    .card-box-client-desc {
+                        width: 90%;
+                        p {
+                            width: 80%;
+                        }
+                    }
+                }
+                .card-box-client-buttons {
+                    button {
+                        margin-bottom: 10px;
+                        padding: 3px 30px;
+                    }
+                    button:last-of-type {
+                        margin-left: 0 !important;
+                    }
+                }
+            }
+            .card-box-buttons {
+                align-items: center;
+            }
+        }
+        @media (max-width: 375px) {
+            .card-box-client {
+                .card-box-client-details {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    img {
+                        height: 80px;
+                        width: 80px;
+                        margin: 0 10px 10px;
+                    }
+                    .card-box-client-desc {
+                        p {
+                            width: 100%;
+                            text-align: justify;
+                            margin-top: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

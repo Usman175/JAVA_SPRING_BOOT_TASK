@@ -1,0 +1,148 @@
+.evaluation-page {
+  .evaluation-bottom-area {
+    margin-top: 40px;
+    p {
+      font-weight: 400;
+      font-size: 13px;
+      color: #797979;
+      margin: 0 0 20px;
+    }
+  }
+}
+.evaluation-page-feedback {
+  p {
+    max-width: 100% !important;
+  }
+  .readability-communication-area {
+    margin-top: 30px;
+    height: 100px;
+    p {
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .feedback-emoji {
+      margin-top: 10px;
+      display: flex;
+      justify-content: flex-start;
+
+      .emoji-item {
+        cursor: pointer;
+        width: 40px;
+        .active {
+          width: 35px;
+          margin-top: -5px;
+          margin-left: -5px;
+        }
+        img {
+          width: 30px;
+          &:hover {
+            width: 35px;
+            margin-top: -5px;
+            margin-left: -5px;
+            transition: 0.1s ease-out;
+          }
+        }
+      }
+    }
+  }
+  .text-area-custom {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border-color: lightgray;
+  }
+}
+.edit-evaluation-page {
+  min-height: 100vh;
+  margin-bottom: 50px;
+  padding: 40px 30px;
+  h4 {
+    font-size: 18px;
+  }
+  .profile-area {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+    h6 {
+      font-size: 17px;
+      margin-bottom: 0px;
+      font-weight: 500;
+      span {
+        text-transform: capitalize;
+      }
+    }
+    p {
+      margin-bottom: 0px;
+    }
+  }
+  .remarks-area {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    p {
+      margin-right: 20px;
+      margin-bottom: 0px;
+      font-size: 16px;
+    }
+    input {
+      border: 2px dotted #333;
+      outline: none;
+      border-radius: 5px;
+      margin-top: 10px;
+      min-width: 40% !important;
+      font-weight: 500;
+      padding: 2px 5px;
+    }
+    .edit-icon {
+      width: 20px;
+      margin-left: 15px;
+      background: #f2f2f2 0% 0% no-repeat padding-box;
+      border-radius: 7px;
+      width: 32px;
+      padding: 6px;
+      cursor: pointer;
+    }
+  }
+  .bottom-area-evaluation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    div {
+      text-align: right;
+    }
+    p {
+      color: #1b6e12;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    button {
+      border: none;
+      outline: none;
+      height: 45px;
+      min-width: 150px;
+      padding: 0px 15px;
+      background: #173c7f 0% 0% no-repeat padding-box;
+      color: white;
+      border-radius: 5px;
+      margin-top: 20px;
+      font-weight: 500;
+    }
+  }
+}
+.edit-icon {
+  width: 20px;
+  margin-left: 15px;
+  background: #f2f2f2 0% 0% no-repeat padding-box;
+  border-radius: 7px;
+  width: 32px;
+  padding: 6px;
+  cursor: pointer;
+}

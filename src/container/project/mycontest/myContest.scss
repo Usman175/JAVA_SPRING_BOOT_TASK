@@ -1,0 +1,602 @@
+.card-section {
+  background-color: #f3f3f3;
+  display: flex;
+  margin: 30px;
+  margin-top: 20px;
+  padding: 0 0 120px;
+  justify-content: center;
+  .my-contest-section {
+   
+    padding-top: 10px;
+    background-color: white;
+    box-shadow: 0px 1px 3px -8px grey;
+    .my-contest-card {
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      @media (max-width: 330px){
+        padding: 40px 10px;
+      }
+      .my-contest-header {
+        display: flex;
+        width: 100%;
+        padding: 0px 0px 10px 0px;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.25);
+        justify-content: space-between;
+        .my-contest-header-logo {
+          display: flex;
+          align-items: center;
+          img {
+            margin-right: 25px;
+            width: 30px;
+            @media (max-width: 390px) {
+              width: 25px !important;
+            }
+          }
+          span {
+            font: normal normal normal 28px/32px Roboto;
+            color: rgb(63, 62, 62);
+            @media (max-width: 390px) {
+              font: normal normal normal 12px/14px Roboto !important;
+            }
+          }
+        }
+        .my-contest-header-img {
+          img {
+            width: 25px;
+            height: 25px;
+            margin-right: 25px;
+          }
+          span {
+            float: right;
+            text-align: left;
+            letter-spacing: 0px;
+            color: #0d2146;
+            font-family: "Roboto";
+            font-weight: 500;
+            font-size: 16px;
+            @media (max-width: 390px) {
+              font-size: 8px !important;
+            }
+          }
+        }
+      }
+      .my-contest-tip {
+        padding: 40px 40px 10px 10px;
+        img {
+          width: 24px;
+          margin-right: 10px;
+          margin-top: -10px;
+        }
+        span {
+          font: normal normal normal 14px/18px Roboto;
+          opacity: 0.8;
+        }
+      }
+      .my-contest-body {
+        .my-contest-body-section1 {
+
+          margin: 20px 40px 20px 0px;
+          margin-left: 10px;
+          border-radius: 5px;
+          position: relative;
+          align-items: center;
+          display: flex;
+          background-color: #474271;
+          @media(max-width:1100px) and (min-width:900px){
+            height: 34vh;
+          }
+          @media(max-width:900px) and (min-width:700px){
+            height: 35vh;
+          }
+          .awarded-icon{
+            position: absolute;
+            top: 5px;
+            left: 5%;
+            width: 50px;
+            @media(max-width:675px){
+              display: none;
+            }
+            z-index: 1000;
+          }
+          .mountains_winner_icon{
+            position: absolute;
+            bottom: 15px;
+            right: 17%;
+            width: 100px;
+            z-index: 1000;
+            @media(max-width:1100px) and (min-width:900px){
+              bottom: 10px;
+              right: 14%;
+            }
+            @media(max-width:675px){
+              display: none;
+            }
+          }
+          .my-contest-body-section1-text {
+            width: 65%;
+            width: 700px;
+            min-height: 195px;
+            margin: 28px 0 35px;
+            padding: 22px 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            clip-path: polygon(
+              93.5% 0,
+              95% 20%,
+              100% 22%,
+              95% 37%,
+              93.5% 100%,
+              30% 100%,
+              0 100%,
+              0 0
+            );
+            background-color: white;
+            border-top-right-radius: 17px;
+            border-bottom-right-radius: 34px;
+            p {
+              margin: 0;
+              font: normal normal normal 22px/34px Quicksand;
+              color: #6200ee;
+              font-weight: 500;
+            }
+            span {
+              display: flex;
+              align-items: center;
+              p {
+                font-weight: bolder;
+                color: black;
+                margin-right: 40px;
+                margin-bottom: 0;
+                font: normal bold normal 26px/28px Quicksand;
+              }
+              button {
+                border-radius: calc(0.5 * 80px);
+                background-color: #474271;
+                color: white;
+                border: 1px solid #707070;
+                align-items: center;
+                display: flex;
+                cursor: pointer;
+                justify-content: center;
+                padding: 10px 20px 10px 20px;
+                font-size: 18px;
+                font: normal normal normal 16px/22px Quicksand;
+              }
+            }
+          }
+          .view-pass-body-section1-text {
+            width: 83%; 
+            .view-post-p {
+              width: 70%;
+              line-height: 1;
+              margin-top: 20px;
+              font-weight: 600;
+              font-size: 30px;
+              font: normal normal medium 30px/38px Quicksand;
+            }
+          }
+          .hideDiv {
+            height: 60px;
+          }
+          .noticeImg {
+            position: absolute;
+            left: 72%;
+            top: -20px;
+            min-width: 525px;
+            @media(max-width:1750px) and (min-width:1100px){ 
+              left: 70%;
+              top: 0;
+              min-width: 45%; 
+          }
+            @media(max-width:1100px) and (min-width:900px){
+              left: 70% !important;
+              top: 30px !important; 
+              min-width: 45%; 
+            } 
+            @media(max-width:900px) and (min-width:600px){
+              left: 70% !important;
+              top: 15px !important; 
+              min-width: 45%; 
+            } 
+          }
+        }
+        .my-contest-body-section2 {
+          .my-contest-body-section2-menu {
+            margin: 60px 10px 10px 10px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid rgba(128, 128, 128, 0.25);
+            .menu-button-focus {
+              opacity: 1;
+              font: normal 500 normal 15px/19px Roboto;
+              border: 1px dashed #707070;
+              cursor: pointer;
+            }
+            .menu-button-not-focus {
+              font-weight: normal;
+              border: 1px dashed transparent;
+              cursor: pointer;
+            }
+            button {
+              padding: 11px 15px;
+              margin: 0 4px;
+              font: normal normal normal 14px/19px Roboto;
+              opacity: 0.7;
+              background-color: transparent;
+              animation: cubic-bezier(0.86, 0, 0.07, 1);
+            }
+            button:first-of-type {
+              margin-left: 0;
+            }
+            button:hover {
+              border: 1px dashed #70707070;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 1750px) {
+    .my-contest-section {
+      .my-contest-card {
+        .my-contest-header {
+          .my-contest-header-logo {
+            img {
+              margin-right: 18px;
+              width: 40px;
+            }
+            span {
+              font: normal normal normal 29px/35px Roboto;
+            }
+          }
+        }
+        .my-contest-tip {
+          span {
+            font: normal normal normal 14px/18px Roboto;
+          }
+        }
+        .my-contest-body {
+          .my-contest-body-section1 {
+            margin: 10px 10px 25px;
+            .my-contest-body-section1-text {
+              min-width: 0;
+              min-height: 150px;
+              width: 80%;
+              p {
+                font: normal normal normal 24px/40px Quicksand;
+              }
+              span {
+                p {
+                  margin-right: 32px;
+                  font: normal bold normal 27px/32px Quicksand;
+                }
+                button {
+                  min-width: 0;
+                  min-height: 40px;
+                  width: 25%;
+                  font: normal normal normal 24px/28px Quicksand;
+                }
+              }
+            }
+            .view-pass-body-section1-text {
+              margin-left: 0%;
+              width: 80%; 
+              .view-post-p {
+                margin-top: 10px;
+                font-size: 24px;
+                width: 80%;
+              }
+            }
+            .hideDiv {
+              height: 50px;
+            }
+          }
+          .my-contest-body-section2 {
+            margin: 0;
+            .my-contest-body-section2-menu {
+              .menu-button-focus {
+                font: normal 500 normal 14px/19px Roboto;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 1280px) {
+    .my-contest-section {
+      .my-contest-card {
+        .my-contest-header {
+          .my-contest-header-logo {
+            img {
+              margin-right: 15px;
+              width: 32px;
+            }
+            span {
+              font: normal normal normal 24px/30px Roboto;
+            }
+          }
+          .my-contest-header-img {
+            img {
+              width: 24px;
+              height: 24px;
+              margin-right: 5px;
+            }
+          }
+        }
+        .my-contest-tip {
+          span {
+            font: normal normal normal 12px/16px Roboto;
+          }
+          img {
+            width: 26px;
+            margin-right: 20px;
+          }
+        }
+        .my-contest-body {
+          .my-contest-body-section1 {
+            margin: 10px 10px 25px;
+            .my-contest-body-section1-text {
+              min-width: 0;
+              min-height: 120px;
+              width: 80%;
+              margin: 25px 0 32px;
+              padding: 15px 45px;
+              p {
+                font: normal normal normal 22px/34px Quicksand;
+              }
+              span {
+                p {
+                  font: normal bold normal 26px/36px Quicksand;
+                }
+                button {
+                  width: 22%;
+                  min-height: 35px;
+                  font: normal normal normal 20px/28px Quicksand;
+                }
+              }
+            }
+            .view-pass-body-section1-text {
+              margin-left: 0%;
+              width: 80%;
+              .view-post-p {
+                margin-top: 10px;
+                font-size: 20px;
+                width: 80%;
+              }
+            } 
+          }
+          .my-contest-body-section2 {
+            margin: 0;
+            .my-contest-body-section2-menu {
+              button {
+                font: normal normal normal 12px/17px Roboto;
+              }
+              .menu-button-focus {
+                font: normal 500 normal 12px/17px Roboto;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 1250px) {
+    .my-contest-section {
+      width: 95%;
+    }
+  }
+  @media (max-width: 1024px) {
+    .my-contest-section {
+      .my-contest-card {
+        .my-contest-header {
+          .my-contest-header-logo {
+            span {
+              font: normal normal normal 20px/26px Roboto;
+            }
+          }
+        }
+        .my-contest-tip {
+          span {
+            font: normal normal normal 10px/16px Roboto;
+          }
+        }
+        .my-contest-body {
+          .my-contest-body-section1 {
+            .my-contest-body-section1-text {
+              width: 80%;
+              margin: 20px 0 30px;
+              padding: 12px 30px;
+              p {
+                font: normal normal normal 20px/28px Quicksand;
+              }
+              span {
+                p {
+                  font: normal bold normal 17px/29px Quicksand;
+                }
+                button {
+                  width: 24%;
+                  font: normal normal normal 18px/24px Quicksand;
+                }
+              }
+            }
+            .view-pass-body-section1-text {
+              margin-left: 0%;
+              width: 80%; 
+              .view-post-p {
+                margin-top: 5px;
+                font-size: 18px;
+                width: 80%;
+              }
+            }
+          }
+          .my-contest-body-section2 {
+            margin: 0;
+            .my-contest-body-section2-menu {
+              button {
+                font: normal normal normal 12px/17px Roboto;
+              }
+              .menu-button-focus {
+                font: normal 500 normal 12px/17px Roboto;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 800px) {
+    .my-contest-section {
+      width: 100%;
+      .my-contest-card {
+        .my-contest-body {
+          .my-contest-body-section1 {
+            .my-contest-body-section1-text {
+              width: 80%;
+              margin: 20px 0 30px;
+              padding: 12px 30px;
+              p {
+                font: normal normal normal 18px/24px Quicksand;
+              }
+              span {
+                p {
+                  font: normal bold normal 20px/25px Quicksand;
+                }
+                button {
+                  width: 22%;
+                  min-height: 38px;
+                  font: normal normal normal 18px/20px Quicksand;
+                }
+              }
+            }
+            .view-pass-body-section1-text { 
+              .view-post-p {
+                margin-top: 5px;
+                font-size: 18px;
+                width: 80%;
+              }
+            }
+          }
+          .my-contest-body-section2 {
+            margin: 0;
+            .my-contest-body-section2-menu {
+              button {
+                font: normal normal normal 12px/16px Roboto;
+              }
+              .menu-button-focus {
+                font: normal 500 normal 12px/16px Roboto;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 590px) {
+    margin: 10px;
+    .my-contest-section { 
+      .ViewPost_mobile{
+        .project_post_new {
+          padding: 40px 0 !important;
+      }
+      }
+      .my-contest-card {
+        margin: 20px 0px;
+        .my-contest-header {
+          padding: 0 0 10px;
+          .my-contest-header-logo {
+            img {
+              margin-right: 10px;
+              width: 30px;
+            }
+            span {
+              font: normal normal normal 14px/14px Roboto;
+            }
+          }
+          .my-contest-header-img {
+            align-items: center !important;
+            img {
+              width: 22px;
+              height: 22px;
+              margin-right: 5px;
+            }
+            span {
+              font-size: 10px;
+            }
+          }
+        }
+        .my-contest-tip {
+          padding: 7px 0 0;
+          margin: 15px 0;
+          display: flex;
+          img {
+            width: 30px; 
+            height: 30px;
+            margin-right: 10px;
+          }
+          span {
+            font: normal normal normal 11px/12px Roboto;
+          }
+        }
+        .my-contest-body {
+          .my-contest-body-section1 {
+            .my-contest-body-section1-text {
+              width: 100%;
+              margin: 10px 0 10px 0px;
+              min-height: 150px;
+              padding: 10px 20px;
+              p {
+                display: flex;
+                justify-content: center;
+                font: normal normal normal 16px/20px Quicksand;
+                margin-bottom: 5px;
+              }
+              span {
+                flex-direction: column;
+                align-items: flex-start;
+                p {
+                  margin: 0;
+                  font: normal bold normal 18px/22px Quicksand;
+                }
+                button {
+                  width: auto;
+                  margin-top: 10px;
+                  min-height: 30px;
+                  font: normal normal normal 15px/18px Quicksand;
+                }
+              }
+            }
+            .noticeImg {
+              display: none;
+            }
+            .view-pass-body-section1-text { 
+              .view-post-p {
+                margin-top: 5px;
+                font-size: 18px;
+                width: 80%;
+              }
+            }
+          }
+          .my-contest-body-section2 {
+            margin: 0;
+            .my-contest-body-section2-menu {
+              margin: 0 10px 10px;
+              padding-bottom: 0px;
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-between;
+              align-items: center;
+              button {
+                font: normal normal normal 12px/16px Roboto;
+              }
+              .menu-button-focus {
+                font: normal 500 normal 12px/16px Roboto;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,155 @@
+.review-modal-header {
+  border-bottom: none;
+  padding: 0;
+  .customer-invitation-header {
+    text-align: left;
+    padding: 25px 0px 20px 30px;
+    @media(max-width: 595px){
+      padding: 25px 0px 20px 5px;
+    } 
+    h3 { 
+      font-weight: 600;
+      margin-bottom: 0px;
+      margin-left: 0px;
+      font: normal normal 300 29px/38px Roboto;
+      letter-spacing: 0px;
+      color: #171717;
+      @media(max-width: 595px){
+        font: normal normal 300 26px/32px Roboto;
+      } 
+    }
+  }
+  .invitation_modal {
+    margin-bottom: 20px;
+    max-height: 70vh;
+    overflow-y: scroll;
+    .all-projects-card-title {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .card_box {
+      border-bottom: 1px solid lightgray;
+      box-shadow: none;
+      padding: 8px 0px 10px 5px;
+    }
+  }
+
+  .jungle-modal-content {
+    width: auto;
+
+    @media (max-width: 768px) {
+      min-width: auto;
+    }
+    @media (min-width: 768px) {
+      min-width: 750px;
+      max-width: 750px;
+    }
+  }
+}
+
+.invitation_modal_reviewProject{
+  padding: 10px 0px 50px 30px !important;
+  @media(max-width: 595px){
+    padding: 10px 0px 50px 5px !important;
+  } 
+
+  .payment-dateText_reviewProjectMob{
+    @media(max-width: 595px){ 
+      margin-left: 20px;
+    }
+  }
+
+  .payment-wrapper_reviewProjectMob{
+    @media(max-width: 595px){
+      flex-direction: column;
+      margin-left: 12px;
+    }
+  }
+
+  .feedback-wrapper_belowText_reviewProjectMob{
+    @media(max-width: 595px){ 
+      margin-bottom: 10px !important;
+    }
+  }
+
+  .feedback-wrapper_reviewProjectMob{
+    @media(max-width: 595px){ 
+      margin-left: 0 !important;
+    }
+  }
+}
+
+.content {
+  & label {
+    font-family: "Roboto";
+    font-weight: 500 !important;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #171717 !important;
+    margin-bottom: 0;
+    @media(max-width: 595px){
+      font-size: 14px;
+      margin-left: 0.5rem !important;
+    }
+  }
+  & p {
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #171717;
+    white-space: nowrap;
+    margin-bottom: 0px;
+    @media(max-width: 335px){
+      font: normal normal normal 14px/21px Roboto;
+    }
+  }
+  .paid{
+    margin-left: 5px;
+    text-transform: capitalize;
+  }
+  & span {
+   margin-left: -2px;
+  }
+  .payment-wrapper {
+    & div {
+      display: flex;
+      margin-right: 15px;
+    }
+    & img {
+      width: 25px;
+    }
+  }
+  .period {
+    & img {
+      width: 25px;
+    }
+  }
+  .review {
+    width: 60%;
+    & p {
+      font: italic normal normal 14px/19px Roboto;
+      letter-spacing: 0px;
+      color: #4b4b4b;
+    }
+  }
+  .feedback-wrapper {
+    margin: 0 0 1.5rem 0;
+    @media(max-width: 335px){
+      margin: 0 0 1.5rem 0;
+    }
+    & i {
+      color: #173c7f;
+    }
+  }
+}
+.give-feed-back-button{
+  button{
+    outline: none !important;
+    background: #0d2146 !important;
+    color: white;
+    height: 34px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 141px;
+  }
+}

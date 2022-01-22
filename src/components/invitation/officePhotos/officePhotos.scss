@@ -1,0 +1,37 @@
+.portfolio-modal {
+    background-color: transparent !important;
+    color: white;
+    .modal-content {
+      background-color: transparent;
+      border: none;
+      outline: none;
+    }
+  
+    .portfolio-contents{
+        h3{
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+        }
+        .image-area{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            i{
+                color: white;
+                font-size: 30px;
+                cursor: pointer;
+            }
+            img{
+                width: 500px;
+                border-radius: 10px;
+                margin: 0px 30px;
+            }
+        }
+      
+        p{
+            color: white;
+            max-width: 50ch;
+        }
+    }
+  }

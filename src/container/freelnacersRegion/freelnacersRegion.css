@@ -1,0 +1,39 @@
+.gfuSqG .rc-slider-handle {
+  position: absolute;
+  z-index: 2;
+  background: url(https://s.zigbang.com/www/images/ic_btn_handle_34x34_nor_white.png)
+    center center / 100% no-repeat transparent !important;
+  width: 34px;
+  height: 34px;
+  cursor: grab;
+  touch-action: pan-x;
+}
+.rc-slider-handle {
+  position: absolute !important;
+  z-index: 2 !important;
+  background: url(https://s.zigbang.com/www/images/ic_btn_handle_34x34_nor_white.png)
+    no-repeat center center transparent !important;
+  background-size: 100% !important;
+  margin-top: -15px !important;
+  width: 34px !important;
+  height: 34px !important;
+  cursor: pointer !important;
+  cursor: -webkit-grab;
+  cursor: grab;
+  -ms-touch-action: pan-x;
+  touch-action: pan-x;
+  border: none !important;
+}
+.rc-slider-handle:active {
+  box-shadow: none !important;
+}
+
+.rc-slider-handle-dragging {
+  box-shadow: none !important;
+}
+.rc-slider-handle-dragging.rc-slider-handle-dragging.rc-slider-handle-dragging {
+  box-shadow: none !important;
+}
+.rc-slider-track {
+  background-color: #0d2146 !important;
+}

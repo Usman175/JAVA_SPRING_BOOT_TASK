@@ -1,0 +1,123 @@
+.left-content-wrapper {
+  .contract {
+    & p {
+      font: normal normal normal 12px/16px Roboto;
+      letter-spacing: 0px;
+      color: #131313;
+    }
+    & h4 {
+      font: normal normal normal 14px/19px Roboto;
+      letter-spacing: 0px;
+      color: #131313;
+    }
+  }
+}
+
+//  skeleton loading classes
+.skeletonLoading_mobile{
+  display: none;
+  @media(max-width:595px){
+    display: block;
+  }
+} 
+// 
+
+.right-section {
+  margin: 10px 0px;
+  padding: 20px 25px;
+  @media(max-width:335px){
+    padding: 20px 10px 20px 25px;
+}
+  .user-feedback {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-right: 10px;
+  }
+  .reviews {
+    & label {
+      font: italic normal normal 13px/18px Roboto;
+      letter-spacing: 0px;
+      color: #504e4e;
+    }
+  }
+  .profile-wrapper {
+    position: relative;
+  }
+  .btn {
+    border-radius: 2px;
+    color: white;
+    width: 86px;
+    text-align: center;
+    padding: 5px 0px;
+    cursor: pointer;
+    width: 100%;
+  }
+  .submit {
+    border: 1px solid #173c7f;
+    background-color: #173c7f;
+  }
+  .request {
+    border: 1px solid #1f710b;
+    background-color: #1f710b;
+  }
+}
+
+.text-title {
+  color: #131313;
+}
+.center {
+  align-items: center;
+}
+.large {
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.separator {
+  border-right: 2px solid #ddd;
+}
+.status-badge {
+  position: absolute;
+  top: 0;
+  right: 15px;
+}
+.edit {
+  & img {
+    background: #f2f2f2 0% 0% no-repeat padding-box;
+    border-radius: 7px;
+    width: 25px;
+    padding: 6px;
+    cursor: pointer;
+  }
+}
+.contest {
+  display: flex;
+  & h4 {
+    margin: 0;
+  }
+  & img {
+    margin-left: 10px;
+    width: 30px;
+  }
+}
+.firstPass {
+  margin-left: 15px;
+  background: #383838 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 19px;
+  padding: 3px 25px;
+  display: flex;
+  align-items: center;
+  & h4 {
+    color: #fdd558 !important;
+  }
+}
+
+.amount-day {
+  padding-left: 65px;
+}

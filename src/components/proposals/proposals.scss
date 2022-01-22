@@ -1,0 +1,568 @@
+.no-applicant-are-project-detail {
+  margin: 10px 0px;
+  padding: 30px;
+  transition: 1s all;
+  background-color: rgba(255, 255, 255, 1);
+
+min-height: 80vh;
+display: flex;
+justify-content: center;
+align-content: center;
+@media (max-width:2000px) and (min-width:1200px) { 
+  min-height: 60vh;
+}
+
+@media screen and (max-width:700px) {
+  text-align: center;
+}
+
+  .no-applicant-are-project-detail-left {
+      margin-top: 50px;
+    img {
+      width: 200px;
+    }
+  }
+
+  .no-applicant-are-project-detail-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    @media (min-width: 575px) {
+      width: 280px !important;
+    }
+    h5 {
+      display: block;
+      color: #669900;
+      font: normal normal 500 16px/22px Roboto;
+      cursor: pointer;
+      text-align: left;
+      @media screen and (max-width:700px) {
+        text-align: center;
+      }
+    }
+    button {
+      border: none;
+      outline: none;
+      background: #4172b1 0% 0% no-repeat padding-box;
+      color: white;
+      cursor: pointer;
+      @media (min-width: 575px) {
+        padding: 10px 40px;
+      }
+      @media (max-width: 575px) {
+        padding: 10px 10px;
+      }
+      border-radius: 5px;
+    }
+  }
+}
+
+.proposals-headings {
+  h3 {
+    color: #669900;
+    font: normal normal 500 20px/26px Roboto;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 2px;
+    margin: 30px 20px 20px 20px;
+  }
+}
+
+.my-proposals-area {
+  margin: 40px 20px 20px 20px;
+  h3 {
+    color: #669900;
+    font: normal normal 500 20px/26px Roboto;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 2px;
+  }
+  .project-purposal-client {
+    margin: 10px 0px;
+
+    @media (min-width: 575px) {
+      padding: 10px;
+    }
+    @media (max-width: 575px) {
+      padding: 10px;
+    }
+    transition: 1s all;
+    background: #fbfbfb 0% 0% no-repeat padding-box;
+    .project-purposal-client-left {
+      display: flex;
+      justify-content: flex-start;
+
+      .project-purposal-client-profile {
+        position: relative;
+        width: 70px;
+        max-width: 70px;
+        min-width: 70px;
+        @media (min-width: 575px) {
+          height: 70px;
+        }
+        @media (max-width: 575px) {
+          height: 58px;
+        }
+        img {
+          width: 70px;
+          max-width: 70px !important;
+          border: 1px solid lightgray;
+          cursor: pointer;
+          @media (min-width: 575px) {
+            height: 70px;
+          }
+          @media (max-width: 575px) {
+            height: 58px;
+          }
+          object-fit: cover;
+          border-radius: 10px;
+        }
+
+        .online {
+          position: absolute;
+          bottom: 1px;
+
+          right: 1px;
+          width: 15px;
+          height: 15px;
+          background: #14a800 0% 0% no-repeat padding-box;
+          border: 3px solid #ffffff;
+          border-radius: 50%;
+          cursor: pointer;
+        }
+        .offline {
+          position: absolute;
+          bottom: 1px;
+
+          right: 1px;
+          width: 15px;
+          height: 15px;
+          background: #292a29 0% 0% no-repeat padding-box;
+          border: 3px solid lightgray;
+          border-radius: 50%;
+          cursor: pointer;
+        }
+      }
+      .project-purposal-client-detail {
+        margin: 0px 10px;
+        h5 {
+          color: #669900;
+          font: normal normal 500 16px/22px Roboto;
+          margin: 0;
+          max-width: 45ch;
+          cursor: pointer;
+          img {
+            width: 16px;
+            margin-top: -4px;
+            cursor: pointer;
+          }
+          i {
+            padding: 0px 8px;
+            color: #707070;
+            cursor: pointer;
+          }
+          .fa-comment {
+            &:hover {
+              color: black;
+            }
+          }
+
+          .fa-ban {
+            &:hover {
+              color: red;
+            }
+          }
+          .fa-star {
+            &:hover {
+              color: orange;
+            }
+          }
+        }
+        h6 {
+          color: black;
+          font: normal normal 500 16px/22px Roboto;
+          max-width: 45ch;
+          margin: 0;
+        }
+        p {
+          max-width: 100ch;
+          margin: 0;
+          font-weight: 550;
+          // span {
+          //   color: #669900;
+          // }
+        }
+      }
+      .proposal-bottom-area-client {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        span {
+          color: #dc3545;
+          font: normal normal 500 14px/18px Roboto;
+          max-width: 45ch;
+          margin-right: 20px;
+        }
+      }
+    }
+    .project-purposal-client-right {
+      @media (max-width: 575px) {
+        margin-top: 20px;
+      }
+
+      h5 {
+        display: block;
+        color: #000000;
+        font: normal normal bold 15px/20px Roboto;
+        cursor: pointer;
+        text-align: right !important;
+        word-wrap: break-word;
+        width: 100%;
+      }
+      .proposal-detail-stats {
+        p {
+          text-align: right;
+          b {
+            font-weight: 500;
+          }
+        }
+        h5 {
+          text-align: right;
+          margin-bottom: 0px;
+        }
+      }
+   
+      .proposal-edit-withdraw-buttons {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        button {
+          border: none;
+          outline: none;
+          background: #0d2146 0% 0% no-repeat padding-box;
+          color: white;
+          padding: 8px 12px;
+          width: 100%;
+          font-weight: 500;
+          border-radius: 3px;
+          cursor: pointer;
+          word-wrap: break-word;
+          margin: 10px 0px 10px 10px;
+        }
+      }
+      .hire-button-custom-width {
+        button {
+          width: 120px;
+        }
+      }
+    }
+  }
+}
+
+.client-proposal-card{
+  margin: 40px 20px 20px 20px;
+  @media(max-width:595px){
+    margin: 40px 0 20px 20px;
+  }
+  .MuiGrid-grid-xs-10 { 
+    @media(max-width:395px){
+      max-width: 73.333333%; 
+    }
+}
+
+  .client-proposal-card-item{
+    border-bottom: 1px solid lightgray;
+    margin: 10px 0px;
+    padding: 20px 0px;
+    position: relative;
+    .recommended-freelancer-badge{
+      position: absolute;
+      top: 20px;
+      right: 10px;
+      background-color: #0d2146;
+      color: white;
+      padding: 2px 10px;
+      border-radius: 15px;
+    }
+    .recommended-freelancer-badge.Company{
+      background-color: darkgreen;
+    }
+    .profile-detail-area{
+      display: flex;
+      justify-content: flex-start;
+      .project-purposal-client-profile {
+        position: relative;
+        width: 70px;
+        @media (min-width: 575px) {
+          height: 70px;
+        }
+        @media (max-width: 575px) {
+          height: 58px;
+        }
+        img {
+          width: 70px;
+          max-width: 70px !important;
+          border: 1px solid lightgray;
+          cursor: pointer;
+          @media (min-width: 575px) {
+            height: 70px;
+          }
+          @media (max-width: 575px) {
+            height: 58px;
+          }
+          object-fit: cover;
+          border-radius: 50%;
+        }
+  
+        .online {
+          position: absolute;
+          bottom: 1px;
+  
+          right: 1px;
+          width: 15px;
+          height: 15px;
+          background: #14a800 0% 0% no-repeat padding-box;
+          border: 3px solid #ffffff;
+          border-radius: 50%;
+          cursor: pointer;
+        }
+        .offline {
+          position: absolute;
+          bottom: 1px;
+  
+          right: 1px;
+          width: 15px;
+          height: 15px;
+          background: #292a29 0% 0% no-repeat padding-box;
+          border: 3px solid lightgray;
+          border-radius: 50%;
+          cursor: pointer;
+        }
+      }
+      .right-profile-detail-area{
+        margin-left: 20px;
+
+        h5{
+          font-size: 18px;
+          font-weight: 500;
+          color: #675563;
+          margin-bottom: 5px;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          width: 95% !important;
+        }
+        p{
+          font-size: 14px;
+          margin-bottom: 0px;
+        }
+        .rating-area{
+          i{
+            color: #FAAF40;
+          }
+        }
+        .progress_bar{
+          margin-top: 3px;
+          margin-bottom: 3px;
+          .progress {
+            width: 110px;
+            border-radius: 0;
+            overflow: visible;
+            height: 8px;
+            background: white;
+            border-radius: 5px;
+            border: 1px solid #0d2146;
+            .darkBlue_bar {
+              background: #0d2146;
+          }
+          .progress-bar{
+            border-radius: 5px !important;
+            height: 7px;
+            margin-left: -1px;
+          }
+        }
+        } 
+      }
+    }
+ .proposal-detail-right{
+  @media (max-width: 575px) {
+    margin-top: 10px;
+  }
+   h6{
+     color: #675563;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+     overflow: hidden;
+     font-size: 18px;
+     font-weight: 500;
+     width: 100% !important;
+     @media (max-width: 575px) {
+      font-size: 16px;
+    }
+    @media (max-width: 390px) {
+      font-size: 13px;
+      overflow: visible;
+    }
+    @media (max-width: 335px) {
+      font-size: 12px; 
+    }
+   }
+   span{
+     @media(max-width:595px){
+       padding-right: 5px;
+     }
+     @media (max-width: 335px) {
+      width: 21ch; 
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+   }
+   .title-proposal{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+   }
+   p{
+     color: #707070;
+     font-weight: 500;
+   }
+   .proposal-client-button{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    .message-button{
+      border: 1px solid #707070;
+      outline: none;
+      background-color: #3ECDFE;
+      color: white;
+      width: 110px;
+      height: 24px;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 15px;
+      cursor: pointer;
+    }
+    .hire-button{
+      border: 1px solid #707070;
+      cursor: pointer;
+      outline: none;
+      background-color: #173C7F;
+      color: white;
+      width: 110px;
+      height: 24px;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .withdraw-button{
+      border: 1px solid lightgray;
+      cursor: pointer;
+      outline: none;
+      background-color: lightgray;
+      color: #333;
+      width: 110px;
+      height: 24px;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+   }
+   .proposal-client-button1{
+     margin-top: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+.message-button{
+  border: 1px solid #707070;
+  outline: none;
+  background-color: #3ECDFE;
+  color: white;
+  width: 110px;
+  height: 24px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.hire-button{
+  border: 1px solid #707070;
+  cursor: pointer;
+  outline: none;
+  background-color: #173C7F;
+  color: white;
+  width: 110px;
+  height: 24px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.withdraw-button{
+  border: 1px solid #f2f2f2;
+  cursor: pointer;
+  outline: none;
+  background-color: #f2f2f2;
+  color: #333;
+  width: 110px;
+  height: 24px;
+  border-radius: 15px;
+  display: flex;
+  margin-left: 15px;
+  justify-content: center;
+  align-items: center;
+}
+}
+ }
+  }
+  .company-freelancer-area{
+    .skills-area{
+      h3{
+        color: #333;
+        font-size: 18px;
+        font-weight: 500;
+        border-bottom: none;
+        img{
+          width: 20px;
+          margin-right: 10px;
+        }
+      }
+    }
+    h3{
+      color: #18C4FF;
+      font-size: 18px;
+      font-weight: 500;
+      border-bottom: none;
+    }
+    .job-type-available{
+      border: 1px solid #18C4FF;
+      color: #18C4FF;
+      background-color: white;
+      border-radius: 10px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    } 
+    padding: 20px;
+     margin-top:20px;
+     background: #F9F9F9 0% 0% no-repeat padding-box;
+border: 1px solid #A8A8A8;
+border-radius: 2px;
+  }
+}
+.contract-made-alert-text{
+  margin-top: 10px;
+  img{
+    
+    width: 35px;
+  }
+  i{
+   color: #173C7F;
+  }
+}

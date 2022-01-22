@@ -1,0 +1,395 @@
+
+// project confirmation
+.project_post_new {
+  @media (max-width: 575px) {
+    padding: 40px 20px !important;
+  }
+
+    .project-post-confirmation-heading {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+      img {
+        padding: 0px 0px 3px 0px;
+      }
+      h4 {
+        @media (max-width: 575px) {
+          font-size: 14px;
+          margin: 0 0 0;
+        }
+      }
+    }
+    @media (max-width: 575px) {
+      .project-post-confirmation-items.for_mobile_display {
+    
+      }
+    }
+    @media (min-width: 575px) {
+      .project-post-confirmation-items.for_mobile_display {
+        display: none !important;
+      }
+    }
+    .project-post-confirmation-items {
+      display: flex;
+      justify-content: flex-start;
+  
+      flex-wrap: wrap;
+
+      &:nth-child(7){
+        @media (max-width: 575px) {
+          padding: 10px 5px 0px 0px;
+        }
+      }
+
+      &:nth-child(8){
+        @media (max-width: 575px) {
+          padding: 3px 5px 0px 0px;
+        }
+      }
+  
+      @media (max-width: 575px) {
+        padding: 1px 5px 0px 0px;
+      }
+      @media (max-width: 335px) {
+        padding: 1px 0 0px 0px;
+      }
+      @media (min-width: 575px) {
+        /*padding: 15px 20px 0px 20px;*/
+        padding: 15px 0px 0px 0px;
+      }
+      .project-post-confirmation-item-left {
+        @media (max-width: 575px) {
+          width: 50%;
+        }
+        @media (min-width: 575px) {
+          width: 40%;
+        }
+        /*text-align: right;*/
+        /*font: normal normal medium 16px/21px Roboto;*/
+        letter-spacing: 0px;
+        /*color: #669900;
+        font-size: 15px;*/
+        font-weight: 100;
+        opacity: 1;
+        padding-right: 20px;
+  
+        text-align: left;
+        font: normal normal medium 14px/19px Roboto;
+        color: #707070;
+        font-size: 14px;
+        
+        .heading{
+          float: left;
+          color: #707070; 
+        }
+        .desc {
+          float: left;
+          color: #393838;
+          margin-left: 0;
+          font-weight: 600;
+          min-width: 150px;
+          white-space: nowrap;
+          @media(max-width:330px){  /* for gf */
+            white-space: pre-wrap;
+            min-width: 100px;
+          }
+        }
+      }
+      .project-post-confirmation-item-right.requirements_block {
+        display: flex;
+        justify-content: flex-start;
+      }
+   
+      .project-post-confirmation-item-full-width{
+        width: 100%;
+        color: #707070;
+        font-size: 14px;
+        .project-post-confirmation-sub-item{
+          float: left;
+          margin-right: 20px;
+          
+          @media (max-width: 390px) {
+            font-size: 13px; 
+          }
+        }
+        
+        .heading{
+          float: left;
+          color: #707070; 
+        }
+        .desc {
+          float: left;
+          color: #393838;
+          margin-left: 0;
+          font-weight: 500;
+          min-width: 150px;
+          @media (max-width: 575px) {
+            width: 100%;
+            margin-left: -2px;
+          }
+          @media (max-width: 335px) {
+            width: 100%;
+            margin-left: 0; 
+            min-width: 100px; 
+          }  
+        }
+      }
+      .project-post-confirmation-item-right {
+        @media (max-width: 575px) {
+          width: 50%;
+        }
+        @media (min-width: 575px) {
+          width: 58%;
+        }
+        font: normal normal medium 16px/21px Roboto;
+        letter-spacing: 0px;
+        /*color: #333332;
+        font-size: 15px;*/
+        color: #707070;
+        font-size: 14px;
+        opacity: 1;
+        
+        .heading{
+          float: left;
+          color: #707070; 
+          @media(max-width:330px){  /* for gf */ 
+            font-size: 14px;
+          }
+        }
+        .desc {
+          float: left;
+          color: #393838;
+          margin-left: 0;
+          font-weight: 600;
+          min-width: 150px;
+          @media(max-width:330px){  /* for gf */ 
+            min-width: 100px;
+          }
+        }
+        .boldText {
+          color: #232323;
+          font-weight: 700;
+        }
+  
+        .requirements-left-response {
+          @media (max-width: 575px) {
+            width: 100%;
+          }
+          @media (min-width: 575px) {
+            width: 25%;
+          }
+        }
+        .requirements-right-title {
+          color: #669933;
+          width: 33%;
+          text-align: right;
+          font-weight: 700;
+          @media (max-width: 575px) {
+            display: none;
+          }
+        }
+        .requirements-right-response {
+          padding-left: 20px;
+          @media (max-width: 575px) {
+            width: 75%;
+            display: none;
+          }
+          @media (min-width: 575px) {
+            width: 25%;
+          }
+        }
+      }
+    }
+    .border-bottom-custom {
+      height: 2px;
+      background-color: #00000029;
+      margin: 20px 0px;
+    }
+    .question-bottom-area {
+      padding: 0px 30px;
+      margin-bottom: 40px;
+      ol {
+        li {
+          color: #333332;
+          font-size: 15px;
+          font-weight: 500;
+        }
+      }
+      ol.no-list {
+        list-style: none;
+      }
+    }
+    .question-bottom-area-new {
+      padding: 0px;
+    }
+  }
+  .confirm-project-new {
+    .project_post {
+      @media (max-width: 575px) {
+        padding: 20px !important;
+      }
+    }
+  }
+  .title-hide-more-line{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 50% ;
+  }
+  .label-initial-general{
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    background-color: #FFD35C;
+    margin-right: 5px;
+    margin-bottom: -2px;
+  }
+  
+  
+   
+  
+  /*Project detail page specific Style - Start*/
+  .project_post_new_2 {
+    .project-post-confirmation-items {  
+      .project-post-confirmation-item-left, .project-post-confirmation-item-right {
+        @media (max-width: 575px) {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+      }
+      .additionalInfo{
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 5px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 49%;
+        @media (max-width: 575px) {
+          width: 100% !important;
+          margin-bottom: 20px;
+          margin-right: 0;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+        }
+      }
+  }
+  }
+  
+  .submission-buttons{
+    margin-top: 40px;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center;
+    .back-button{
+      width: 35px;
+      height: 35px;
+      background-color: #F2F2F2;
+      color: black;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      i{
+        font-size:30px;
+        margin-left: -3px;
+      }
+    }
+    button{
+      background: #0d2146 !important;
+      img{
+        width: 20px;
+        margin-right: 10px;
+      }
+    }
+  }
+  /*Project detail page specific Style - End*/
+
+  
+
+
+  .contest-field-area {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    @media (max-width: 1100px) and (min-width:600px) {
+      justify-content: space-between;
+    }
+    .contest-initial-guide {
+      width: 230px;
+      padding-right: 15px;
+      @media (max-width: 800px) {
+        width: auto;
+        padding-right: 0;
+        padding-bottom: 10px;
+      }
+      @media (max-width: 595px) {
+        width: auto;
+        padding-right: 0;
+        padding-bottom: 10px;
+      }
+      h2 {
+        font-size: 22px;
+        font-weight: 500er !important;
+        margin-bottom: 0px;
+        color: #101010;
+      }
+      h3 {
+        font-size: 18px;
+        font-weight: 500er;
+        color: #173c7f;
+        margin-bottom: 3px;
+      }
+      p {
+        font-size: 14px;
+        color: #101010;
+        font-weight: 500;
+        margin-bottom: 0px;
+      }
+    }
+    .contest_width {
+      @media (max-width: 1200px) {
+        width: 50%;
+      }
+      @media (max-width: 595px) {
+        width: 100%;
+      }
+      @media (min-width: 1200px) {
+        width: 67%;
+      }
+    }
+  }
+  
+
+
+// basic contest info mobile querie
+  .post-design-contest-wrapper{
+    .contest_rangeMobileAlign{
+      @media (max-width: 595px) {
+        padding-left: 0;
+      }
+      @media (max-width: 335px) {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+    .label_AdvanceContextInfo_Mobile{
+      @media (max-width: 595px) { 
+        padding-bottom: 10px;
+      }
+    }
+    .ADD_SECOND_THIRD_PRIZE_Input_Mobile{
+      width: 130px;
+      margin: 0 10px;
+      @media (max-width: 335px) { 
+        width: 100px; 
+      }
+      @media (max-width: 300px) { 
+        width: 70px; 
+      }
+    }
+  }

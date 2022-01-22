@@ -1,0 +1,65 @@
+.modal-body-content-team-assignment-header{
+  justify-content: space-between !important;
+
+  .custom-close {
+
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+}
+
+
+
+.modal-body-content-team-assignment {
+  padding: 2em;
+
+  .title {
+    margin-bottom: 2em;
+    & h3 {
+      font-weight: 500;
+      color: #131212;
+      font: normal normal medium 25px/36px Roboto;
+    }
+  }
+
+  .select-team {
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    margin-bottom: 2em;
+    .select {
+      text-align: center;
+      color: #131212;
+    }
+  }
+
+  .dropdown-list {
+    margin-bottom: 2em;
+  }
+
+  .user-info-wrapper {
+    display: flex;
+    margin-bottom: 2em;
+    color: #131212;
+    & p {
+      margin-bottom: 0;
+      display: flex;
+      align-items: center;
+      margin-left: 20px;
+    }
+  }
+
+  .button {
+    background: #295707 0% 0% no-repeat padding-box;
+    color: #ffffff;
+    font: normal normal normal 14px/19px Roboto;
+    border: 1px solid #295707;
+    width: 198px;
+    border-radius: 4px;
+    padding: 8px 12px !important;
+  }
+}
+
+.modal-content {
+  border-radius: 10px !important;
+}

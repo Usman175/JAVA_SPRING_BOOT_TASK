@@ -1,0 +1,42 @@
+.step-heading-main {
+  .step-prefix-label {
+    width: 50px;
+    height: 45px;
+    color: #333333;
+    background-color: #ffd35c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: -20px;
+    @media(max-width: 395px){
+      width: 40px;
+      height: 35px;
+      font-size:26px;
+    }
+    @media(max-width: 335px){
+      width: 35px;
+      height: 30px;
+      font-size:22px;
+    }
+  }
+  .step-heading-adjustment {
+    line-height: 45px !important;
+    @media(max-width: 300px){
+      line-height: 25px !important;
+    }
+  }
+  .step-divider-adjustment {
+    padding-top: 0px !important;
+  }
+  .step-heading-shadow {
+    height: 11px;
+    width: 107%;
+    display: block;
+
+    margin-top: -16px;
+    margin-left: -5px;
+    background-color: #edf1e5;
+  }
+}

@@ -1,0 +1,12 @@
+.skeleton-card-title{ 
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skeletonAllFreelancer_Card{
+    min-height: 200px;
+    max-height: 200px;
+    @media(max-width:595px){
+        display: none;
+    }
+} 

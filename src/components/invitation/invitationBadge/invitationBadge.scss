@@ -1,0 +1,39 @@
+.invitation-badge{
+    background-color: #555555;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 12px;
+    text-align: center;
+    display: inline-block;
+    min-width: 230px;
+    @media(max-width:595px){   
+        min-width: 180px;
+    }
+    @media(max-width:395px){   
+        min-width: 160px;
+    }
+    @media(max-width:335px){   
+        min-width: 120px;
+    }
+}
+.invitation-badge.invitation-company{
+    background-color: #555555;
+}
+.invitation-badge.invitation-direct{
+    background-color: #8400ff;
+}
+.invitation-badge.invitation-automatic{
+    background-color: #015478;
+}
+.invitation-badge.offers-company{
+    background-color: #015478;
+}
+.invitation-badge.offers-headhunter{
+    background-color: #00ffff;
+    border: 1px solid #9a9a9a;
+    color: #004040;
+
+}
+.invitation-badge.offers-client{
+    background-color: #8400ff;
+}

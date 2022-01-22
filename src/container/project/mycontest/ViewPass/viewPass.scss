@@ -1,0 +1,198 @@
+.view-partcipants-img-pass {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 10px;
+  padding: 0px;
+  justify-content: start;
+  .showMenu {
+    display: block;
+}
+button {
+    width: 80px;
+    height: 30px;
+    background-color: #f5f5f5;
+    border: 0;
+    cursor: pointer;
+    font: normal normal medium 16px/21px Roboto;
+}
+.award-btn1 {
+    width: 24px;
+    @media (max-width: 1280px) {
+        width: 18px;
+    }
+    @media (max-width: 750px) {
+        width: 22px;
+    }
+}
+.award-btn2 {
+    font-size: 14px;
+    @media (max-width: 1280px) {
+        font-size: 9px;
+    }
+    @media (max-width: 750px) {
+        display: none;
+    }
+}
+.awardSvg {
+    width: 30px;
+    height: 40px;
+}
+  .partcipants-img-view {
+    margin-right: 20px;
+    position: relative;
+    width: 225px;
+    .achievement_award {
+      position: absolute;
+      right: -10px;
+      top: -15px;
+      width: 40px;
+      z-index: 100;
+    }
+    .participant-project-img-transition {
+      overflow: hidden;
+
+      .participant-project-img {
+        transition: all 1s;
+        overflow: hidden;
+        z-index: 1;
+        img {
+          width: 225px;
+          height: 185px;
+          cursor: pointer;
+        }
+      }
+      .participant-project-img:hover {
+        transform: scale(2.1);
+        opacity: 0.9;
+        transition-property: transform;
+        cursor: pointer;
+      }
+    }
+    .participantDetails {
+      display: flex;
+      padding: 10px 0px;
+      margin: 0;
+      width: 100%;
+      justify-content:space-between;
+      align-items: center;
+
+      .left-side-participant{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+      .client_pic {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+      }
+      p {
+        margin: 0;
+        margin-left: 10px;
+        font-weight: 500;
+        font: normal normal medium 16px/19px Raleway;
+      }
+      .reactions {
+        display: flex;
+        width: 20px;
+        cursor: pointer;
+      }
+      .custom-control {
+        line-height: 0.5rem !important;
+        margin-top: 4px;
+        margin-right: -8px;
+      }
+      input {
+        margin-left: 10px;
+      }
+    }
+  }
+  .partcipants-img-view:last-of-type {
+    margin: 0;
+  }
+  @media (max-width: 1440px) {
+    .partcipants-img-view {
+      margin-right: 15px;
+      .participant-project-img-transition {
+        .participant-project-img {
+          img {
+            width: 225px;
+            height: 200px;
+          }
+        }
+      }
+      .participantDetails {
+        .client_pic {
+          width: 35px;
+          height: 35px;
+        }
+        p {
+          font-size: 12px;
+        }
+        input {
+          width: 15px;
+        }
+      }
+    }
+  }
+  @media (max-width: 1280px) {
+    .partcipants-img-view {
+      .participant-project-img-transition {
+        .participant-project-img {
+          img {
+            width: 225px;
+            height: 170px;
+          }
+        }
+      }
+      .participantDetails {
+        input {
+          width: 10px;
+        }
+      }
+    }
+  }
+  @media (max-width: 1024px) {
+    justify-content: space-around;
+    .partcipants-img-view {
+      margin: 0;
+      .participantDetails {
+        .client_pic {
+          width: 25px;
+          height: 25px;
+        }
+      }
+    }
+  }
+}
+
+.bottom-awarded-button {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: center;
+  button {
+    margin-top: 20px;
+    background-color: #0d2146;
+    height: 50px;
+    min-width: 150px;
+    padding: 0px 40px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    img {
+      width: 40px;
+    }
+    span {
+      margin-top: 5px;
+    }
+  }
+  button:disabled,
+  button[disabled] {
+    background-color: #d7d7d7;
+    outline: none;
+    border: none;
+  }
+}

@@ -1,0 +1,24 @@
+.navigation-notification-count{
+    background-color: #a30014;
+    padding: 1px 4px;
+    border-radius: 20px;
+    margin-left: -10px;
+}
+.navigation-notification-icon{
+font-size: 17px;
+}
+.profile-picture-area-nav{
+    display: inline-block;
+    position: relative;
+     .online {
+        position: absolute;
+    bottom: -1px;
+    right: 17px;
+    width: 12px;
+    height: 12px;
+    background: #14a800 0% 0% no-repeat padding-box;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    z-index: 100;
+    }
+}

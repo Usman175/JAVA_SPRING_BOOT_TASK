@@ -1,0 +1,325 @@
+.freelancer-document-selection {
+  position: relative;
+  padding: 20px 0px;
+  .freelancer-document-selection-heading {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0px;
+    h4 {
+      font-size: 16px;
+      font-weight: 500;
+      border: none;
+      width: 12ch;
+      font-weight: 500er;
+      color: #669900 !important;
+      @media (max-width: 575px) {
+        width: 54%;
+      }
+      @media (min-width: 575px) {
+        width: 30%;
+      }
+      margin-bottom: 0px;
+    }
+    div {
+      height: 1px;
+
+      @media (max-width: 575px) {
+        width: 46%;
+      }
+      @media (min-width: 575px) {
+        width: 70%;
+      }
+      background-color: lightgray;
+    }
+  }
+}
+.portfolio-area {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+
+  .portfolio-area-icon {
+    padding: 10px;
+    img {
+      width: 70%;
+    }
+  }
+}
+.document-upload-area {
+  padding: 10px;
+  p {
+    font-size: 14px;
+  }
+  .custom-width-portfolio {
+    @media (max-width: 575px) {
+      width: 100%;
+    }
+    @media (min-width: 575px) {
+      width: 60%;
+    }
+  }
+}
+
+.input_proposal_area {
+  padding: 30px 0px 0px 0px;
+  input {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px !important;
+    opacity: 1;
+    height: 46px;
+    width: 100%;
+    padding: 2px 10px;
+    &:hover {
+      outline: none;
+    }
+    &:focus {
+      outline: none;
+      border: 1px solid #969393;
+    }
+  }
+  textarea {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px !important;
+    opacity: 1;
+    margin-top: 20px;
+    width: 100%;
+    padding: 5px 10px;
+    &:hover {
+      outline: none;
+    }
+    &:focus {
+      outline: none;
+      border: 1px solid #969393;
+    }
+  }
+  .checkbox_area_for_mile_stone_bid {
+    margin-top: 10px;
+    @media (max-width: 768px) {
+      label {
+        display: inline;
+      }
+      input {
+        display: inline;
+      }
+    }
+    @media (min-width: 768px) {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    label {
+      margin: 0px 0px 0px 10px;
+      color: #4172b1;
+    }
+    input {
+      height: 16px;
+      width: 16px;
+      cursor: pointer;
+    }
+  }
+  .proposal_submit_area {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    @media (max-width: 595px) {
+      justify-content: center;
+    }
+    button {
+      border: none;
+      background: #4172b1 0% 0% no-repeat padding-box;
+      border-radius: 4px;
+      opacity: 1;
+      outline: none;
+      width: 183px;
+      height: 40px;
+      color: white;
+      cursor: pointer;
+    }
+  }
+}
+.resume-add-confirmation-area {
+  h5 {
+    font-size: 18px;
+    max-width: 80ch;
+    color: #6b6b6b;
+    font-weight: 600;
+  }
+  .resume-add-confirmation-box-selection {
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    .resume-add-confirmation-box-register {
+      border: 2px solid lightgray;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 10px;
+      margin: 20px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      &:hover {
+        background: linear-gradient(to right, transparent 50%, #f3f4f4 50%)
+          right;
+        background-size: 200%;
+        transition: 0.8s ease-out;
+        box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25),
+          0 4px 10px rgba(0, 0, 0, 0.22);
+      }
+      @media (max-width: 575px) {
+        min-width: 220px;
+        img {
+          width: 200px;
+        }
+      }
+      @media (min-width: 575px) {
+        min-width: 300px;
+        img {
+          width: 270px;
+        }
+      }
+
+      h6 {
+        font-weight: 500;
+        color: #669900 !important;
+        text-align: center;
+        font-size: 18px;
+      }
+    }
+    .resume-add-confirmation-box-skip {
+      border: 2px solid lightgray;
+      cursor: pointer;
+      padding: 10px;
+      margin: 20px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      &:hover {
+        background: linear-gradient(to right, transparent 50%, #f3f4f4 50%)
+          right;
+        background-size: 200%;
+        transition: 0.8s ease-out;
+        box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25),
+          0 4px 10px rgba(0, 0, 0, 0.22);
+      }
+      border-radius: 10px;
+      @media (max-width: 575px) {
+        min-width: 220px;
+        img {
+          width: 220px;
+        }
+      }
+      @media (min-width: 575px) {
+        min-width: 300px;
+        img {
+          width: 290px;
+        }
+      }
+
+      h6 {
+        font-weight: 500;
+        color: #669900 !important;
+        text-align: center;
+        font-size: 18px;
+        padding-top: 10px;
+      }
+    }
+  }
+}
+.create-freelancer-bottom-steps {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  @media (min-width: 575px) {
+    padding-right: 65px;
+  }
+  .create-freelancer-bottom-steps-back {
+    margin: 5px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 80px;
+    cursor: pointer;
+  }
+  .create-freelancer-bottom-steps-skip {
+    margin: 5px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #4172b1;
+    height: 50px;
+    width: 80px;
+    cursor: pointer;
+  }
+}
+.confirmation-step-img-area {
+  img {
+    @media (min-width: 575px) {
+      width: 250px;
+    }
+    @media (max-width: 575px) {
+      width: 200px;
+    }
+  }
+  h3 {
+    font-weight: 500er;
+    color: #669900 !important;
+    text-align: center;
+    font-size: 22px !important;
+    padding-top: 10px;
+  }
+}
+
+.freelancer-card {
+  //  skeleton loading classes
+  .skeletonLoading_mobile {
+    display: none;
+    @media (max-width: 595px) {
+      display: block;
+    }
+  }
+  //
+  .no-applicant-are-project-detail {
+    padding: 15px 0;
+    min-height: 80vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    .forFreelancer_detailArea {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 90%;
+      @media (max-width: 575px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+      }
+    }
+    .no-applicant-are-project-detail-right {
+      margin-top: 5px;
+      @media (min-width: 1300px) {
+        width: 390px !important;
+      }
+      @media (max-width: 1300px) and (min-width: 575px) {
+        width: 300px !important;
+      }
+      h5 {
+        color: #000;
+      }
+    }
+    .no-applicant-are-project-detail-left {
+      img {
+        width: 110px;
+        margin-right: 2rem;
+        @media (max-width: 575px) {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,383 @@
+.new-portfolio-kYC{
+    padding: 25px 10px 10px 10px;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+    .portfolio-area-icon{
+        width: 80% !important;
+ 
+    }
+    .add-file-new_box{
+        text-align: center;
+        min-height: 100px;
+        padding: 25px 5px 5px 5px;
+        border-radius: 8px;
+        background-color: #E9ECEF !important ;
+        input{
+            background-color: #E9ECEF !important ;
+        border: none;
+        outline: none;
+        }
+        p{
+            margin-bottom: 0px;
+        }
+        i{
+            cursor: pointer;
+        }
+    }
+}
+.user-contract-profile-view{
+    .green_text{
+        font-weight: 500;
+        font-size: 20px;
+    }
+    h6{
+        font-size: 14px;
+    }
+    .media{
+        .image-placement-contract{
+            border-radius: 5px;
+            width: 80px;
+            margin-left: -5px;
+            height: 90px;
+            // border: 1px solid white;
+            border: none;
+            object-fit: cover;
+        }
+     .media-left{
+        border: none;
+        margin-right: 0px !important;
+     }
+    }
+    .freelancer-select-area{
+        cursor: pointer;
+        margin-top: 20px;
+        font-size:16px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        color: #8A8989;
+        font-weight: 500;
+        span{
+            margin-right: 20px;
+           i{
+               font-size: 24px;
+               
+           }
+        }
+    }
+}
+
+/* #E9ECEF */
+
+// contract buttons
+.complete-contract-button{
+    background-color: #333333 !important;
+    color:white !important;
+    text-transform: capitalize !important;
+    font-weight: 400 !important;
+    margin-left: 10px !important;
+}
+.contract-detail-refund-button{
+    margin-left: 10px !important;
+}
+.contract-profile-content-rating{
+    margin-left: 3px;
+    span{
+        margin-left: -3px;
+    }
+}
+.contract-profile-content{
+font-size: 500;
+font-size: 14px !important;
+margin-bottom: 4px;
+@media screen and (max-width: 590px) {
+  font-size: 13px !important;
+}
+@media screen and (max-width: 330px) {
+  font-size: 12px !important;
+}
+i{
+    margin-right: 5px;
+}
+img{
+    width: 17px;
+    margin-right: 6px;
+    margin-top: -3px;
+    margin-left: -1px;
+}
+}
+.MuiRating-label{
+    margin-bottom: 0px !important;
+    color: #ffb400 !important;
+}
+.contract-no-client-contract-detail{
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    span{
+color: #aaaaaa;
+    }
+}
+.profile-name-contact{
+    cursor: pointer;
+    font-weight: 500 !important;
+    margin-bottom: 12px !important;
+    margin-top: 0px !important;
+
+}
+
+.popover-wapper {
+    list-style: none;
+    padding: 1em 0em;
+    min-height: 11em;
+    min-width: 12em;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    & li {
+      cursor: pointer;
+      padding: 5px 3em;
+      font-weight: 500;
+      font-family: 'Roboto';
+      &:hover {
+        background: #0d2146;
+        color: #fff !important;
+      }
+      & .popoverRefund_icon{
+        position: absolute;
+        left: 10px !important; 
+      }
+      & i{
+        position: absolute;
+        left: 12px;
+        top: 9px; 
+      }
+    }
+    .inline-flex {
+      display: flex;
+      & p {
+        margin-left: 10px;
+        margin-bottom: 0;
+      }
+    }
+  
+    .align-center {
+      display: flex;
+      align-items: center;
+    }
+    .text-red {
+      color: #970816;
+    }
+  }
+
+  .popover-menu-area{
+    position: absolute;
+    top: -35px;
+    right: -25px;
+    @media (max-width:595px) {
+      top: -100px;
+      right: 10px;
+    }
+ i{
+     font-size: 20px;
+     cursor: pointer;
+ }
+ .MuiSvgIcon-root {
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    font-size: 1.5rem;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+    user-select: none;
+    cursor: pointer;
+    border: 1px solid #333333;
+    border-radius: 50%;
+}
+  }
+  .company-freelancers-view-contract-detail{
+      margin: 20px 0px;
+      border-top: 2px solid lightgray;
+      padding-top: 20px;
+        .media{ 
+          .media-left {
+            @media screen and (max-width: 590px) {
+              border: none;
+              margin-right: 0px !important;
+              justify-content: flex-start !important;
+            }
+          }
+        }
+      .company-freelancers-view{
+          position: relative;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center; 
+          @media screen and (max-width: 595px) {
+            overflow: hidden; 
+          }
+          & ~ .next-icon{
+            overflow: visible; 
+          }
+          & .next-icon{
+              position: absolute;
+              top: 50px;
+              right: -10px;
+              @media screen and (max-width: 595px) {
+                top: 6px;
+                right: 10px;
+              }
+              @media screen and (max-width: 395px) {
+                top: 2px;
+                right: 10px;
+              }
+              i{
+                  font-size: 30px;
+                  font-weight: 600;
+                  cursor: pointer;
+                  @media screen and (max-width: 595px) {
+                    font-size: 14px;
+                    font-weight: 600;
+                    cursor: pointer;
+                    border: 1px solid;
+                    border-radius: 50%;
+                    padding: 0.3rem 0.5rem;
+                  }
+              }
+          }
+      }
+      .freelancer-view-contract{
+          width: 300px;
+          @media screen and (max-width: 595px) {
+            min-width: 200px;
+          }
+
+          .mediaCompanyView_clientDetail_mobile{
+            @media screen and (max-width: 595px) {
+              flex-direction: row; 
+              align-items: flex-end !important;
+            }
+
+            .media-body {
+              @media screen and (max-width: 595px) {
+                margin-top: 35px; 
+                margin-left: -15px;
+              }
+            }
+          }
+      }
+      .freelancer-view-contract-badge{
+          margin-top: 10px;
+          background-color: #6FA367;
+          height: 20px;
+          border-radius: 15px;
+          width: 100px;
+          color: white;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+      .company-total-badge-area{
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          margin-bottom: -40px;
+          margin-right: 40px;
+       .company-total-badge{
+        margin-top: 10px;
+        background-color: #6FA367;
+        height: 30px;
+        border-radius: 15px;
+        width: 140px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+       }   
+      }
+  }
+
+
+  .freelancer-type-badge-IndividualFreelancer {
+    //border: 1px solid #173C7F;
+    border-radius: 12px;
+    min-width: 80px;
+    text-align: center;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    font-weight: 500;
+    padding: 3px 6px;
+    height: 21px;
+    line-height: 17px;
+    background-color: #173c7f;
+    @media screen and (max-width: 700px) {
+      min-width: 85px;
+      position: relative;
+      height: 22px;
+      padding: 3px 6px;
+      font-size: 10px;
+    }
+    @media screen and (max-width: 330px) {
+      min-width: 75px; 
+    }
+  }
+  .freelancer-type-badge-Organization{
+    // border: 2px solid #bfbfbf;
+    border-radius: 10px;
+    min-width: 80px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 3px 6px;
+    height: 21px;
+    line-height: 14px;
+    background-color: #7337f2;
+    @media screen and (max-width: 700px) {
+      min-width: 85px;
+      position: relative;
+      height: 22px;
+      padding: 5px 6px;
+    }
+    @media screen and (max-width: 330px) {
+      min-width: 75px; 
+    }
+  }
+  .freelancer-type-badge-Any {
+    border-radius: 10px;
+    min-width: 80px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 3px 6px;
+    height: 21px;
+    line-height: 14px;
+    background-color: #289567;
+    @media screen and (max-width: 700px) {
+      min-width: 85px;
+      position: relative;
+      height: 22px;
+      padding: 5px 6px;
+    }
+    @media screen and (max-width: 330px) {
+      min-width: 75px; 
+    }
+  }
+  .freelancer-type-badge-AllFreelancers {
+    border-radius: 10px;
+    min-width: 80px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 3px 6px;
+    height: 21px;
+    line-height: 14px;
+    background-color: darkgreen;
+  }

@@ -1,0 +1,315 @@
+.project-type-badge-Milestone {
+  border-radius: 12px;
+  min-width: 80px;
+  text-align: center;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 6px;
+  height: 21px;
+  line-height: 14px;
+  background-color: #f63659;
+  @media screen and (max-width: 700px) {
+    min-width: 85px;
+    position: relative;
+    height: 22px;
+    padding: 5px 6px;
+  }
+  @media screen and (max-width: 330px) {
+    min-width: 75px;
+    position: relative;
+    height: 22px;
+    padding: 5px 6px;
+  }
+}
+.project-type-badge-FreeContract {
+  //border: 1px solid #173C7F;
+  border-radius: 12px;
+  min-width: 80px;
+  text-align: center;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 6px;
+  height: 21px;
+  line-height: 17px;
+  background-color: #173c7f;
+  @media screen and (max-width: 700px) {
+    min-width: 85px;
+    position: relative;
+    height: 22px;
+    padding: 3px 6px;
+    font-size: 10px;
+  }
+  @media screen and (max-width: 330px) {
+    min-width: 75px; 
+  }
+}
+.project-type-badge-Hourly {
+  // border: 2px solid #bfbfbf;
+  border-radius: 10px;
+  min-width: 80px;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 6px;
+  height: 21px;
+  line-height: 14px;
+  background-color: #7337f2;
+  @media screen and (max-width: 700px) {
+    min-width: 85px;
+    position: relative;
+    height: 22px;
+    padding: 5px 6px;
+  }
+  @media screen and (max-width: 330px) {
+    min-width: 75px; 
+  }
+}
+.project-type-badge-OfficeWork {
+  border-radius: 10px;
+  min-width: 80px;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 6px;
+  height: 21px;
+  line-height: 14px;
+  background-color: #289567;
+  @media screen and (max-width: 700px) {
+    min-width: 85px;
+    position: relative;
+    height: 22px;
+    padding: 5px 6px;
+  }
+  @media screen and (max-width: 330px) {
+    min-width: 75px; 
+  }
+}
+.project-type-badge-AllProjects {
+  border-radius: 10px;
+  min-width: 80px;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 6px;
+  height: 21px;
+  line-height: 14px;
+  background-color: darkgreen;
+}
+.project-type-badge-Contest {
+  border-radius: 10px;
+  min-width: 80px;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 6px;
+  height: 21px;
+  line-height: 14px;
+  background-color: #445002;
+  @media screen and (max-width: 700px) {
+    min-width: 85px;
+    position: relative;
+    height: 22px;
+    padding: 5px 6px;
+  }
+  @media screen and (max-width: 330px) {
+    min-width: 75px; 
+  }
+}
+
+.project-status-badge-On_Hold {
+  border: 1px solid #a81070;
+  border-radius: 20px;
+  min-width: 70px;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  background: #a81070;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0px 5px;
+  height: 21px;
+  line-height: 20px;
+}
+.project-status-badge-OnHold {
+  border: 1px solid #a81070;
+  border-radius: 20px;
+  min-width: 70px;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  background: #a81070;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0px 5px;
+  height: 21px;
+  line-height: 20px;
+}
+.project-status-badge-Active {
+  border: 1px solid #1f710b;
+  border-radius: 20px;
+  min-width: 70px;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  background: #1f710b;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0px 5px;
+  height: 21px;
+  line-height: 19px;
+}
+.project-status-badge-OnGoing {
+  border: 1px solid #1f710b;
+  border-radius: 20px;
+  min-width: 70px;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  background: #1f710b;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0px 5px;
+  height: 21px;
+  line-height: 19px;
+}
+.project-status-badge-Accepted {
+  border: 1px solid #307220;
+  border-radius: 20px;
+  min-width: 70px;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  background: #307220;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0px 5px;
+  height: 21px;
+  line-height: 19px;
+  @media (max-width: 950px) and (min-width: 700px) {
+    margin-top: 10px;
+  }
+}
+.project-status-badge-WaitingForInitialDeposit {
+  border: 1px solid #707070;
+  border-radius: 20px;
+  min-width: 70px;
+  text-align: center;
+  display: inline-block;
+  color: #2a2727;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 10px;
+  height: 21px;
+  line-height: 19px;
+}
+.project-status-badge-Contract {
+  border: 2px solid #015478;
+  background-color: #015478;
+  border-radius: 10px;
+  min-width: 70px;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0px 5px;
+  height: 21px;
+  line-height: 19px;
+}
+.project-status-badge-Proposed {
+  border: 2px solid #d7d7d7;
+  background-color: #d7d7d7;
+  border-radius: 10px;
+  min-width: 70px;
+  text-align: center;
+  display: inline-block;
+  color: #942af7;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0px 5px;
+  height: 21px;
+  line-height: 19px;
+}
+.project-status-badge-Recruitment {
+  border: 2px solid #d7d7d7;
+  background-color: #d7d7d7;
+  border-radius: 10px;
+  min-width: 70px;
+  text-align: center;
+  display: inline-block;
+  color: #942af7;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0px 5px;
+  height: 21px;
+  line-height: 19px;
+}
+.project-status-badge-Closed {
+  border: 2px solid #333333;
+  background-color: #333333;
+  border-radius: 10px;
+  min-width: 70px;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0px 5px;
+  height: 21px;
+  line-height: 19px;
+}
+.project-status-badge-Completed {
+  border: 2px solid #333333;
+  background-color: #333333;
+  border-radius: 10px;
+  min-width: 70px;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0px 5px;
+  height: 21px;
+  line-height: 19px;
+}
+
+.project-status-icon {
+  .completed {
+    width: 25px;
+  }
+  .in-progress {
+    width: 30px;
+  }
+  .stopped {
+    width: 27px;
+  }
+  .paid {
+    width: 20px;
+  }
+}
+
+.viewButton_projectTypeBadge {
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  background-color: #fff;
+  color: #0d2146;
+  width: 18px;
+  font-size: 7.5px;
+  border-radius: 50%;
+  padding: 1px;
+  margin-left: 5px;
+  line-height: 0px !important;
+}

@@ -1,0 +1,82 @@
+.no-record-area-new {
+  padding: 9px 0px;
+
+
+.no-applicant-are-project-detail {
+  margin: 10px 0px;
+  padding: 30px;
+  transition: 1s all;
+  background-color: rgba(255, 255, 255, 1);
+min-height: 80vh;
+display: flex ;
+justify-content: center !important;
+align-items: center !important;
+.forFreelancer_detailArea {
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 90%;
+  @media (max-width: 575px){ 
+    flex-direction: column !important; 
+    width: auto;
+  }
+}
+@media (max-width:2000px) and (min-width:1200px) {
+  padding: 0;
+  min-height: 60vh;
+}
+@media screen and (max-width:700px) {
+  text-align: center;
+  padding: 20px;
+}
+
+  .no-applicant-are-project-detail-left {
+      margin-top: -30px;
+    img {
+      width: 230px;
+    }
+  }
+
+  .no-applicant-are-project-detail-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    @media (min-width: 575px) {
+      width: 230px;
+    }
+    h5 {
+      display: block;
+      color: #669900;
+      font: normal normal 500 16px/22px Roboto;
+      cursor: pointer;
+      text-align: left;
+      @media screen and (max-width:700px) {
+        text-align: center;
+      }
+    }
+    button {
+      border: none;
+      outline: none;
+      background: #4172b1 0% 0% no-repeat padding-box;
+      color: white;
+      cursor: pointer;
+      @media (min-width: 575px) {
+        padding: 10px 20px;
+        min-width: 210px;
+      }
+      @media (max-width: 800px) {
+        padding: 10px 20px;
+      }
+      @media (max-width: 575px) {
+        padding: 10px 10px;
+      }
+      @media (max-width: 300px) {
+        padding: 10px 7px;
+        font-size: 12px;
+      }
+      border-radius: 5px;
+    }
+  }
+}
+}

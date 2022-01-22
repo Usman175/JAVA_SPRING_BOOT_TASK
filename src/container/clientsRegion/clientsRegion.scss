@@ -1,0 +1,617 @@
+.client-region-page {
+  .region-top-bar {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: flex-start;
+    color: #4b7902;
+    font-size: 13px;
+    align-items: center;
+    flex-wrap: wrap;
+    @media (max-width: 575px) {
+      padding: 6px 10px;
+    }
+    @media (min-width: 575px) {
+      padding: 6px 15px;
+    }
+
+    line-height: 20px;
+    p {
+      margin-bottom: 0px;
+    }
+    .change-address-button {
+      background-color: #4b7902;
+      border-radius: 5px;
+      color: white;
+      width: 70px;
+      text-align: center;
+      padding: 5px 0px;
+      cursor: pointer;
+      margin-left: 30px;
+    }
+  }
+  .map-area {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    .top-filter-maps {
+      position: absolute;
+      @media (max-width: 768px) {
+        display: none;
+      }
+      @media (min-width: 768px) {
+        display: block;
+      }
+      top: 15px;
+      left: 15px;
+      height: 67vh;
+      width: 300px;
+      background-color: white;
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+      z-index: 5;
+      padding: 10px;
+      .top-search-area {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border: 1px solid #4b7902;
+        height: 30px;
+        .auto-suggestion-input{
+          width: 88%;
+          height: 25px;
+        }
+        input {
+          border: none;
+          outline: none;
+          background-color: white;
+          width: 88%;
+          height: 25px;
+          padding: 1px 7px;
+        }
+        .search-icon-area {
+          background-color: #4b7902;
+          color: white;
+          width: 12%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
+          height: 30px;
+        }
+      }
+      .project-type-area {
+        padding: 15px;
+        border-top: 1px solid lightgrey;
+        border-bottom: 1px solid lightgrey;
+        font-weight: 500;
+        color: #4b7902;
+        margin-top: 10px;
+        display: flex;
+        justify-content: flex-start;
+        font-size: 13px;
+
+        .freelancer-type-badge {
+          display: inline;
+          color: #4b7902;
+          border: 1px solid #4b7902;
+          height: 18px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 8px;
+          width: 80px;
+          margin-left: 10px;
+        }
+      }
+      .sub-business-category {
+        padding: 15px;
+        border-top: 1px solid lightgrey;
+        border-bottom: 1px solid lightgrey;
+        font-weight: 500;
+        color: #4b7902;
+        margin-top: 10px;
+        font-size: 13px;
+        img {
+          width: 22px;
+          margin: 0px 5px;
+        }
+        .business-scope-area-12 {
+          display: flex;
+          justify-content: flex-start;
+          flex-wrap: wrap;
+          padding-top: 10px;
+        }
+        .checkbox-for-business-scope {
+          font-weight: 500;
+          margin: 3px 0px;
+          margin-right: 10px;
+          font-size: 13px;
+          .custom-checkbox-styled {
+            position: absolute; // take it out of document flow
+            opacity: 0; // hide it
+            margin-top: -10px;
+
+            & + label {
+              position: relative;
+              cursor: pointer;
+              padding: 0;
+              font-size: 13px;
+              color: #292a29;
+            }
+
+            // Box.
+            & + label:before {
+              content: "";
+              margin-right: 8px;
+              display: inline-block;
+              vertical-align: text-top;
+              width: 15px;
+              height: 15px;
+              background: white;
+              border: 2px solid #292a29;
+              border-radius: 3px;
+            }
+
+            // Box hover
+            &:hover + label:before {
+              background: #292a29;
+            }
+
+            // Box focus
+            &:focus + label:before {
+              // box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+            }
+
+            // Box checked
+            &:checked + label:before {
+              background: #292a29;
+            }
+
+            // Disabled state label.
+            &:disabled + label {
+              color: #b8b8b8;
+              cursor: auto;
+            }
+
+            // Disabled box.
+            &:disabled + label:before {
+              box-shadow: none;
+              background: #ddd;
+            }
+
+            // Checkmark. Could be replaced with an image
+            &:checked + label:after {
+              content: "";
+              position: absolute;
+              left: 3px;
+              top: 8px;
+              background: white;
+              width: 2px;
+              height: 2px;
+              border-radius: 3px;
+              box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white,
+                4px -4px 0 white, 4px -6px 0 white, 4px -8px 0 white;
+              transform: rotate(45deg);
+            }
+          }
+        }
+      }
+      .project-sub-filter-area {
+        margin: 5px 0px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        .project-type-filter {
+          border: 1px solid lightgray;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 3px;
+          font-size: 13px;
+          font-weight: 500;
+          width: 40%;
+          height: 30px;
+          cursor: pointer;
+          font-weight: 500;
+          margin-right: 5px;
+          i {
+            font-size: 23px;
+            color: #4b7902;
+          }
+          div {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 80% !important;
+          }
+        }
+        .business-category-filter {
+          border: 1px solid lightgray;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 3px;
+          font-size: 13px;
+          font-weight: 500;
+          width: 45%;
+          margin-right: 5px;
+          height: 30px;
+          cursor: pointer;
+          i {
+            font-size: 23px;
+            color: #4b7902;
+          }
+          div {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 80% !important;
+          }
+        }
+        .sorting-filter {
+          border: 1px solid lightgray;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 15%;
+          height: 100%;
+          cursor: pointer;
+          height: 30px;
+
+          i {
+            font-size: 20px;
+            color: #4b7902;
+            transform: rotate(90deg);
+            cursor: pointer;
+          }
+        }
+      }
+      .rang-box-rate {
+        padding: 15px;
+        border-bottom: 1px solid lightgray;
+        font-size: 13px;
+        font-weight: 500;
+        h2 {
+          color: #4b7902;
+          font-size: 13px;
+          font-weight: 500;
+          margin-bottom: 0px;
+        }
+        .rang-label-area {
+          display: flex;
+          justify-content: space-between;
+
+          .rang-label-item {
+            width: 30%;
+            .label-bar {
+              margin-top: -5px;
+              font-weight: 500;
+              color: lightgray;
+            }
+            .label-content {
+              font-size: 10px;
+              font-weight: 500;
+              margin-left: -10px;
+              color: rgb(122, 119, 119);
+            }
+          }
+        }
+      }
+    }
+    .project-lists-area {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      height: 100vh;
+      width: 380px;
+      background-color: white;
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+      z-index: 5;
+      @media (max-width: 768px) {
+        display: none;
+      }
+      @media (min-width: 768px) {
+        display: block;
+      }
+      padding: 10px;
+      .project-lists-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid lightgray;
+        h1 {
+          font-size: 20px;
+          font-weight: 500;
+        }
+        i {
+          font-size: 25px;
+          font-weight: 200 !important;
+          cursor: pointer;
+        }
+      }
+    }
+    .sub-heading {
+      font-size: 16px;
+      font-weight: 500;
+      padding: 10px 0px;
+    }
+    .project-lists-detail {
+      height: 100%;
+      overflow: auto;
+      .freelancer-lists-item {
+        border-bottom: 1px solid lightgray;
+        padding: 20px 0px 20px 0px;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        .left-profile-area {
+          position: relative;
+          width: 90px;
+          height: 80px;
+          margin-right: 20px;
+          .freelancer-profile-area {
+            position: relative;
+            width: 90px;
+            height: 80px;
+            // border: 6px solid lightgray;
+            border-radius: 5px;
+            padding: 5px;
+            .freelancer-profile-img {
+              height: 100%;
+              width: 100%;
+              object-fit: cover;
+              border-radius: 5px;
+            }
+            .company-label {
+              position: absolute;
+              left: 5px;
+              padding: 0px 4px;
+              font-size: 12px;
+              bottom: 23px;
+              background-color: #669900;
+              color: white;
+              border-bottom-left-radius: 5px;
+            }
+            .individual-label {
+              position: absolute;
+              left: 5px;
+              padding: 0px 4px;
+              font-size: 12px;
+              bottom: 23px;
+              background-color: white;
+              color: #669900;
+              border: 1px solid #669900;
+              border-bottom-left-radius: 5px;
+            }
+            .online {
+              position: absolute;
+              bottom: 12px;
+
+              right: -95px;
+              width: 20px;
+              height: 20px;
+              background: #14a800 0% 0% no-repeat padding-box;
+              border: 4px solid #ffffff;
+              border-radius: 50%;
+              cursor: pointer;
+            }
+            .offline {
+              position: absolute;
+              bottom: -2px;
+
+              right: -3px;
+              width: 20px;
+              height: 20px;
+              background: #292a29 0% 0% no-repeat padding-box;
+              border: 4px solid #ffffff;
+              border-radius: 50%;
+              cursor: pointer;
+            }
+          }
+        }
+        .project-top-area {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+          h3 {
+            color: #4b7902;
+            font-weight: 500;
+            font-size: 17px;
+            margin-bottom: 0px;
+            &:hover {
+              text-decoration: underline;
+              cursor: pointer;
+            }
+          }
+          .search-button {
+            border: 1px solid lightgray;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 25px;
+            width: 30px;
+            cursor: pointer;
+            i {
+              color: #999999;
+              font-size: 18px;
+            }
+          }
+        }
+        .project-amount-area {
+          font-weight: 500;
+          font-size: 13px;
+        }
+        .project-detail-ara {
+          font-size: 13px;
+          max-width: 33ch;
+        }
+        .project-bottom-area {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 5px 0px;
+          .project-bottom-first {
+            display: flex;
+            justify-content: flex-start;
+          }
+          .skill-area {
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            .skill {
+              background-color: #999999;
+              color: white;
+              padding: 1px 5px;
+              margin-right: 3px;
+              margin-left: 2px;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .react-mapbox-ac-menu {
+    width: auto;
+    position: absolute;
+    z-index: 9999;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 0px !important;
+    
+  }
+   
+  /*   border: none !important;
+    outline: none !important;
+    background-color: white !important;
+    width: 88% !important;
+    height: 25px !important;
+    padding: 1px 7px !important; */
+    
+  .react-mapbox-ac-input {
+    border: none !important;
+    outline: none !important;
+    background-color: white !important;
+    width:100% !important;
+    height: 25px !important;
+    padding: 1px 7px !important; 
+    margin-bottom: 0px !important;
+  }
+  .react-mapbox-ac-input:focus {
+    border: none !important;
+    outline: none !important;
+  }
+  .react-mapbox-ac-input:active {
+    border: none !important;
+    outline: none !important;
+  }
+   
+  .react-mapbox-ac-suggestion {
+    font-size: 18px;
+    margin-bottom: .5rem;
+    cursor: pointer;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+   
+  .react-mapbox-ac-suggestion:hover {
+    background-color: #4b7902 !important;
+    color: white !important;
+  }
+
+}
+
+.map-page-freelancer {
+  .marker-box {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: #4b7902;
+    color: white;
+    border-radius: 50%;
+    font-weight: 500;
+    cursor: pointer;
+    @media(min-width: 1300px){ 
+      margin-bottom: .2rem;
+      margin-left: 0.3rem;
+    }
+  }
+  .marker-box-icon {
+    z-index: 999999;
+    cursor: pointer;
+    i {
+      color: #4b7902;
+      font-size: 33px;
+      font-weight: 500;
+    }
+    .marker-bottom {
+      width: 23px;
+      height: 10px;
+      border: 2px solid #4b7902;
+      border-radius: 50%;
+      margin-top: -8px;
+      margin-left: -2px;
+    }
+  }
+  .MuiTooltip-tooltip {
+    word-wrap: break-word;
+  }
+}
+.drop-down-modal {
+  padding: 20px;
+  position: relative;
+  .close-button {
+    position: absolute;
+    top: -22px;
+    right: -18px;
+    cursor: pointer;
+    background-color: lightgrey;
+    font-size: 25px;
+    line-height: 40px;
+    background-color: rgba(0, 0, 0, 0.36);
+    width: 40px;
+    height: 40px;
+    display: block;
+    font-family: "Roboto", "sans-serif";
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 600;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: flex-start;
+    cursor: pointer;
+  }
+  h2 {
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 5px;
+  }
+  .button-modal {
+    background-color: #4b7902;
+    color: white;
+    width: 100%;
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+  }
+  .modal-item {
+    height: 30px;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+  }
+}
+
+

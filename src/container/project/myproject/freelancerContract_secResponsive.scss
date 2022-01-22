@@ -1,0 +1,123 @@
+// left freelancer contract section
+.leftFreelancerContract_secMobileTab{
+    @media(max-width:900px) and (min-width:700px){
+        padding-left: 0; 
+        padding-right: 5px; 
+    }
+    @media(max-width:595px){
+        padding-left: 0;  
+    }
+}
+
+
+
+
+// middle freelancer contract section
+.middleFreelancer_contract_designWork{ 
+    @media(max-width:900px) and (min-width:700px){
+        width: 325px !important; 
+        margin-left: -6px !important;
+    }
+    @media(max-width:595px){ 
+        margin-bottom: 6px !important; 
+    }
+    @media(max-width:335px){  
+        max-width: 255px;
+    }
+    p{
+        @media(min-width:700px){ 
+            padding-left: 1px !important;
+        }
+    }
+    .content-css{
+        @media(max-width:330px){ 
+            font-size: 13px !important;
+        }
+    }
+.freelancerMiddle_headingContract{
+    @media(max-width:900px) and (min-width:700px){
+        width: 20ch;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    @media(max-width:595px){
+        width: 20ch;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    @media(max-width:395px){
+        width: 18ch;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    @media(max-width:375px){
+        width: 16ch;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    @media(max-width:335px){
+        font-size: 16px !important;
+        width: 17ch;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+} 
+}
+.middleFreelancer_contract_progressBar{
+    @media(min-width:595px){  
+        margin-left: -8.5px !important;
+    }
+    @media(max-width:595px){ 
+        margin-bottom: 6px !important;
+        margin-left: -10px !important;
+    }
+    @media(max-width:335px){  
+        margin-left: -12px !important;
+    }
+    h4{
+        @media(max-width:595px){
+            font-size: 13px !important; 
+        }
+        @media(max-width:335px){
+            font-size: 12px !important; 
+        }
+    }
+}
+.middleFreelancer_contract_PaidTotal{
+    h4{
+        @media(max-width:395px){
+            font-size: 13px !important; 
+        }
+        @media(max-width:335px){
+            font-size: 12px !important;  
+        }
+    }
+    &:last-child{
+        @media(max-width:335px){ 
+            padding-left: 3px;
+        }
+    }
+}
+.separatorMiddleContract_mobile{
+    @media(max-width:595px){ 
+        border: 0 !important; 
+    }
+    @media(max-width:335px){ 
+        border: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+
+// right freelancer contract section
+ 
+.rightFreelancerContract_secMobileTab{
+    @media(max-width:595px){
+        padding-left: 0;  
+    }
+}

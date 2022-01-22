@@ -1,0 +1,803 @@
+.business-and-skills-register-area {
+  .input-group-append {
+    button {
+      min-width: 120px;
+      margin-left: -5px;
+      z-index: 1000;
+    }
+  }
+  .dev_box {
+    background-color: #efefef;
+    border: 1px solid #161c39;
+    border-radius: 6px;
+    min-height: 124px;
+  }
+
+  .skill-area {
+    margin-top: 20px;
+    .skill_btn {
+      background-color: #efefef;
+      border: 1px solid #161c39;
+      border-radius: 6px;
+      min-height: 124px;
+      a {
+        margin: 3px 5px 3px 0px;
+        cursor: grabbing;
+        background-color: #161c39;
+        color: white;
+      }
+    }
+    span {
+      cursor: pointer;
+      margin-left: 10px !important;
+    }
+  }
+  .exp_box {
+    .experience-skill-box {
+      background-color: #efefef;
+      border: 1px solid #161c39;
+      border-radius: 6px;
+      min-height: 140px;
+    }
+    .skill_btn {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      border: none;
+      flex-wrap: wrap;
+      min-height: auto !important;
+    }
+  }
+  .skill_btn {
+    background-color: #efefef;
+    a {
+      background-color: #161c39;
+      color: white;
+      margin: 3px 5px 3px 0px;
+      &:hover {
+        color: white;
+      }
+    }
+    span {
+      cursor: pointer;
+      margin-left: 5px !important;
+      font-size: 15px !important;
+    }
+  }
+  form {
+    padding: 0px;
+  }
+  .business-scope-area-12 {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .checkbox-for-business-scope {
+    margin-right: 35px;
+    margin-bottom: 10px;
+
+    .custom-checkbox-styled {
+      position: absolute; // take it out of document flow
+      opacity: 0; // hide it
+      margin-top: -10px;
+
+      & + label {
+        position: relative;
+        cursor: pointer;
+        padding: 0;
+        font-size: 16px;
+      }
+
+      // Box.
+      & + label:before {
+        content: "";
+        margin-right: 15px;
+        display: inline-block;
+        vertical-align: text-top;
+        width: 20px;
+        height: 20px;
+        background: white;
+        border: 1px solid lightgray;
+        border-radius: 3px;
+      }
+
+      // Box hover
+      &:hover + label:before {
+        background: #161c39;
+      }
+
+      // Box focus
+      &:focus + label:before {
+        // box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+      }
+
+      // Box checked
+      &:checked + label:before {
+        background: #161c39;
+      }
+
+      // Disabled state label.
+      &:disabled + label {
+        color: #b8b8b8;
+        cursor: auto;
+      }
+
+      // Disabled box.
+      &:disabled + label:before {
+        box-shadow: none;
+        background: #ddd;
+      }
+
+      // Checkmark. Could be replaced with an image
+      &:checked + label:after {
+        content: "";
+        position: absolute;
+        left: 5px;
+        top: 10px;
+        background: white;
+        width: 2px;
+        height: 2px;
+        border-radius: 3px;
+        box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white,
+          4px -4px 0 white, 4px -6px 0 white, 4px -8px 0 white;
+        transform: rotate(45deg);
+      }
+    }
+  }
+  .delete-icon-col-adjust {
+    margin-bottom: 20px !important;
+    i {
+      cursor: pointer;
+    }
+  }
+}
+.freelancer-profile-register-page {
+  padding-top: 20px;
+  .user-profile-pic_ColMobile{
+    @media(max-width:595px){ 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .saveCancelBtn_mobile{
+    @media(max-width:595px){ 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center !important;
+    }
+  }
+  .user-profile-pic {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    background: #ffffff;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    position: relative;
+    .trash-bin-icon-for-image-change {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #369;
+      cursor: pointer;
+      font-size: 18px;
+      z-index: 2;
+      display: none;
+      background-color: white;
+      padding: 2px 8px 1px 8px;
+      border-radius: 50%;
+    }
+    .user-photo {
+      display: contents;
+      font-size: 12px;
+    }
+    &:hover {
+      .trash-bin-icon-for-image-change {
+        display: block;
+      }
+    }
+    label {
+      padding: 0 1rem;
+      text-align: center;
+      color: #262525;
+      font-size: 14px;
+      line-height: 19px;
+    }
+    input[type="file"] {
+      opacity: 0;
+      position: absolute;
+      z-index: -1;
+    }
+  }
+
+  .form-notes {
+    color: #a5a5a5;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .info-text {
+    color: #262525;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .form-label-icon {
+    width: 35px;
+    margin-right: 5px; 
+    display: inline-block;
+    text-align: center;
+    @media(max-width: 870px) and (min-width: 605px) {
+      width: 28px;
+    }
+    img {
+      margin-top: -5px !important;
+    }
+  }
+  .input-group-append {
+    margin-left: -5px;
+  }
+}
+
+.card_reg_header {
+  background: #161c39;
+  padding: 2.5rem 0;
+  > .bcknd_container {
+    margin-top: 0;
+    h1 {
+      text-align: left;
+      letter-spacing: 0px;
+      color: #e6e6e6;
+      font-size: 28px;
+    }
+    p {
+      text-align: left;
+      letter-spacing: 0px;
+      color: #e6e6e6;
+      font-size: 16px;
+      font-weight: 300;
+      margin: 0;
+      line-height: 30px;
+    }
+  }
+}
+.customer-delete-button {
+  background-color: lightgray;
+  color: #262525;
+  &:hover {
+    background-color: #161c39;
+  }
+}
+.form-label-icon {
+  width: 35px;
+  margin-right: 5px;
+
+  display: inline-block;
+  text-align: center;
+  img {
+    margin-top: -5px !important;
+  }
+}
+
+.resume-heading-icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 2px solid lightgray;
+  padding-bottom: 15px;
+  h3 {
+    font-size: 24px;
+    color: #262525;
+    font-weight: 600;
+  }
+  img {
+    width: 60px;
+    margin-right: 10px;
+  }
+}
+.heading-icon-label {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  h5 {
+    font-size: 18px;
+    color: #262525;
+    font-weight: 500;
+  }
+  img {
+    width: 35px;
+    margin-right: 10px;
+    margin-top: -10px;
+  }
+}
+
+// resume registration
+.resume-registration-new {
+  .table {
+    margin-top: 5px;
+    thead {
+      border-top: 2px solid lightgray !important;
+      border-bottom: 2px solid lightgray !important;
+
+      th {
+        background-color: white !important;
+        border: none !important;
+        color: #669900 !important ;
+        padding: 0px 10px 14px 10px !important;
+        text-align: left !important;
+      }
+    }
+    tbody {
+      tr {
+        border-top: 2px solid lightgray !important;
+        border-bottom: 2px solid lightgray !important;
+      }
+      td {
+        border: none !important;
+        color: #333333 !important;
+      }
+      .customer-col-width {
+        min-width: 130px !important;
+      }
+      .customer-col-width1 {
+        min-width: 100px !important;
+      }
+    }
+  }
+  .position_rel {
+    margin-right: -20px;
+  }
+  .customer-table-icon {
+    cursor: pointer;
+    font-weight: 500;
+  }
+  .resume-view-pdf-link {
+    h3 {
+      color: #669900 !important ;
+      font-weight: 500;
+      font-size: 16px;
+      cursor: pointer;
+      @media(max-width: 595px) { 
+        margin: 0 5px 10px;
+      }
+    }
+  }
+}
+
+// document type
+.freelancer-document-selection {
+  position: relative;
+  padding: 20px 0px;
+  .freelancer-document-selection-heading {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0px;
+    h4 {
+      font-size: 16px;
+      font-weight: 500;
+      border: none;
+      width: 12ch;
+      font-weight: 500er;
+      color: #669900 !important;
+      @media (max-width: 575px) {
+        width: 54%;
+      }
+      @media (min-width: 575px) {
+        width: 30%;
+      }
+      margin-bottom: 0px;
+    }
+    div {
+      height: 1px;
+
+      @media (max-width: 575px) {
+        width: 46%;
+      }
+      @media (min-width: 575px) {
+        width: 70%;
+      }
+      background-color: lightgray;
+    }
+  }
+}
+.portfolio-area {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+
+  .portfolio-area-icon {
+    padding: 10px;
+    img {
+      width: 70%;
+    }
+  }
+}
+.document-upload-area {
+  padding: 10px;
+  p {
+    font-size: 14px;
+  }
+  .custom-width-portfolio {
+    @media (max-width: 575px) {
+      width: 100%;
+    }
+    @media (min-width: 575px) {
+      width: 60%;
+    }
+  }
+}
+
+.input_proposal_area {
+  padding: 30px 0px 0px 0px;
+  input {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px !important;
+    opacity: 1;
+    height: 46px;
+    width: 100%;
+    padding: 2px 10px;
+    &:hover {
+      outline: none;
+    }
+    &:focus {
+      outline: none;
+      border: 1px solid #969393;
+    }
+  }
+  textarea {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px !important;
+    opacity: 1;
+    margin-top: 20px;
+    width: 100%;
+    padding: 5px 10px;
+    &:hover {
+      outline: none;
+    }
+    &:focus {
+      outline: none;
+      border: 1px solid #969393;
+    }
+  }
+  .checkbox_area_for_mile_stone_bid {
+    margin-top: 10px;
+    @media (max-width: 768px) {
+      label {
+        display: inline;
+      }
+      input {
+        display: inline;
+      }
+    }
+    @media (min-width: 768px) {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    label {
+      margin: 0px 0px 0px 10px;
+      color: #4172b1;
+    }
+    input {
+      height: 16px;
+      width: 16px;
+      cursor: pointer;
+    }
+  }
+  .proposal_submit_area {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    @media(max-width:595px){ 
+      justify-content: center; 
+    }
+    button {
+      border: none;
+      background: #4172b1 0% 0% no-repeat padding-box;
+      border-radius: 4px;
+      opacity: 1;
+      outline: none;
+      width: 183px;
+      height: 40px;
+      color: white;
+      cursor: pointer;
+    }
+  }
+}
+.resume-add-confirmation-area {
+  h5 {
+    font-size: 16px;
+    max-width: 80ch;
+    color: #333;
+    font-weight: 400;
+  }
+  .resume-add-confirmation-box-selection {
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    .resume-add-confirmation-box-register {
+      border: 2px solid lightgray;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 20px;
+      margin: 20px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      &:hover {
+        background: linear-gradient(to right, transparent 50%, #f3f4f4 50%)
+          right;
+        background-size: 200%;
+        transition: 0.8s ease-out;
+        box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25),
+          0 4px 10px rgba(0, 0, 0, 0.22);
+      }
+      @media (max-width: 575px) {
+        min-width: 220px;
+        img {
+          width: 200px;
+          padding: 20px 10px 40px 10px;
+        }
+      }
+      @media (min-width: 575px) {
+        min-width: 330px;
+        img {
+          width: 290px;
+          padding: 20px 10px 40px 10px;
+        }
+      }
+
+      h6 {
+        font-weight: 500;
+        color: #669900 !important;
+        text-align: center;
+        font-size: 18px;
+      }
+    }
+    .resume-add-confirmation-box-skip {
+      border: 2px solid lightgray;
+      cursor: pointer;
+      padding: 10px;
+      margin: 20px;
+      border-radius: 20px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      &:hover {
+        background: linear-gradient(to right, transparent 50%, #f3f4f4 50%)
+          right;
+        background-size: 200%;
+        transition: 0.8s ease-out;
+        box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25),
+          0 4px 10px rgba(0, 0, 0, 0.22);
+      }
+      @media (max-width: 575px) {
+        min-width: 220px;
+        img {
+          width: 220px;
+        }
+      }
+      @media (min-width: 575px) {
+        min-width: 330px;
+        img {
+          width: 260px;
+        }
+      }
+
+      h6 {
+        font-weight: 500;
+        color: #669900 !important;
+        text-align: center;
+        font-size: 18px;
+        padding-top: 10px;
+      }
+    }
+  }
+}
+.create-freelancer-bottom-steps {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  @media (min-width: 575px) {
+    padding-right: 50px;
+  }
+  .create-freelancer-bottom-steps-back {
+    margin: 5px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: black;
+    height: 40px;
+    min-width: 110px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 500;
+  }
+  .create-freelancer-bottom-steps-skip {
+    margin: 5px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #4172b1;
+    height: 40px;
+    min-width: 110px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 500;
+  }
+}
+.confirmation-step-img-area {
+  img {
+    @media (min-width: 575px) {
+      width: 250px;
+    }
+    @media (max-width: 575px) {
+      width: 200px;
+    }
+  }
+  h3 {
+    font-weight: 500er;
+    color: #669900 !important;
+    text-align: center;
+    font-size: 22px !important;
+    padding-top: 10px;
+  }
+}
+
+.customer-image-animation {
+  -webkit-animation: bounce-top 2.9s both;
+  animation: bounce-top 2.9s both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2021-9-8 21:58:58
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/* ----------------------------------------------
+ * Generated by Animista on 2021-9-8 22:2:14
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation bounce-top
+ * ----------------------------------------
+ */
+@-webkit-keyframes bounce-top {
+  0% {
+    -webkit-transform: translateY(-45px);
+    transform: translateY(-45px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    -webkit-transform: translateY(-24px);
+    transform: translateY(-24px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  65% {
+    -webkit-transform: translateY(-12px);
+    transform: translateY(-12px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  82% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  93% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  25%,
+  55%,
+  75%,
+  87% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
+@keyframes bounce-top {
+  0% {
+    -webkit-transform: translateY(-45px);
+    transform: translateY(-45px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    -webkit-transform: translateY(-24px);
+    transform: translateY(-24px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  65% {
+    -webkit-transform: translateY(-12px);
+    transform: translateY(-12px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  82% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  93% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  25%,
+  55%,
+  75%,
+  87% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
+
+@media print {
+  #printable-area {
+    display: block !important;
+  }
+}
+
+.file-upload-button-resume{
+  background-color: #161c39;
+  color: white;
+  cursor: pointer;
+  padding: 2px 8px;
+  border-radius: 5px;
+  max-width: 100px !important;
+  margin-top: 10px;
+}
+
+//  skeleton loading classes
+.skeletonLoading_mobile {
+  display: none;
+  @media (max-width: 595px) {
+    display: block;
+  }
+}
+//

@@ -1,0 +1,43 @@
+.clientSetting_query {
+  .billingMethod_clientSetting {
+    @media (max-width: 595px) {
+      margin-left: 10px !important;
+      margin-right: 10px !important;
+      padding: 20px 10px 20px 10px;
+    }
+    @media (max-width: 335px) {
+        margin-left: 5px !important;
+        margin-right: 0 !important;
+        padding: 20px 10px 20px 7px;
+    }
+
+    h5 {
+      @media (max-width: 595px) {
+        margin-left: 10px;
+      }
+    }
+
+    p {
+      @media (max-width: 595px) {
+        margin-left: 10px;
+      }
+    }
+    a {
+      @media (max-width: 595px) {
+        margin-left: 10px;
+      }
+    }
+
+    .save_cancel {
+      .btn { 
+        @media (max-width: 395px) {
+            min-width: 120px; 
+        }
+        @media (max-width: 335px) {
+            min-width: 75px; 
+            font-size: 13px;
+        }
+      }
+    }
+  }
+}

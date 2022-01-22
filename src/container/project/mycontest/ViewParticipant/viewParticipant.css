@@ -1,0 +1,131 @@
+.animation-story {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 50px;
+  height: 27px;
+  z-index: 25;
+}
+.like-button {
+  align-items: center;
+  background: transparent;
+  position: absolute;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+}
+
+.like-button::before {
+  content: ".";
+  opacity: 0;
+  display: block;
+  width: 54px;
+  height: 10px;
+  position: absolute;
+  top: -10px;
+  left: -2px;
+}
+
+.like-button:not(:hover) .PokemonSelector_Idle {
+  -webkit-animation: slide-out 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  animation: slide-out 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  opacity: 0;
+}
+
+.like-button:hover .reaction-box {
+  pointer-events: auto;
+}
+
+.like-button:hover .reaction-box .PokemonSelector_Idle {
+  -webkit-animation: slide-in 0.5s ease-in-out;
+  animation: slide-in 0.5s ease-in-out;
+}
+
+.reaction-box {
+  position: absolute;
+  border-radius: 28px;
+  left: -25px;
+  bottom: 23px;
+  pointer-events: none;
+}
+
+.PokemonSelector_Idle {
+  margin-left: -40px;
+}
+
+.emoji-type {
+  width: 14px;
+}
+
+@-webkit-keyframes slide-in {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes slide-out {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    display: none;
+  }
+}
+
+@keyframes slide-out {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+  }
+}
+.reactionsDiv {
+  width: 14px;
+  margin-right: 10px;
+}
+@media screen and (max-width: 1280px) {
+  .animation-story {
+    width: 40px;
+    height: 24px;
+  }
+  .reactionsDiv {
+    width: 12px;
+    margin-right: 5px;
+  }
+  .animation-story .like-button {
+    font-size: 10px !important;
+  }
+}
+.check-box-dammy{
+  border-color: #474271;
+  border: 1px solid #474271;
+  height: 13px;
+  width: 13px;
+  cursor: pointer;
+  border-radius: 2px;
+  margin-left: 5px;
+}

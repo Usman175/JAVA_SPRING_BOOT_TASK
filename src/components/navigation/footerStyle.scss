@@ -1,0 +1,47 @@
+.footer_sec {
+  a {
+    @media(max-width: 900px) and (min-width: 700px){ // for ipad fold devices
+      font-size: 13px !important;
+    }
+    @media (max-width: 595px) {
+      font-size: 13px !important;
+      color: #fff;
+      padding: 0 2px !important;
+    }
+
+    @media (max-width: 325px) {
+      font-size: 12px !important; // for galaxy fold and smaller devices
+      color: #fff;
+      padding: 0 0px !important;
+    }
+
+    @media (max-width: 300px) {
+      font-size: 11px !important; // for galaxy fold and smaller devices
+      color: #fff;
+      padding: 0 0px !important;
+    }
+  }
+  .footerLinks_adjustMobile {
+    @media (max-width: 595px) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    @media(max-width: 900px) and (min-width: 700px){
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  .footerLinks_adjustMobileCol3{ 
+    @media(max-width: 900px) and (min-width: 700px){
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  .social_icon a {
+    @media (max-width: 595px) {
+      width: 28px !important;
+      margin: 0 10px 5px 0 !important;
+    }
+  }
+}

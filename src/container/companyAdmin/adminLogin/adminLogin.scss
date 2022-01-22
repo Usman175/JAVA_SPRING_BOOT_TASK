@@ -1,0 +1,50 @@
+.companyAdminPage {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .admin-login-block {
+    @media (max-width: 575px) {
+      max-width: 250px;
+    }
+    @media (min-width: 575px) {
+      width: 400px;
+    }
+    background-color: #161c39;
+    color: white;
+    padding: 40px;
+    .admin-login-block-form {
+      h3 {
+        color: white;
+        text-align: center;
+        font-size: 22px;
+        margin: 10px 0px 40px 0px;
+      }
+      input {
+        margin: 30px 0px;
+        background-color: white;
+        color: #161c39;
+        border: none;
+        outline: none;
+        display: block;
+        width: 100%;
+        padding: 7px 9px;
+        height: 40px;
+      }
+      button {
+        background-color: #50c10f;
+        color: white;
+        border: none;
+        outline: none;
+        height: 40px;
+        width: 180px;
+        cursor: pointer;
+        margin: 10px 0px 10px 0px;
+        text-align: center;
+      }
+      p {
+        cursor: pointer;
+      }
+    }
+  }
+}

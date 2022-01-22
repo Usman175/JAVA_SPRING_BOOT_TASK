@@ -1,0 +1,197 @@
+.project_propose_area {
+  .card_box_new { 
+    padding: 0px 15px 61px 0px;  
+}
+.project_propose_area_cardBox_colAlign{
+  padding-left: 10px;
+  padding-right: 10px;
+  @media(max-width:595px){ 
+    padding-right: 0;
+  }
+}
+  .input_proposal_area {
+    padding: 30px 0px 0px 0px;
+    input {
+      background: #ffffff 0% 0% no-repeat padding-box;
+      border: 1px solid #c5c5c5;
+      border-radius: 4px !important;
+      opacity: 1;
+      height: 46px;
+      width: 100%;
+      padding: 2px 10px;
+      &:hover {
+        outline: none;
+      }
+      &:focus {
+        outline: none;
+        border: 1px solid #969393;
+      }
+    }
+    textarea {
+      background: #ffffff 0% 0% no-repeat padding-box;
+      border: 1px solid #c5c5c5;
+      border-radius: 4px !important;
+      opacity: 1;
+      margin-top: 20px;
+      width: 100%;
+      padding: 5px 10px;
+      &:hover {
+        outline: none;
+      }
+      &:focus {
+        outline: none;
+        border: 1px solid #969393;
+      }
+    }
+    .attach-files-button-for-proposal{
+      border: 1px solid #c5c5c5;
+      margin-top: 28px;
+      height: 45px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      padding: 0px 10px;
+      cursor: pointer;
+    }
+    .uploaded-files-area-proposal{
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     flex-wrap: wrap;
+      .uploaded-files-area-proposal-item{
+       margin: 0px 20px 10px 0px;
+       color: gray;
+       i{
+         margin: 0px 5px;
+       }
+       .fa-close{
+         cursor: pointer;
+       }
+      }
+    }
+  }
+}
+
+.project-proposal-top-area {
+  padding: 50px 0px;
+  background-color: #161c39;
+  color: white;
+  h1 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  p {
+    margin-bottom: 3px;
+  }
+}
+.label-initial-general{
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  background-color: #FFD35C;
+  margin-right: 5px;
+  margin-bottom: -2px;
+}
+.label-initial-general-img{
+  display: inline-block;
+  img{
+width: 20px;
+margin-right: 5px;
+  }
+}
+.label-initial-general-img1{
+  display: inline-block;
+  img{
+width: 25px;
+margin-right: 5px;
+  }
+}
+.label-initial-general-days{
+  height: 11px;
+  width: 11px;
+  display: inline-block;
+  background-color: #499ab3;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
+
+/* #499ab3 */
+
+.selected-members{
+  h4{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  .row{
+    margin-bottom: 20px;
+  }
+
+.selected-member{
+ margin-bottom: 20px;
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ img{
+   width: 50px;
+   height: 50px;
+   object-fit: cover;
+   border-radius: 50%;
+ }
+ .selected-member-detail{
+   width: 70%;
+   margin-left: 15px;
+.selected-member-detail-top{
+ display: flex;
+ justify-content:space-between;
+ align-items: center;
+ font-size: 16px;
+ font-weight: 500;
+ span:first-child{
+   margin-right: 20px;
+ }
+}
+.selected-member-detail-available{
+ border: 1px solid #333;
+ color: #333;
+ background-color: white;
+ border-radius: 15px;
+ background-color: white;
+height: 24px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: 600;
+min-width: 100px;
+}
+ }
+}
+
+
+
+}
+
+.project_post{
+  .withdrawProposal_changeTerms_Mobile{
+    @media(max-width: 595px) and (min-width: 350px){ 
+      display:flex
+  }
+  @media(max-width: 335px){ 
+    text-align: center !important;
+    line-height: 3.5;
+  }
+
+    .btn {
+      @media(max-width: 595px) and (min-width: 350px){ 
+        font-size: 14px;
+      }
+      @media(max-width: 335px){ 
+      margin-right: 0 !important;
+      }
+    }
+}
+}

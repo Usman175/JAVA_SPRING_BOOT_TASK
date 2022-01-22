@@ -1,0 +1,450 @@
+.checkbox_area_for_mile_stone_bid {
+    padding: 5px 0px 0px 0px;
+    @media (max-width: 768px) {
+      label {
+        display: inline;
+      }
+      input {
+        display: inline;
+      }
+    }
+    @media (min-width: 768px) {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    label {
+      margin: 0px 0px 0px 10px;
+      color: #333333 !important;
+      font-weight: 500;
+      font-size: 14px !important;
+    }
+    input {
+      height: 16px;
+      width: 16px;
+      cursor: pointer;
+    }
+  }
+  .input_Milestone_offer_area_detail {
+    input {
+      background: #ffffff 0% 0% no-repeat padding-box;
+      border: 1px solid rgba(0, 0, 0, 0.15);
+      border-radius: 8px !important;
+      opacity: 1;
+      height: 44px;
+      width: 100%;
+      padding: 2px 10px;
+      @media (max-width: 768px) {
+        margin: 10px 0px;
+      }
+      &:hover {
+        outline: none;
+      }
+      &:focus {
+        outline: none;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+      }
+    }
+    input[type="number"]:disabled{
+      background-color: #C5C5C5;
+    }
+    input[type="text"]:disabled{
+      background-color: #C5C5C5;
+    }
+    input[type="date"]:disabled{
+      background-color: #C5C5C5;
+    }
+    input[type="date"] {
+      position: relative;
+      padding: 10px;
+    }
+    
+    // input[type="date"]::-webkit-calendar-picker-indicator {
+    //   color: transparent;
+    //   background: none;
+    //   z-index: 1;
+    //   cursor: pointer;
+    // }
+    
+    // input[type="date"]:before {
+    //   color: transparent;
+    //   background: none;
+    //   display: block;
+    //   content: '\f073';
+    //   width: 15px;
+    //   height: 20px;
+    //   position: absolute;
+    //   top: 12px;
+    //   cursor: pointer;
+    //   right: 6px;
+    //   color: #999;
+    // }
+  }
+  .customer-plus-addition-icon{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .address-related-selection-area{
+    label{
+      color: #333333 !important;
+      font-size: 14px;
+      cursor: pointer;
+      font-weight: 500 
+      !important;
+      margin-right: 30px;
+      input{
+        margin-right: 5px;
+      
+      }
+    }
+  }
+  .currency-custom-font-size{
+    font-size: 24px !important;
+color: #7f7f7f !important;
+  }
+  .custom-row-margin-post-project{
+    margin-top: 25px !important;
+  }
+  .custom-row-margin-post-project1{
+    margin-top: 10px !important;
+  }
+  .custom-checkbox-styled {
+    position: absolute; // take it out of document flow
+    opacity: 0; // hide it
+  margin-top: -10px;
+
+    & + label {
+      position: relative;
+      cursor: pointer;
+      padding: 0;
+      margin-left: 0px;
+    }
+
+    // Box.
+    & + label:before {
+      content: '';
+      margin-right: 10px;
+      display: inline-block;
+      vertical-align: text-top;
+      width: 20px;
+      height: 20px;
+      background: white;
+      border: 1px solid lightgray;
+      border-radius: 3px;
+      
+    }
+  
+    // Box hover
+    &:hover + label:before {
+      background: #0d2146;
+    }
+    
+    // Box focus
+    &:focus + label:before {
+      // box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+    }
+  
+    // Box checked
+    &:checked + label:before {
+      background: #0d2146;
+    }
+    
+    // Disabled state label.
+    &:disabled + label {
+      color: #b8b8b8;
+      cursor: auto;
+    }
+  
+    // Disabled box.
+    &:disabled + label:before {
+      box-shadow: none;
+      background: #ddd;
+    }
+  
+    // Checkmark. Could be replaced with an image
+    &:checked + label:after {
+      content: '';
+      position: absolute;
+      left: 5px;
+      top: 10px;
+      background: white;
+      width: 2px;
+      height: 2px;
+      border-radius: 3px;
+      box-shadow: 
+        2px 0 0 white,
+        4px 0 0 white,
+        4px -2px 0 white,
+        4px -4px 0 white,
+        4px -6px 0 white,
+        4px -8px 0 white;
+      transform: rotate(45deg);
+    }
+  }
+  .salary-note-for-office{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .submission-buttons{
+    margin-top: 40px;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center;
+    .back-button{
+      width: 35px;
+      height: 35px;
+      background-color: #F2F2F2;
+      color: black;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      i{
+        font-size:30px;
+        margin-left: -3px;
+      }
+    }
+    button{
+      background: #0d2146 !important;
+      img{
+        width: 20px;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  // overall applying form post project
+  .milestone_form{
+    .HourlyRate_changeProjectPost_mobTab{
+      align-items: flex-end; 
+      @media(max-width:900px) and (min-width:700px){  /* for tab and surface duo tabs */
+        align-items: flex-end; 
+      }
+    }
+    .preferredFreelancer_alignItem{
+      align-items: center;
+      @media(max-width:900px) and (min-width:700px){  /* for tab and surface duo tabs */
+        align-items: flex-end; 
+      }
+    }
+
+    .currency-custom-font-size { 
+      @media(max-width:535px){
+        font-size: 20px !important;
+        padding: 0.5rem 0;
+      }
+    }
+
+    .customer-plus-addition-icon {
+      @media(max-width:535px){
+        justify-content: center;
+      } 
+    }
+
+    .WeeklyHour_converterHr_mobtab{
+      padding: 0 0.5rem;
+      @media(max-width:900px) and (min-width:700px){  /* for tab and surface duo tabs */
+        padding: 0 0.2rem;
+      }
+    }
+
+    .currencySelectionMobile{
+      @media(max-width:700px){  /* for tab and surface duo tabs */
+        flex-direction: column;
+        margin: 10px 0;
+      }
+    }
+    .currencyDropDownWidth_Mobile{
+      @media(max-width:600px){
+        min-width: 230px !important;
+      }
+      @media(max-width:335px){
+        min-width: 173px !important;
+      }
+    }
+    .currencyDropDownMobile{
+      align-items: center;
+        display: flex;
+      @media(max-width:700px){   
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 10px;
+      }
+    }
+
+    .UnitHireControlMob{
+      @media(max-width:335px){
+        width: 100px !important;
+      }
+    }
+  }
+
+  .screeningQuestion_align{
+    align-items: baseline;
+  } 
+
+  // hourly form post project
+  .hourly_form{
+    .selectCurrency_projectHourly{
+      width: 170px;
+      @media(max-width:620px) and (min-width:500px){  /* for tab */
+        margin-right: 1rem;
+      }
+    }
+    .WeeklyHour_converterHr_mobtab{
+      padding: 0 0.5rem;
+      @media(max-width:900px) and (min-width:700px){  /* for tab */
+        padding: 0 0.2rem;
+      }
+      @media(max-width:330px){  /* for small devices */
+        padding: 0 0 0 0.4rem;
+      }
+    }
+    .currecyList_hourlyProjet{
+      @media(max-width:595px) { 
+        flex-wrap: wrap;
+      }
+    }
+    .secondForm_currencyHourly{
+      margin-left: 15px;
+      @media(max-width:595px) { 
+        margin-left: 0;
+        margin: 10px 0;
+        margin-top: 10px !important;
+      }
+    }
+    .nav-tabs .nav-item {
+      @media(max-width:595px) { 
+        margin: 10px 0 !important;
+      }
+    }
+
+    .hourlyInput_hourlyProject{
+      min-width: 180px;
+      @media(max-width:335px) { 
+        min-width: 170px;
+      }
+    }
+
+    .tab_menu {
+      @media(max-width:335px) { 
+        flex-direction: column;
+      }
+  }
+
+  }
+
+  // milestone original form post project
+  .milestone_form_Org{
+
+      .text-danger { 
+        @media (max-width: 900px) and (min-width:700px) {
+          padding: 1.5px 0; 
+        } 
+      }
+      .text-dangerPayByPoint{
+        @media (max-width: 900px) and (min-width:700px) {
+          padding: 5px 0 !important; 
+        } 
+      }
+      .projectBudgetMob{
+        @media(max-width:595px) { 
+          flex-direction: column;
+        }
+      }
+      .projectBudgetMobCol2{
+        @media(max-width:595px) { 
+          margin-top: 10px !important;
+          padding-left: 0;
+          padding-right: 0;
+        }
+      }
+
+      .nav-tabs .nav-item {
+        @media(max-width:595px) { 
+          margin: 10px 0 !important;
+        }
+      } 
+  
+      .tab_menu {
+        @media(max-width:335px) { 
+          flex-direction: column;
+        }
+      }
+
+      .hourly_limit{ 
+        h4 { 
+          @media(max-width:535px) { 
+            padding-bottom: 11px !important;
+          }
+        }
+      }
+  }
+
+
+  // office work form post project
+  .officeWork_form{
+    .salaryTypeOffice_colRadio_Mob{
+      @media(max-width:535px) { 
+        justify-content: space-between;
+        width: 100%;
+      }
+      @media(max-width:335px) { 
+        justify-content: space-between;
+        width: 95%;
+        align-items: flex-start !important;
+      }
+    }
+
+    .salaryInstructionText_col{
+      display: inline;
+      margin-left: -20px;
+      @media(max-width:535px) { 
+        margin-left: -10px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 8px;
+      }
+      @media(max-width:335px) { 
+        margin-left: -7px; 
+        margin-bottom: 8px;
+        font-size: 13px;
+      }
+    }
+
+    .positionAvailable_formOfficeMob{
+      @media(max-width:535px) { 
+        justify-content: space-between;
+        width: 101.5%;
+        align-items: center;
+      }
+      @media(max-width:335px) {  
+        width: 108%;
+        align-items: center;
+      }
+    }
+
+    .custom-checkbox{
+      @media(max-width:335px) {  
+        min-width: 90px !important;
+        padding-left: 0.7rem;
+      }
+    }
+  }
+
+  .MuiPickersToolbar-toolbar{
+    background-color: #43a047 !important;
+  }
+  .MuiPickersDay-daySelected{
+    background-color: #43a047 !important;
+  }
+  .customer-date-picker{
+    margin-top: -15px;
+  }
+//   .MuiButton-textPrimary {
+//     color: #43a047;
+// }

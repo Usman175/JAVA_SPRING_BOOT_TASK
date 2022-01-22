@@ -1,0 +1,18 @@
+.skeleton-card-title{ 
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skeletonInvitation_Card{
+    min-height: 200px;
+    max-height: 200px;
+    padding: 5px 25px 10px 15px !important;
+    @media(max-width:595px){
+        display: none;
+    }
+} 
+
+.button_section_invitationLoading{
+    height: 145px;
+    align-items: flex-end;
+}

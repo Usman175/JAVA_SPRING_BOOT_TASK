@@ -1,0 +1,104 @@
+.jungle-modal-content {
+  @media (min-width: 800px) {
+    min-width: 750px !important;
+    max-width: 750px !important;
+  } 
+  @media (max-width: 800px) and (min-width: 595px) {
+    min-width: 650px;
+    max-width: 650px;
+  }
+  @media (max-width: 595px) {
+    min-width: 390px;
+    max-width: 390px;
+  }
+
+  @media (max-width: 395px) {
+    min-width: 340px;
+    max-width: 365px;
+  }
+  @media (max-width: 375px) {
+    min-width: 340px;
+    max-width: 340px;
+  }
+  @media (max-width: 335px) {
+    min-width: 310px;
+    max-width: 310px;
+    padding: 0 20px;
+  }
+  @media (max-width: 305px) {
+    min-width: 270px;
+    max-width: 270px;
+    padding: 0 15px;
+  }
+
+  .custom-close {
+    @media (max-width: 595px) {
+      font-size: 35px;
+      line-height: 40px;
+      width: 45px;
+      height: 45px;
+    }
+  }
+  .custom-position {
+    @media (max-width: 595px) {
+      right: -10px !important;
+      top: -27px !important;
+      color: #fff !important;
+      font-weight: 700 !important;
+    }
+  }
+
+  .fontAdjustMobile_ModalHeader {
+    @media (max-width: 595px) {
+      font-size: 1rem !important;
+    }
+  }
+}
+
+.paddingMobileNda-Text {
+  @media (max-width: 595px) {
+    padding: 1.5rem 0 !important;
+  }
+}
+.NdaModal_MobileTab {
+  @media (max-width: 800px) {
+    text-align: left !important;
+    font-size: 1.6rem;
+  }
+  @media (max-width: 590px) {
+    text-align: left !important;
+    font-size: 1.4rem;
+  }
+  @media (max-width: 390px) {
+    text-align: left !important;
+    font-size: 1.2rem;
+  }
+}
+
+.iTExpertModalContent_leftMobile {
+  padding: 1.5rem 1rem !important;
+  .iTExpertModalContent_leftMobile_heading {
+    @media (max-width: 595px) {
+      text-align: left !important;
+    }
+  }
+  .save_cancel {
+    @media (max-width: 595px) {
+      justify-content: left !important;
+    }
+  }
+}
+
+//  AddManualTime_Mobile queries for responsive
+.AddManualTime_btnMobile {
+  @media (max-width: 595px) {
+    justify-content: left !important;
+  }
+}
+.AddManualTime_formLabelMobile {
+  label {
+    @media (max-width: 595px) {
+      padding-left: 1.5px;
+    }
+  }
+}

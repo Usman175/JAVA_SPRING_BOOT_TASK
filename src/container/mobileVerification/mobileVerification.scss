@@ -1,0 +1,210 @@
+#Mobile-Verification {
+    min-height: calc(100vh - 64px);
+    .bg-img {
+      background: url("https://dxnqsgisijbjj.cloudfront.net/simportal/img/finances.png") no-repeat center/cover;
+      height: 450px;
+    }
+    .mob-verification {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .MuiOutlinedInput-input{
+        padding: 10px 14px !important;
+    }
+    .btnWrap {
+      text-align: right;
+  
+      .btn-black {
+        border-radius: 4px;
+        background: #060606;
+        color: #ffffff;
+        font-size: 14px;
+        height: 40px;
+        min-width: 80px;
+        border: none;
+        text-transform: capitalize;
+        &:hover {
+          color: #ffffff;
+          cursor: pointer;
+        }
+        &:disabled {
+          color: #646464;
+          pointer-events: none;
+        }
+      }
+      .btn-outline-black {
+        background: #fff;
+        color: #0c0b0b;
+        border: 1px solid #707070;
+        margin-right: 10px;
+        &:hover {
+          background: #060606;
+        }
+      }
+    }
+    .title-info-view {
+      img {
+        width: 230px;
+        margin-bottom: 10px;
+      }
+    }
+    .mob-header {
+      font-size: 24px;
+      font-weight: bold;
+      color: #040404;
+      margin: 0 0 15px;
+    }
+    .verify-btn {
+      min-width: 165px;
+      color: #fff;
+      margin-left: 15px;
+      background: #000000;
+      height: 40px;
+    }
+    #InfoBox {
+      border-radius: 0px;
+      border: 0px;
+  
+      .text-main {
+        padding: 10px;
+        display: flex;
+        align-items: left;
+        flex-direction: initial;
+        justify-content: left;
+  
+        img {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          overflow: hidden;
+          object-fit: contain;
+          margin-right: 10px;
+          //width: 130px;
+        }
+  
+        .box-info {
+          display: flex;
+          flex-direction: column;
+  
+          // font-size: 14px;
+          // color: black;
+          h6 {
+            display: flex;
+            margin-bottom: 0px;
+          }
+        }
+      }
+    }
+  
+    .left-gride {
+      background-color: #09272b;
+      padding: 20px;
+      color: #ffffff;
+      min-height: 490px;
+      border-radius: 10px 0px 0px 10px;
+  
+      div {
+        height: 85%;
+        position: relative;
+        width: 80%;
+        margin-left: 60px;
+  
+        img {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 85%;
+        }
+      }
+    }
+  
+    .right-gride {
+      border: 1px solid #eeeeee;
+      border-radius: 5px;
+      .content-container {
+        padding: 10px;
+        img {
+          width: 40%;
+        }
+      }
+      .varification-details {
+        .small-input-box {
+          border-radius: 0px;
+          margin-bottom: 15px;
+          font-size: 14px;
+          height: 40px ;
+          &.MuiInputBase-root {
+            height: 40px;
+          }
+  
+          .MuiInputBase-input {
+            border-radius: 0px;
+            min-height: 20px;
+          }
+        }
+  
+        .mobile-text-box {
+          margin-bottom: 0px !important;
+          border-radius: 0px !important;
+        }
+        .verify-mobile-button {
+          text-align: center;
+          padding-left: 10px;
+          .button-style {
+            height: 100%;
+            width: 100%;
+            background-color: #163653;
+            color: #ffffff;
+            border: 1px solid #797979;
+            border-radius: 0px;
+            font-weight: 100;
+          }
+        }
+      }
+      .button-container {
+        text-align: center;
+        padding: 10px;
+  
+        .back-button {
+          width: 100%;
+          border: 1px solid #797979;
+          border-radius: 0px;
+        }
+  
+        .next-button {
+          width: 100%;
+          background-color: #163653;
+          color: #ffffff;
+          border: 1px solid #797979;
+          border-radius: 0px;
+          font-weight: 100;
+        }
+      }
+    }
+  
+    .varification-input-box {
+      width: 45px;
+      height: 45px;
+      font-size: 30px;
+      text-align: center;
+      border: 1px solid #a09c9c;
+      border-radius: 5px;
+      margin-right: 10px;
+      &:focus {
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+      }
+    }
+    .varification-input {
+      margin-bottom: 25px;
+      .help-text {
+        margin-bottom: 15px;
+        font-size: 12px;
+        color: #c6638c;
+      }
+      .captcha-wrap {
+        margin:10px 0
+      }
+    }
+  }
+  

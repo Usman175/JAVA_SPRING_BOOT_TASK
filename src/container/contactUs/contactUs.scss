@@ -1,0 +1,43 @@
+.error {
+  border-color: red !important;
+  color: #495057 !important;
+}
+
+.contactUs_tableForm_mobile {
+  tbody {
+    th {
+      @media (max-width: 595px) {
+        position: absolute !important;
+        min-height: 40px;
+        height: 50px;
+        width: 84%;
+        z-index: 1000 !important;
+        padding-left: 10px !important;
+      }
+      @media (max-width: 335px) {
+        position: absolute !important;
+        min-height: 30px;
+        height: 45px;
+        width: 80%;
+        z-index: 1000 !important;
+        padding: 12px 0 15px 12px !important;
+      }
+    }
+    td {
+      @media (max-width: 595px) {
+        padding: 55px 0 15px 10px !important;
+        vertical-align: middle;
+      }
+    }
+    .receive_thisEmail_mobile{
+        @media (max-width: 595px) {
+            font-size: 12px !important;
+        }    
+    } 
+    .wrapper-input.active .dropdown {
+        @media (max-width: 595px) {
+            z-index: 2000 !important;
+        }
+      }
+  }
+}

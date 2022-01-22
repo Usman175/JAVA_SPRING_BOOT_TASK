@@ -1,0 +1,72 @@
+[
+	{
+		"id": "1",
+		"title": "Basic",
+		"price": "Free",
+		"condition": false,
+		"animate": "fade-right",
+		"features": [
+			"Unlimited Contract",
+			"Free up to 19 proposes",
+			"Single user",
+			"Free up to 20 hours after that 15%/hour up to 5,000/hour 12%/hour",
+			"Officework/Daily Work 15%/day up to 120 days 12%",
+			"13% per milestone"
+		]
+	},
+	{
+		"id": "2",
+		"title": "Standard",
+		"price": "$19.00",
+		"condition": true,
+		"animate": "fade-up",
+		"features": [
+			"Unlimited Contract",
+			"Unlimited Propose",
+			"Free up to 6 users + $10.00 per user",
+			"Free up to 29 hours per user after that 11%/hour up to 5,000/hour 9%/hour",
+			"Officework/Daily Work 11%/day up to 100 days 9%",
+			"10% per milestone",
+			"Link up with Syncbench project management tool 20% discount",
+			"Free 1 group account + extra $29 per group You can manage a team base propose and all records will be based on the group"
+		]
+	},
+	{
+		"id": "3",
+		"title": "Premium",
+		"price": "$59.00",
+		"condition": true,
+		"animate": "fade-up",
+		"features": [
+			"Unlimited Contract",
+			"Unlimited Propose",
+			"Free up to 11 users + $10.00 per user",
+			"Free up to 39 hours per user after that 9%/hour up to 3,000/hour 8%/hour",
+			"Officework/Daily Work 9%/day up to 90 days 8%",
+			"9% per milestone",
+			"Priority Invitation",
+			"Dedicated Support Team",
+			"Link up with Syncbench project management tool 30% discount",
+			"Free 3 group accounts + $39 per group, You can manage a team base propose and all records will be based on the group"
+		]
+	},
+	{
+		"id": "4",
+		"title": "Enterprise",
+		"price": "$199.00",
+		"condition": false,
+		"animate": "fade-left",
+		"features": [
+			"Unlimited Contract",
+			"Unlimited Propose",
+			"Up to 20 users + $10.00 per user",
+			"Free up to 49 hours per user after that 7%/hour up to 5,000/hour 6%/hour",
+			"Officework/Daily Work 8%/day up to 90 days 7%",
+			"8% per milestone",
+			"Priority Invitation",
+			"Dedicated Support Team",
+			"Link up with Syncbench project management tool 50% discount",
+			"Free 5 group accounts + $99 per group, You can manage a team base propose and all records will be based on the group"
+		]
+	}
+]

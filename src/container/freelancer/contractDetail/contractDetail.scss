@@ -1,0 +1,40 @@
+.contract-detail-client-area{
+    min-height: 100vh;
+    .pagination{
+      @media(max-width:595px){
+        flex-wrap: wrap !important;
+      }
+    }
+    .contract-profile-detail-period {
+        .profile-detail {
+          margin-top: 55px;
+          display: flex;
+          justify-content: flex-start;
+          img {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            border-radius: 50%;
+          }
+          .profile-detail-content {
+            margin-left: 10px;
+            h4 {
+              font-size: 16px;
+              color: #333;
+              font-weight: 500;
+              border: none;
+              margin-bottom: 0px;
+              text-transform: capitalize;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              overflow: hidden;
+              width: 100%;
+            }
+            p {
+              font-size: 14px;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+}

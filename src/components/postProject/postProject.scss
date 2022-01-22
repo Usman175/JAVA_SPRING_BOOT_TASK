@@ -1,0 +1,136 @@
+.step-heading-main {
+  min-width: 100%;
+  @media(max-width:855px) and (min-width:535px){
+    flex-wrap: wrap !important; 
+  }
+  @media(max-width:505px){ 
+    align-items: center !important;
+  }
+  .step-prefix-label {
+    width: 50px;
+    height: 45px;
+    color: #333333;
+    background-color: #ffd35c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    @media(max-width: 395px){
+      width: 40px;
+      height: 35px;
+      font-size:26px;
+    }
+    @media(max-width: 335px){
+      width: 35px;
+      height: 30px;
+      font-size:22px;
+    }
+  }
+  .step-heading-adjustment {
+    line-height: 45px !important;
+    @media(max-width: 300px){
+      line-height: 25px !important;
+    }
+  }
+  .step-divider-adjustment {
+    padding-top: 0px !important;
+  }
+  .step-heading-shadow {
+    height: 11px;
+    width: 107%;
+    display: block;
+    margin-top: -16px;
+    margin-left: -5px;
+    background-color: #edf1e5;
+  }
+}
+.valid-label-prefix-box {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #ffd35c;
+  margin-right: 10px;
+  margin-bottom: -2px;
+}
+.label_icon{
+  width: 20px;
+  margin-right: 10px;
+  margin-bottom: 3px;
+  @media(max-width:900px) and (min-width:700px){  /* for tab and surface duo tabs */
+    margin-right: 7px; 
+  }
+}
+.in-valid-label-prefix-box {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #a30014;
+  margin-right: 10px;
+  margin-bottom: -2px;
+}
+.help_box {
+  padding: 0px 10px;
+  @media(max-width: 335px){
+    padding: 0px 0 !important;
+  }
+  h6 {
+    color: #669900;
+    font-weight: 600;
+    font-size: 16px;
+    .step-heading-shadow {
+      height: 11px;
+      width: 40%;
+      display: block;
+      margin-top: -5px;
+      margin-left: -2px;
+      background-color: #edf1e5;
+    }
+  }
+}
+.tips-post-project-area {
+  padding: 0px 10px;
+  @media(max-width: 595px){
+    padding: 10px 0;
+  }
+  h6 {
+    color: #669900;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  img {
+    width: 60%;
+    margin-left: 10%;
+  }
+  .step-heading-shadow {
+    height: 11px;
+    width: 51%;
+    display: block;
+    margin-top: -5px;
+    margin-left: -2px;
+    background-color: #edf1e5;
+  }
+}
+.map_div {
+  margin: 10px 0;
+  label {
+    color: #669900;
+    font-weight: 600;
+    font-size: 16px;
+  }
+}
+.customer-primary-label {
+  color: #669900 ;
+}
+
+.jungle-modal-content {
+  .custom-close{
+    color: white;
+    font-weight: 500 !important;
+  }
+}
+
+.file-attachment-item-link{
+  cursor: pointer;
+  color: #333333 !important;
+}

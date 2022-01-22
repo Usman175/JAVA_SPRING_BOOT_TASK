@@ -1,0 +1,722 @@
+.hire-container {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  margin-top: 20px;
+  .hire-heading {
+    display: flex;
+    border-bottom: 2px solid #00000020;
+    padding: 7px 0;
+    .hire-heading-img {
+      width: 35px;
+      margin-left: 0px;
+      margin-right: 20px;
+    }
+    .hire-heading-text {
+      font: normal normal normal 22px/28px Roboto;
+      letter-spacing: 0px;
+      color: #2b2a2a;
+    }
+  }
+  .hire-company-info-module {
+    margin: 15px 0;
+    display: flex;
+    .hire-company-info {
+      width: 70%;
+      display: flex;
+      justify-content: space-evenly;
+      .hire-company-info-img {
+        // width:30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .company_image {
+          width: 100px;
+          height: 100px;
+          border-radius: 10px;
+        }
+        span {
+          font-size: 13px;
+          margin: 8px 0;
+          font-weight: 500;
+        }
+      }
+      .hire-company-info-all-about {
+        width: 70%;
+        .hire-company-info-name {
+          font-size: 22px;
+          font-weight: 500;
+          color: #749e15;
+        }
+        .hire-company-info-payable {
+          display: flex;
+          flex-wrap: wrap;
+          font-weight: 500;
+          span {
+            padding: 5px 0px;
+            font-size: 14px;
+            margin-right: 10px;
+          }
+        }
+        .hire-company-info-details {
+          font-size: 12px;
+        }
+      }
+    }
+    .hire-company-about {
+      width: 30%;
+      border-left: 2px solid #00000020;
+      padding: 0 20px;
+      .hire-company-about-companyid {
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 10px;
+        color: #749e15;
+      }
+      .hire-company-about-button {
+        padding: 0px 12px;
+        margin: 7px 0;
+        border-radius: calc(0.5 * 40px);
+        font-size: 10px;
+        font-size: 600;
+        border: 2px solid #a7a7a7;
+        color: #749e15;
+        background-color: white;
+      }
+      .hire-company-about-area {
+        font-size: 12px;
+        display: flex;
+        font-weight: 500;
+        flex-direction: column;
+      }
+      .hire-company-about-bar {
+        font-size: 9px;
+      }
+    }
+  }
+  .workDescription {
+    .hire-company-terms-heading {
+      display: flex;
+      border-bottom: 2px solid #00000020;
+      padding: 7px 0;
+      img {
+        width: 35px;
+        margin-left: -3px;
+        margin-right: 20px;
+        margin-top: -5px;
+      }
+      .hire-terms-text {
+        font: normal normal normal 22px/28px Roboto;
+        letter-spacing: 0px;
+        color: #2b2a2a;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 0px;
+      }
+    }
+    .detail-area {
+      padding: 10px 0px;
+      p {
+        margin-bottom: 4px;
+        b {
+          display: inline-block;
+          margin-bottom: -6px;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          width: 70% !important;
+          font-weight: 500;
+        }
+        img {
+          width: 20px;
+          margin-left: 15px;
+          background: #f2f2f2 0% 0% no-repeat padding-box;
+          border-radius: 7px;
+          width: 32px;
+          padding: 6px;
+          cursor: pointer;
+        }
+        input {
+          border: 2px dotted white;
+          outline: none;
+          border-radius: 5px;
+          margin-top: 10px;
+          width: 70% !important;
+          font-weight: 500;
+          padding: 2px 5px;
+        }
+        textarea {
+          border: 2px dotted white;
+          outline: none;
+          border-radius: 5px;
+          margin-top: 10px;
+          width: 70% !important;
+          font-weight: 500;
+          padding: 2px 5px;
+        }
+        textarea.active {
+          border: 2px dotted black;
+          width: 70% !important;
+        }
+        input.custom-width {
+          width: 70% !important;
+        }
+        input.custom-width1 {
+          width: 70% !important;
+        }
+        input.active {
+          border: 2px dotted black;
+          width: 70% !important;
+        }
+        input.active.custom-width {
+          width: 70% !important;
+        }
+        input.active.custom-width1 {
+          width: 70% !important;
+        }
+      }
+    }
+  }
+  .proposedTerms {
+    .hire-company-terms-heading {
+      display: flex;
+      border-bottom: 2px solid #00000020;
+      padding: 7px 0;
+      img {
+        width: 30px;
+        margin-left: 0px;
+        margin-right: 20px;
+        margin-top: -5px;
+      }
+      .hire-terms-text {
+        font: normal normal normal 22px/28px Roboto;
+        letter-spacing: 0px;
+        color: #2b2a2a;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 0px;
+      }
+    }
+    .detail-area {
+      padding: 10px 0px;
+      p {
+        margin-bottom: 4px;
+        b {
+          display: inline-block;
+          margin-bottom: -6px;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          width: 70% !important;
+          font-weight: 500;
+        }
+        img {
+          width: 20px;
+          margin-left: 15px;
+          background: #f2f2f2 0% 0% no-repeat padding-box;
+          border-radius: 7px;
+          width: 32px;
+          padding: 6px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .hire-company-terms {
+    .hire-company-terms-heading {
+      display: flex;
+      border-bottom: 2px solid #00000020;
+      padding: 7px 0;
+      img {
+        width: 33px;
+
+        margin-left: 0px;
+        margin-right: 20px;
+        margin-top: -5px;
+      }
+      .hire-terms-text {
+        font: normal normal normal 22px/28px Roboto;
+        letter-spacing: 0px;
+        color: #2b2a2a;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 0px;
+      }
+    }
+  }
+  .hire-terms-about {
+    padding: 10px 0px;
+    .hire-terms-about-sec1 {
+      padding: 10px 0px 20px 0px;
+      span {
+        font-size: 16px;
+        padding-right: 30px;
+        font-weight: 500;
+      }
+    }
+    .hire-terms-about-sec2 {
+      padding: 10px 0px;
+      .project-terms-item {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+
+        .project-terms-item-left {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          padding-right: 20px;
+          color: #828282;
+          img {
+            width: 25px;
+            margin-right: 15px;
+          }
+        }
+        .project-terms-item-right {
+          font-weight: 550;
+          img {
+            width: 20px;
+            margin-left: 15px;
+            background: #f2f2f2 0% 0% no-repeat padding-box;
+            border-radius: 7px;
+            width: 32px;
+            padding: 6px;
+            cursor: pointer;
+          }
+          input {
+            border: 2px dotted white;
+            outline: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            max-width: 100px;
+          }
+          input.custom-width {
+            max-width: 20px;
+          }
+          input.custom-width1 {
+            max-width: 35px;
+          }
+          input.active {
+            border: 2px dotted black;
+            max-width: 100px;
+          }
+          input.active.custom-width {
+            max-width: 40px;
+          }
+          input.active.custom-width1 {
+            max-width: 30px;
+          }
+        }
+      }
+      .checkbox-allow-area {
+        margin: 20px 0px;
+        margin-left: -5px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        div {
+          margin-right: 20px;
+        }
+      }
+    }
+    .add-freelancer-button {
+      button {
+        border: none;
+        outline: none;
+        background-color: #66a05c;
+        cursor: pointer;
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        color: white;
+        height: 30px;
+        border-radius: 15px;
+        align-items: center;
+      }
+    }
+
+    .freelancer-users-area {
+      padding: 30px 0px;
+
+      .freelancer-user-item {
+        border-bottom: 1px solid lightgray;
+        padding: 20px 0px 5px 0px;
+        position: relative;
+        .freelancer-user-item-top {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          .freelancer-user-item-profile {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            img {
+              width: 45px;
+              border-radius: 50%;
+            }
+            .profile-detail {
+              margin-left: 20px;
+              p {
+                margin-bottom: 0px;
+                font-size: 16px;
+              }
+              i {
+                color: #0d2146;
+              }
+            }
+          }
+          .freelancer-user-item-role {
+            margin-left: 50px;
+            font-size: 15px;
+            img {
+              width: 20px;
+              margin-left: 15px;
+              background: #f2f2f2 0% 0% no-repeat padding-box;
+              border-radius: 7px;
+              width: 32px;
+              padding: 6px;
+              cursor: pointer;
+            }
+            input {
+              border: 2px dotted white;
+              outline: none;
+              border-radius: 5px;
+              margin-top: 10px;
+              max-width: 100px;
+            }
+            input.custom-width {
+              max-width: 20px;
+            }
+            input.custom-width1 {
+              max-width: 13px;
+            }
+            input.active {
+              border: 2px dotted black;
+              max-width: 100px;
+            }
+            input.active.custom-width {
+              max-width: 100px;
+            }
+            input.active.custom-width1 {
+              max-width: 100px;
+            }
+          }
+        }
+        .freelancer-profile-rate {
+          padding-top: 20px;
+          .project-terms-item {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+            .project-terms-item-left {
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              padding-right: 2px;
+              color: #828282;
+              img {
+                width: 25px;
+                margin-right: 10px;
+              }
+            }
+            .project-terms-item-right {
+              font-weight: 550;
+              img {
+                width: 20px;
+                margin-left: 15px;
+                background: #f2f2f2 0% 0% no-repeat padding-box;
+                border-radius: 7px;
+                width: 32px;
+                padding: 6px;
+                cursor: pointer;
+              }
+              input {
+                border: 2px dotted white;
+                outline: none;
+                border-radius: 5px;
+                margin-top: 5px;
+                max-width: 50px;
+              }
+              input.custom-width {
+                max-width: 20px;
+              }
+              input.custom-width1 {
+                max-width: 13px;
+              }
+              input.active {
+                border: 2px dotted black;
+                max-width: 100px;
+              }
+              input.active.custom-width {
+                max-width: 40px;
+              }
+              input.active.custom-width1 {
+                max-width: 30px;
+              }
+            }
+          }
+        }
+        .select-freelancer-area {
+          position: absolute;
+          top: 10px;
+          right: 0px;
+        }
+      }
+    }
+    .term-conditions {
+      padding-top: 10px;
+    }
+    .process-button {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      button {
+        border: none;
+        outline: none;
+        background-color: #0d2146;
+        color: white;
+        height: 45px;
+        width: 170px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 30px 0px 0px 0px;
+      }
+    }
+  }
+
+.hire-contract-note-area{
+
+  textarea{
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 7px;
+    outline: none;
+  }
+  margin-bottom: 20px;
+}
+}
+
+.custom-checkbox-styled {
+  position: absolute; // take it out of document flow
+  opacity: 0; // hide it
+  margin-top: -10px;
+  & + label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+    font-size: 16px;
+  }
+
+  & + label:before {
+    content: "";
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+  }
+
+  &:hover + label:before {
+    background: #0d2146;
+  }
+
+  &:focus + label:before {
+  }
+
+  &:checked + label:before {
+    background: #0d2146;
+  }
+
+  &:disabled + label {
+    color: #b8b8b8;
+    cursor: auto;
+  }
+
+  &:disabled + label:before {
+    box-shadow: none;
+    background: #ddd;
+  }
+
+  &:checked + label:after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 11px;
+    background: white;
+    width: 2px;
+    height: 2px;
+    border-radius: 3px;
+    box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white,
+      4px -6px 0 white, 4px -8px 0 white;
+    transform: rotate(45deg);
+  }
+}
+.jungle-modal-content {
+  .modal-body {
+    padding-bottom: 0px;
+  }
+  width: auto;
+
+  @media (max-width: 768px) {
+    min-width: auto;
+  }
+  @media (min-width: 768px) {
+    min-width: 750px;
+    max-width: 750px;
+  }
+  .invite-button-area {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    button {
+      outline: none;
+      border: none;
+      background-color: #0d2146;
+      color: white;
+      min-width: 120px;
+      text-align: center;
+      padding: 7px 20px;
+      border-radius: 2px;
+      cursor: pointer;
+    }
+  }
+}
+.customer-invitation-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    color: #000000;
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+  img {
+    width: 30px;
+  }
+}
+.other-freelancers-area {
+  min-height: 60vh;
+
+  .other-freelancer-area-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    .freelancer-user-item-profile {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 21%;
+      img {
+        width: 45px;
+        border-radius: 50%;
+      }
+      .profile-detail {
+        margin-left: 20px;
+        p {
+          margin-bottom: 0px;
+          font-size: 16px;
+        }
+        i {
+          color: #0d2146;
+        }
+      }
+    }
+    .other-freelancer-area-item-middle {
+      font-size: 14px;
+      font-weight: 550;
+      width: 59%;
+      text-align: center;
+    }
+    .add-button {
+      width: 20%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      button {
+        background-color: #0d2146;
+        color: white;
+        width: 80px;
+        height: 35px;
+        border-radius: 5px;
+        cursor: pointer;
+        outline: none;
+        border: none;
+      }
+    }
+  }
+}
+.weekly-days-selection {
+  display: flex;
+  align-items: center;
+  margin-left: 5px !important;
+  justify-content: flex-start;
+  span {
+    margin-right: 10px;
+    input {
+      margin-left: 5px;
+    }
+  }
+}
+
+
+.input_proposal_area_detail {
+  input {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 8px !important;
+    opacity: 1;
+    height: 44px;
+    width: 100%;
+    padding: 2px 10px;
+    @media (max-width: 768px) {
+      margin: 10px 0px;
+    }
+    &:hover {
+      outline: none;
+    }
+    &:focus {
+      outline: none;
+      border: 1px solid rgba(0, 0, 0, 0.15);
+    }
+  }
+  input[type="number"]:disabled {
+    background-color: #c5c5c5;
+  }
+  input[type="text"]:disabled {
+    background-color: #c5c5c5;
+  }
+  input[type="date"]:disabled {
+    background-color: #c5c5c5;
+  }
+  input[type="date"] {
+    position: relative;
+    padding: 10px;
+  }
+
+
+}
+.customer-plus-addition-icon{
+  i{
+    margin-top: 15px !important;
+    cursor: pointer;
+  }
+}

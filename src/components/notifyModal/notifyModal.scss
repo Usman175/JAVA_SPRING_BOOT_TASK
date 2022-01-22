@@ -1,0 +1,85 @@
+.invitation_modal {
+  margin-bottom: 20px;
+  max-height: 70vh;
+  overflow-y: scroll;
+  .all-projects-card-title {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .card_box {
+    border-bottom: 1px solid lightgray;
+    box-shadow: none;
+    padding: 8px 0px 10px 5px;
+  }
+}
+.jungle-modal-content {
+  .modal-body {
+    padding-bottom: 0px;
+  }
+  width: auto;
+
+  @media (max-width: 768px) {
+    min-width: auto;
+  }
+  @media (min-width: 768px) {
+    min-width: 750px;
+    max-width: 750px;
+  }
+  .invite-button-area {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    button {
+      outline: none;
+      border: none;
+      background-color: #0d2146;
+      color: white;
+      min-width: 120px;
+      text-align: center;
+      padding: 7px 20px;
+      border-radius: 2px;
+      cursor: pointer;
+    }
+  }
+}
+
+.customer-invitation-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    color: #0d2146;
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+  img {
+    width: 30px;
+  }
+}
+.skelton-area {
+  margin-top: -30px;
+}
+.notify_modal {
+  margin: 40px 0px 80px 0px;
+  img {
+    width: 180px;
+  }
+  h3 {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  p {
+    max-width: 40ch;
+    font-weight: 500;
+    span {
+      font-weight: 600;
+      cursor: pointer;
+    }
+  }
+}

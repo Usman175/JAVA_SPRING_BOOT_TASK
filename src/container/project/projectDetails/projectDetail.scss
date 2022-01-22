@@ -1,0 +1,207 @@
+.project-client-detail-area {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+
+  @media (max-width: 575px) {
+    padding: 20px;
+  }
+  @media (min-width: 575px) {
+    padding: 50px 40px 20px 40px;
+  }
+  margin-top: 20px;
+
+  .project-client-detail-heading{
+    color: #669900;
+    font: normal normal 500 20px/26px Roboto;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 2px;
+  }
+  .project-detail-area {
+    margin: 45px 0px;
+    .project-detail-area-left {
+      margin: 0;
+      p {
+        margin-bottom: 5px;
+        font-weight: 500;
+        font-size: 14px;
+        word-wrap: break-word;
+      }
+    }
+  }
+  .project-detail-area-middle {
+    h5 {
+      color: #669900;
+      font: normal normal bold 18px/22px Roboto;
+    }
+    p {
+      margin-bottom: 5px;
+      font-weight: 600;
+      font-size: 14px;
+      word-wrap: break-word;
+    }
+    // span {
+    //   display: block;
+    //   color: #669900;
+    //   font: normal normal bold 16px/22px Roboto;
+    //   cursor: pointer;
+    // }
+  }
+  .project-detail-area-right {
+    display: flex;
+    justify-content: flex-end;
+    p {
+      margin-bottom: 5px;
+      font-weight: 600;
+      font-size: 14px;
+      word-wrap: break-word;
+    }
+  }
+  .project-detail-client-applicants-area {
+    .project-detail-client-applicants-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid lightgray;
+      h6 {
+        display: block;
+        color: #669900;
+        font: normal normal 500 16px/22px Roboto;
+        cursor: pointer;
+      }
+      i {
+        background-color: #669900;
+        color: white;
+        cursor: pointer;
+        font-size: 18px;
+        border-radius: 2px;
+        padding: 4px;
+      }
+    }
+    .project-detail-client-applicants-search-area {
+      max-height: 0px;
+      overflow: hidden;
+      transition: 1s all;
+      background: #fbfbfb 0% 0% no-repeat padding-box;
+
+      .search-elements-project-detail {
+        padding: 20px;
+        padding-bottom: 0px;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        .search-elements-project-detail-item {
+          display: flex;
+          padding: 5px 0px;
+          align-items: center;
+          margin-right: 15px;
+          label {
+            margin: 0;
+            margin-left: 15px;
+          }
+          input {
+            cursor: pointer;
+          }
+        }
+      }
+      .search-button-area {
+        display: flex;
+        justify-content: flex-end;
+        padding: 0px 20px 20px 0px;
+        button {
+          border: none;
+          outline: none;
+          background-color: #669900;
+          color: white;
+          padding: 5px 40px;
+          cursor:pointer;
+          border-radius: 5px;
+        }
+      }
+    }
+
+  }
+}
+
+.title-hide-more-line{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 70% !important;
+}
+.adjust-card-area-project-detial{
+margin-left: -20px;
+}
+.proposal-submission-buttons{
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center;
+  @media(max-width:595px){ 
+    justify-content: center !important;
+  }
+  .back-button{
+    width: 35px;
+    height: 35px;
+    background-color: #F2F2F2;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    i{
+      font-size:30px;
+      margin-left: -3px;
+    }
+  }
+  button{
+    background: #0d2146 !important;
+    img{
+      width: 20px;
+      margin-right: 10px;
+    }
+  }
+}
+
+.project-post-confirmation-sub-item{
+  .bookmarkLoveImg_pojectDetail{ 
+    width: 45px;
+    margin:  -4px 0px 0px -6px;
+
+    @media(max-width:595px){
+      margin:  -4px 0px 0px -8px;
+    }
+  }
+}
+.file-attachments{
+  h6{
+    font-size: 16px;
+    font-size: 500;
+  }
+  .file-attachments-item{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}
+.client-project-section-tabs {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  .company-section-tabs-item {
+    min-width: 160px;
+    padding: 0px 20px;
+    height: 32px;
+    cursor: pointer;
+    border: 1px solid #eeeeee;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: #eeeeee;
+  }
+  .company-section-tabs-item.active {
+    background-color: white;
+  }
+}

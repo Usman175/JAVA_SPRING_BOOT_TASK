@@ -1,0 +1,125 @@
+.bearole-home {
+  .bearole-home-container {
+    position: relative;
+    background: transparent
+      radial-gradient(closest-side at 50% 50%, #0d2146 0%, #0d2146 100%) 0% 0%
+      no-repeat padding-box;
+    .bearole-home-container-header {
+      .tool_icon {
+        margin-bottom: 0px;
+      }
+      width: 100%;
+      .bearole-home-header-div {
+        padding: 30px 100px;
+      }
+    }
+  }
+
+  
+.tab_list {
+  margin-left:20%;
+
+  @media (max-width:'900px') and (min-width:'600px') {
+    margin: 20px 0 20px 10px;
+  }
+
+  @media screen and (max-width: 595px) {
+    margin: 40px 0 20px 10px;
+  }
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+} 
+
+
+@media (max-width: 595px) {
+  .design_img1 {
+    display: flex;
+    justify-content: center;
+  } 
+}
+
+.lineBreak_BearoleHomeMobile{
+  display: none;
+  @media (max-width: 595px) and (min-width: 330px) {
+    display: block;
+  }
+}
+
+.lineBreak_BearoleHomeMobile1{
+  display: none;
+  @media (max-width: 595px) and (min-width: 380px) {
+    display: block;
+  }
+}
+
+.lineBreak_BearoleHomePc{
+  display: block;
+  @media (max-width: 595px) {
+    display: none;
+  }
+} 
+
+
+.OfficeWorkSecMobile{
+  margin-left: 20px;
+
+  @media (max-width: 595px) {
+    margin-left: 10px;
+  }
+}
+
+.mapHomeImg{
+  display: flex;
+  justify-content: center;
+
+  img{ 
+  margin-left: 20%;
+  @media (max-width: 575px) {
+    margin-left: 0%;
+    width: 80%;
+  }
+}
+}
+
+
+@media (max-width:900px) and (min-width:600px) {
+  .loc_sec {
+    padding: 2%; 
+  }
+}
+@media (max-width:595px)  {
+  .loc_sec {
+    padding: 0%; 
+  }
+}
+
+  @media (max-width: 575px) {
+.cup_media{
+  .media_left{
+    display: none;
+  }
+}
+
+.malePoseImg{ 
+  display: flex;
+  justify-content: center;
+  img{
+    width: 80%; 
+  }
+}
+  }
+  @media (max-width: 1599px) {
+    .banner_text1 h2 span img {
+      max-width: 90px !important ;
+    }
+  }
+}

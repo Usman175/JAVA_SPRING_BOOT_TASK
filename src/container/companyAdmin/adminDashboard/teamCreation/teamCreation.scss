@@ -1,0 +1,106 @@
+.modal-body-content-team-creation {
+  padding: 4em 6em;
+  text-align: center;
+
+  .title {
+    margin-bottom: 2em;
+    & h3 {
+      font-weight: 500;
+      color: #131212;
+      font: normal normal medium 35px/46px Roboto;
+    }
+  }
+
+  .input-id-wrapper {
+    margin-bottom: 1em;
+    color: #131212;
+
+    ::placeholder {
+      color: #131212;
+      opacity: 1;
+    }
+
+    .input-id {
+      width: 100%;
+      padding: 10px 0px;
+      text-align: center;
+      color: #131212;
+      background: #ffffff 0% 0% no-repeat padding-box;
+      border: 1px solid #dbdbdb;
+      border-radius: 7px;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  .role-wrapper {
+    position: relative;
+
+    .role-title {
+      position: absolute;
+      bottom: -30px;
+      min-width: 178px;
+      padding: 4px 30px;
+      background-color: lightgray;
+      -webkit-clip-path: polygon(50% 0, 100% 37%, 100% 100%, 0 100%, 0 37%);
+clip-path: polygon(50% 0, 100% 37%, 100% 100%, 0 100%, 0 37%);
+    }
+    .team-leader{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-bottom: 5px;
+      span{
+        margin-left: 15px;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .select-team {
+    border: 1px solid #dbdbdb;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    .select {
+      text-align: center;
+      color: #131212;
+      border: 1px solid #dbdbdb;
+    }
+  }
+
+  .dropdown-list {
+    margin-bottom: 1em;
+  }
+
+  .user-info-wrapper {
+    display: flex;
+    margin-bottom: 1em;
+    color: #131212;
+    & p {
+      margin-bottom: 0;
+      display: flex;
+      align-items: center;
+      margin-left: 20px;
+    }
+  }
+
+  .button {
+    background: #295707 0% 0% no-repeat padding-box;
+    color: #ffffff;
+    font: normal normal normal 14px/19px Roboto;
+    border: 1px solid #295707;
+    width: 198px;
+    border-radius: 4px;
+    padding: 8px 12px !important;
+  }
+  .stack {
+    margin-bottom: 3em;
+  }
+}
+
+.modal-content {
+  border-radius: 10px !important;
+}

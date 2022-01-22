@@ -1,0 +1,20 @@
+.date-picker-wrapper{
+    display: flex;
+    align-items: center;
+    float: right;
+    @media(max-width: 595px){ 
+        margin: 10px 0;
+    }
+.data-picker{
+    margin: 0px 10px;
+    border : 1px solid #ddd;
+    border-radius: 7px;
+    padding: 7px 10px;
+
+}
+.arrows{
+    font-size: 24px;
+    color: #969696;
+    cursor: pointer;
+}
+}

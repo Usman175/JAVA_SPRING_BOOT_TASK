@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  /* -moz-osx-font-smoothing: grayscale; */
+}
+
+input[type="checkbox"],
+input[type="radio"]:hover {
+  cursor: pointer !important;
+}
+body #root .english {
+  font-family: "Roboto", "sans-serif";
+}
+body #root .korean,
+body #root .japanese {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+code {
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace; */
+}
+
+.ck-editor__editable {
+  min-height: 150px;
+}

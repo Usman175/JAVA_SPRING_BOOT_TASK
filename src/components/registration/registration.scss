@@ -1,0 +1,62 @@
+.freelance-registration-optional {
+  .fa-linkedin-square{
+    font-size: 20px;
+  }
+  .form-section-title {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: 0.5px solid #707070;
+    padding: 8px 0;
+    margin-bottom: 10px;
+    h1 {
+      font-size: 14px;
+      line-height: 19px;
+      color: #262525;
+      margin: 0;
+      margin-right: 8px;
+    }
+    .form-notes {
+        color: #a5a5a5;
+        font-size: 14px;
+        line-height: 19px;
+      }
+  }
+  .file-upload-area{
+     display: none;
+
+  }
+  .file-upload-area-label{
+      width: 100%;
+  }
+  .plus-icon{
+    cursor: pointer;
+  }
+  .fa-minus{
+      font-size: 18px;
+      font-weight: bolder !important;
+      cursor: pointer;
+  }
+  .btn-dark{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100% !important;
+  }
+}
+
+.btn-dark,
+.btn-dark:hover,
+.btn-dark:active,
+.btn-dark:visited {
+  background-color: #161c39 !important;
+  height: 43px;
+  line-height: 28px;
+}
+.client-companies{
+  a{
+    margin-top: 10px;
+  }
+  border-bottom: 2px dotted lightgray;
+  padding-top: 15px;
+}

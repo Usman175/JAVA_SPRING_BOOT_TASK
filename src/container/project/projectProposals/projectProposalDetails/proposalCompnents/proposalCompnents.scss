@@ -1,0 +1,672 @@
+.milestone_project_proposal_area {
+  padding: 10px 0px;
+  .checkbox_area_for_mile_stone_bid {
+    @media (max-width: 768px) {
+      label {
+        display: inline;
+      }
+      input {
+        display: inline;
+      }
+    }
+    @media (min-width: 768px) {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    label {
+      margin: 0px 0px 0px 10px;
+    }
+    input {
+      height: 16px;
+      width: 16px;
+      cursor: pointer;
+    }
+  }
+  .milestone_project_proposal_detail {
+    padding: 20px 0px;
+    .input_proposal_area_detail {
+      input {
+        background: #ffffff 0% 0% no-repeat padding-box;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        border-radius: 8px !important;
+        opacity: 1;
+        height: 44px;
+        width: 100%;
+        padding: 2px 10px;
+        @media (max-width: 768px) {
+          margin: 10px 0px;
+        }
+        &:hover {
+          outline: none;
+        }
+        &:focus {
+          outline: none;
+          border: 1px solid rgba(0, 0, 0, 0.15);
+        }
+      }
+      input[type="number"]:disabled {
+        background-color: #c5c5c5;
+      }
+      input[type="text"]:disabled {
+        background-color: #c5c5c5;
+      }
+      input[type="date"]:disabled {
+        background-color: #c5c5c5;
+      }
+      input[type="date"] {
+        position: relative;
+        padding: 10px;
+      }
+
+      input[type="date"]::-webkit-calendar-picker-indicator {
+        color: transparent;
+        background: none;
+        z-index: 1;
+        cursor: pointer;
+      }
+
+      input[type="date"]:before {
+        color: transparent;
+        background: none;
+        display: block;
+        // font-family: 'FontAwesome';
+        content: "\f073";
+        /* This is the calendar icon in FontAwesome */
+        width: 15px;
+        height: 20px;
+        position: absolute;
+        top: 12px;
+        cursor: pointer;
+        right: 6px;
+        color: #999;
+      }
+    }
+    .proposal_hours_unit {
+      display: flex;
+      align-items: center;
+      margin-top: 26px;
+      color: #749900;
+      font-weight: 600;
+    }
+    .weekly-days-selection {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      span {
+        margin-right: 10px;
+        input {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+  @media (min-width: 768px) {
+    .completionTime-box {
+      margin-top: -26px;
+    }
+  }
+  .proposal_submit_area {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    @media(max-width:595px){ 
+      justify-content: center; 
+    }
+    button {
+      border: none;
+      background: #0d2146  0% 0% no-repeat padding-box;
+      border-radius: 4px;
+      opacity: 1;
+      outline: none;
+      width: 183px;
+      height: 40px;
+      color: white;
+      cursor: pointer;
+    }
+  }
+  .terms-conditions-aligned {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .customer-plus-addition-icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+}
+
+.custom-checkbox-styled {
+  position: absolute; // take it out of document flow
+  opacity: 0; // hide it
+  margin-top: -10px;
+  & + label {
+    position: relative;
+    cursor: pointer;
+    padding: 0; 
+    @media (max-width: 575px) {
+      display: flex; 
+    } 
+  }
+
+  // Box.
+  & + label:before {
+    content: "";
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    @media (max-width: 575px) {
+      width: 33px;
+      height: 25px;
+      margin-right: 15px;
+    } 
+  }
+
+  // Box hover
+  &:hover + label:before {
+    background: #0d2146 ;
+  }
+
+  // Box focus
+  &:focus + label:before {
+    // box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+  }
+
+  // Box checked
+  &:checked + label:before {
+    background: #0d2146 ;
+  }
+
+  // Disabled state label.
+  &:disabled + label {
+    color: #b8b8b8;
+    cursor: auto;
+  }
+
+  // Disabled box.
+  &:disabled + label:before {
+    box-shadow: none;
+    background: #ddd;
+  }
+
+  // Checkmark. Could be replaced with an image
+  &:checked + label:after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    background: white;
+    width: 2px;
+    height: 2px;
+    border-radius: 3px;
+    box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white,
+      4px -6px 0 white, 4px -8px 0 white;
+    transform: rotate(45deg);
+    @media (max-width: 575px) {
+      left: 7px;
+    } 
+    @media (max-width: 395px) {
+      left: 5px;
+    } 
+  }
+}
+.contest-type-post-proposal {
+  padding: 50px 0px;
+  .file-upload-area {
+    display: none;
+  }
+  .file-upload-area-label {
+    width: 100%;
+  }
+  .plus-icon {
+    cursor: pointer;
+    margin-top: -15px;
+  }
+  .fa-minus {
+    font-size: 18px;
+    font-weight: bolder !important;
+    cursor: pointer;
+  }
+  .btn-dark {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100% !important;
+  }
+  .btn-dark,
+  .btn-dark:hover,
+  .btn-dark:active,
+  .btn-dark:visited {
+    background-color: #161c39 !important;
+    height: 43px;
+    line-height: 28px;
+  }
+  .proposal_submit_area {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    @media(max-width:595px){ 
+      justify-content: center; 
+  }
+    button {
+      border: none;
+      background: #0d2146  0% 0% no-repeat padding-box;
+      border-radius: 4px;
+      opacity: 1;
+      outline: none;
+      width: 183px;
+      height: 40px;
+      color: white;
+      cursor: pointer;
+    }
+  }
+  .terms-conditions-aligned {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .form-label-icon {
+    width: 35px;
+    margin-right: 5px; 
+    display: inline-block;
+    text-align: center;
+    @media (max-width: 595px) {
+      margin: 5px 0; 
+    }
+    img {
+      margin-top: -5px !important;
+    }
+  }
+  .contest-file-preview-area {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    img {
+      width: 200px;
+      height: 150px;
+      object-fit: cover;
+      padding: 5px;
+      border-radius: 5px;
+      border: 2px dotted lightgray;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+  }
+}
+.jungle-modal-content {
+  .modal-body {
+    padding-bottom: 0px;
+  }
+  width: auto;
+
+  @media (max-width: 768px) {
+    min-width: auto;
+  }
+  @media (min-width: 768px) {
+    min-width: 750px;
+    max-width: 750px;
+  }
+  @media (min-width: 991px) {
+    min-width: 950px;
+    max-width: 950px;
+  }
+  .other-freelancers-area {
+    img {
+      width: 100%;
+    }
+  }
+
+  .invite-button-area {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    button {
+      outline: none;
+      border: none;
+      background-color: #0d2146;
+      color: white;
+      min-width: 120px;
+      text-align: center;
+      padding: 7px 20px;
+      border-radius: 2px;
+      cursor: pointer;
+    }
+  }
+}
+
+.freelancer-select-design{
+     .row{
+       margin-bottom: 10px;
+     }
+  .select-freelancer-button{
+    cursor: pointer;
+    background-color: #0d2146;
+    color: white;
+    width: 100%;
+    height: 42px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .increment-dec-icon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    i{
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+  .selected-teams-members{
+    margin: 50px 0px 20px 0px;
+    h3{
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .selected-members{
+         .row{
+           margin-bottom: 20px;
+         }
+
+      .selected-member{
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        img{
+          width: 50px;
+          height: 50px;
+          object-fit: cover;
+          border-radius: 50%;
+        }
+        .selected-member-detail{
+          width: 70%;
+          margin-left: 15px;
+      .selected-member-detail-top{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 500;
+        span:first-child{
+          margin-right: 20px;
+        }
+       }
+       .selected-member-detail-available{
+        border: 1px solid #333;
+        color: #333;
+        background-color: white;
+        border-radius: 15px;
+        background-color: white;
+      height: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 600;
+      min-width: 100px;
+       }
+        }
+      }
+   
+ 
+
+    }
+  }
+}
+.jungle-modal-content {
+
+  .modal-body {
+    padding-bottom: 0px;
+  }
+  width: auto;
+
+
+  .custom-close{
+    color: white;
+    font-weight: 500 !important;
+  }
+.freelancer-select-proposal{
+  margin: 10px 0px 40px 0px;
+  .freelancer-select-proposal-item{
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+     .selection-area-and-profile{
+       display: flex;
+       justify-content: flex-start;
+       .profile-detail{
+         margin-left: 15px;
+         display: flex;
+         justify-content: flex-start;
+         img{
+           width: 50px;
+           height: 50px;
+           object-fit: cover;
+           border-radius: 50%;
+
+         }
+         .profile-detail-content{
+           margin-left: 15px;
+            
+          h3{
+         font-size: 18px;
+         font-weight: 600;
+         margin-bottom: 2px;
+          }
+          p{
+            font-size: 14px;
+            font-weight: 500;
+          }
+         }
+       }
+     }
+     .freelancer-available{
+
+      .partTime{
+        border: 1px solid #18C4FF;
+        color: #18C4FF;
+        background-color: white;
+        border-radius: 15px;
+        background-color: white;
+      height: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 600;
+      min-width: 100px;
+
+      }
+      .fullTime{
+        border: 1px solid #829C2B;
+        color: white;
+        border-radius: 15px;
+        background-color: #829C2B;
+      height: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 600;
+      min-width: 100px;
+      }
+     }
+  }
+}
+}
+.selected-members{
+.freelancer-user-item {
+  border-bottom: 1px solid lightgray;
+  padding: 20px 0px 5px 0px;
+  position: relative;
+  .freelancer-user-item-top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .freelancer-user-item-profile {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      img {
+        width: 45px;
+        border-radius: 50%;
+      }
+      .profile-detail {
+        margin-left: 20px;
+        p {
+          margin-bottom: 0px;
+          font-size: 16px;
+        }
+        i {
+          color: #0d2146;
+        }
+      }
+    }
+    .freelancer-user-item-role {
+      margin-left: 50px;
+      font-size: 15px;
+      img {
+        width: 20px;
+        margin-left: 15px;
+        background: #f2f2f2 0% 0% no-repeat padding-box;
+        border-radius: 7px;
+        width: 32px;
+        padding: 6px;
+        cursor: pointer;
+      }
+      input {
+        border: 2px dotted white;
+        outline: none;
+        border-radius: 5px;
+        margin-top: 10px;
+      }
+      input.custom-width {
+        max-width: 20px;
+      }
+      input.custom-width1 {
+        max-width: 13px;
+      }
+      input.active {
+        border: 2px dotted black;
+        max-width: 100px;
+      }
+      input.active.custom-width {
+        max-width: 100px;
+      }
+      input.active.custom-width1 {
+        max-width: 100px;
+      }
+    }
+  }
+  .freelancer-profile-rate {
+    padding-top: 20px;
+    .project-terms-item {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+      .project-terms-item-left {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-right: 2px;
+        color: #828282;
+        img {
+          width: 25px;
+          margin-right: 10px;
+        }
+      }
+      .project-terms-item-right {
+        font-weight: 550;
+        img {
+          width: 20px;
+          margin-left: 15px;
+          background: #f2f2f2 0% 0% no-repeat padding-box;
+          border-radius: 7px;
+          width: 32px;
+          padding: 6px;
+          cursor: pointer;
+        }
+        input {
+          border: 2px dotted white;
+          outline: none;
+          border-radius: 5px;
+          margin-top: 5px;
+          max-width: 50px;
+        }
+        input.custom-width {
+          max-width: 20px;
+        }
+        input.custom-width1 {
+          max-width: 13px;
+        }
+        input.active {
+          border: 2px dotted black;
+          max-width: 100px;
+        }
+        input.active.custom-width {
+          max-width: 40px;
+        }
+        input.active.custom-width1 {
+          max-width: 30px;
+        }
+      }
+    }
+  }
+  .select-freelancer-area {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+  }
+}}
+.individual-freelancer-selection{
+  margin-top: -30px;
+  .add-freelancer-button {
+    button {
+      border: none;
+      outline: none;
+      background-color: #66a05c;
+      cursor: pointer;
+      width: 150px;
+      display: flex;
+      justify-content: center;
+      color: white;
+      height: 30px;
+      border-radius: 15px;
+      align-items: center;
+    }
+  }
+
+}
+.select-freelancer-button{
+  cursor: pointer;
+  background-color: #0d2146;
+  color: white;
+  width: 100%;
+  height: 42px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.remove-member{
+  text-align: right;
+  cursor: pointer;
+  margin-bottom: -20px;
+  background-color: rgba(0, 0, 0, 0.36);
+  color: white;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+ }

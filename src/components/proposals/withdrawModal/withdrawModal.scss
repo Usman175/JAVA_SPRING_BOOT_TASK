@@ -1,0 +1,12 @@
+.custom-close{
+    color: white;
+    font-weight: 550 !important;
+}
+
+.withdrawlProposal_savebtn{
+    @media(max-width:595px){
+        display: flex;
+        justify-content: center;
+        padding-right: 0 !important;
+    }
+}

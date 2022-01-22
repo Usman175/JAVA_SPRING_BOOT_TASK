@@ -1,0 +1,116 @@
+.resume-registration-new {
+  .profile_userResume_mobile {
+    @media (max-width: 590px) {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  .download_sampleExcel_pc {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
+    font: normal normal 400 13px/16px Roboto;
+    cursor: pointer;
+    @media (max-width: 590px) {
+      display: none;
+    }
+
+    i {
+      color: #669900;
+      margin-right: 0.3rem;
+    }
+  }
+  .download_sampleExcel_mobile {
+    @media (min-width: 590px) {
+      display: none;
+    }
+    @media (max-width: 590px) {
+      position: absolute;
+      top: 15%; 
+      right: 5%;
+      font: normal normal 400 22px/16px Roboto;
+      cursor: pointer;
+    }
+
+    i {
+      color: #669900;
+      margin-right: 0.3rem;
+    }
+  }
+  .Img_heading_userResume {
+    img {
+      @media (max-width: 330px) {
+        max-width: 50px;
+      }
+    }
+  }
+  .post_form_resumePage {
+    @media (max-width: 330px) {
+      padding: 0px 5px 0px 0px !important;
+    }
+  }
+  .label_icon {
+    @media (max-width: 1100px) and (min-width: 700px) {
+      width: 16px !important;
+      margin-right: 7px;
+      margin-bottom: 3px;
+    }
+  }
+  .ExcelArea_userResumeTopMob {
+    @media (max-width: 595px) {
+      margin: 5px 0 10px;
+    }
+  }
+  .ExcelArea_userResume {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 12px 15px;
+    @media (max-width: 1100px) and (min-width: 700px) {
+      padding: 12px 5px;
+      text-align: center;
+    }
+    @media (max-width: 595px) {
+      text-align: center;
+    }
+  }
+  .bulkBold_textUser_resume {
+    color: #000;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 10px;
+    @media (max-width: 1100px) and (min-width: 700px) {
+      font-size: 13px;
+      margin-top: 5px;
+    }
+  }
+  .proposal-team-link-area {
+    img {
+      @media (max-width: 900px) and (min-width: 700px) {
+        width: 25px;
+      }
+    }
+  }
+  .bulkBold_textUser_resume2 {
+    color: #000;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .EXCEL_BULK_TextGreen {
+    color: #669900;
+    margin-right: 10px;
+  }
+
+  .countryListActive {
+    background: #fff;
+    input {
+      background: #fff !important;
+    }
+  }
+
+  .countryListnotactive {
+    background: #f9f9f9;
+  }
+}

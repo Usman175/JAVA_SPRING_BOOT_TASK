@@ -1,0 +1,28 @@
+.skeleton-card-title{ 
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skeletonClientProfile_Card{
+    min-height: 100%;  
+    @media(max-width:595px){
+        display: none;
+    }
+} 
+
+.skeletonClientProfile_Card_topBanner{
+    @media(max-width:595px){
+        display: none;
+    }
+}
+
+.borderline_freelancerProfile{
+    border-bottom: 2px solid #d3d3d3; 
+    width: 100%;  
+    border-bottom: 2px solid #d3d3d3;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: .7rem;
+}

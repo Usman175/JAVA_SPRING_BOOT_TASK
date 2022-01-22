@@ -1,0 +1,23 @@
+.no-match-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    img{
+        width:100%;
+
+    }
+    button{
+        outline: none;
+        border: none;
+        height: 45px;
+        cursor: pointer;
+        width: 200px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-radius: 8px;
+       background-color: #0d2146 !important;
+       color: white;
+    }
+}

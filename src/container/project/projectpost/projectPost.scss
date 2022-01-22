@@ -1,0 +1,8 @@
+//  skeleton loading classes
+.skeletonLoading_mobile {
+  display: none;
+  @media (max-width: 595px) {
+    display: block;
+  }
+}
+//

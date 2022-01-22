@@ -1,0 +1,450 @@
+// **** Section Start **** ///
+.nation-card-front-base {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 100%;
+  height: 125px;
+  border-radius: 10px;
+  border: 4px solid #9aa1c0;
+  background-color: white;
+  z-index: 2;
+  padding: 8px;
+}
+.nation-card-front-heading-base {
+  color: #b6bbd1;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.nation-card-front-icon-base {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.national-card-back-shadow-base {
+  position: absolute;
+  left: -22px;
+  top: 2px;
+  width: 100%;
+  height: 125px;
+  background: #dfe1eb;
+  border-radius: 10px;
+  transform: rotate3d(1, 1, -1, 40deg);
+  z-index: 1;
+}
+@mixin licenseCard-shadow-styles {
+  position: absolute;
+  top: 0px;
+  width: 70%;
+  height: 100px;
+  background: #dfe1eb;
+  background: linear-gradient(90deg, #dfe1eb 62%, #cbccd1 95%, #bababd 100%);
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.licenseCard-shadow-base {
+  @include licenseCard-shadow-styles;
+}
+
+// **** Section End  **** ///
+
+.customer-border {
+  padding-top: 40px;
+}
+
+.card-area.disable {
+  margin: 40px 0px;
+  position: relative;
+  width: 100%;
+  height: 170px;
+
+  .national-card-back-shadow {
+    @extend .national-card-back-shadow-base;
+  }
+  .nation-card-front {
+    @extend .nation-card-front-base;
+
+    h3 {
+      @extend .nation-card-front-heading-base;
+    }
+    .nation-card-front-icon {
+      @extend .nation-card-front-icon-base;
+
+      i {
+        font-size: 45px;
+        color: #b6bbd1;
+      }
+      .align-bars-license {
+        .align-bars-opper {
+          height: 5px;
+          background-color: #b6bbd1;
+          margin-bottom: 5px;
+        }
+        .align-bars-lower {
+          height: 5px;
+          background-color: #b6bbd1;
+          margin-bottom: 5px;
+        }
+        .align-bars-lower1 {
+          height: 5px;
+          background-color: #b6bbd1;
+          margin-bottom: 5px;
+        }
+      }
+    }
+    .nation-card-front-icon-date {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px;
+      i {
+        font-size: 19px;
+        margin-right: 10px;
+        color: #b4b9d0;
+        margin-top: -2px;
+      }
+      div {
+        font-size: 10px;
+        margin-right: 20px;
+        font-weight: 600;
+        margin-top: -10px;
+      }
+    }
+  }
+  .licenseCard-left-shadow {
+    @extend .licenseCard-shadow-base;
+    left: 0;
+    transform: rotate3d(1, 1, 4, 80deg);
+  }
+  .licenseCard-right-shadow {
+    @extend .licenseCard-shadow-base;
+    right: 0;
+    transform: rotate3d(1, 1, 4, 105deg);
+  }
+  .license-card-front-detail {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: -30px;
+    width: 60%;
+    height: 170px;
+    border-radius: 10px;
+    border: 4px solid #9aa1c0;
+    background-color: white;
+    z-index: 2;
+    padding: 8px;
+    h3 {
+      color: #b6bbd1;
+      font-size: 16px;
+      text-align: center;
+      font-weight: 600;
+      margin-top: 12px;
+    }
+    i {
+      font-size: 45px;
+      padding: 5px;
+      color: #b6bbd1;
+      border: 3px solid #b6bbd1;
+      border-radius: 50%;
+    }
+    .align-bars-license {
+      padding: 15px 0px;
+      .align-bars-opper {
+        height: 6px;
+        background-color: #b6bbd1;
+        margin-bottom: 5px;
+      }
+      .align-bars-lower {
+        height: 5px;
+        background-color: #b6bbd1;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+.card-area.active {
+  margin: 40px 0px;
+  position: relative;
+  width: 100%;
+  height: 170px;
+
+  .national-card-back-shadow {
+    @extend .national-card-back-shadow-base;
+    background: linear-gradient(265deg, #dfe1eb 62%, #cbccd1 95%, #bababd 100%);
+  }
+  .nation-card-front {
+    @extend .nation-card-front-base;
+    border: 4px solid #709fff;
+
+    h3 {
+      @extend .nation-card-front-heading-base;
+      color: #709fff;
+    }
+    .nation-card-front-icon {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 10px 0px;
+      i {
+        font-size: 45px;
+        color: #709fff;
+      }
+      .align-bars-license {
+        .align-bars-opper {
+          width: 100px;
+          height: 5px;
+          background-color: #709fff;
+          margin-bottom: 5px;
+        }
+        .align-bars-lower {
+          width: 80px;
+          height: 5px;
+          background-color: #709fff;
+          margin-bottom: 5px;
+        }
+        .align-bars-lower1 {
+          height: 5px;
+          background-color: #709fff;
+          margin-bottom: 5px;
+        }
+      }
+    }
+    .nation-card-front-icon-date {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px;
+      i {
+        font-size: 19px;
+        margin-right: 10px;
+        margin-top: -2px;
+        color: #709fff;
+      }
+      div {
+        font-size: 10px;
+        margin-right: 20px;
+        font-weight: 600;
+        margin-top: -10px;
+      }
+    }
+  }
+  .licenseCard-left-shadow {
+    @extend .licenseCard-shadow-base;
+    left: 0;
+    transform: rotate3d(1, 1, 4, 80deg);
+    background: rgb(0, 212, 255);
+    background: linear-gradient(
+      90deg,
+      #f8f9fa,
+      62%,
+      #6c757d,
+      95%,
+      #17a2b8 100%
+    );
+  }
+
+  .licenseCard-right-shadow {
+    @extend .licenseCard-shadow-base;
+    right: 0;
+    background: rgb(0, 212, 255);
+    background: linear-gradient(
+      90deg,
+      #f8f9fa,
+      62%,
+      #6c757d,
+      95%,
+      #17a2b8 100%
+    );
+
+    transform: rotate3d(1, 1, 4, 105deg);
+  }
+  .license-card-front-detail {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: -30px;
+    width: 60%;
+    height: 170px;
+    border-radius: 10px;
+    border: 4px solid #709fff;
+    background-color: white;
+    z-index: 2;
+    padding: 8px;
+    h3 {
+      color: #709fff;
+      font-size: 16px;
+      text-align: center;
+      font-weight: 600;
+      margin-top: 12px;
+    }
+    i {
+      font-size: 45px;
+      padding: 5px;
+      color: #709fff;
+      border: 3px solid #709fff;
+      border-radius: 50%;
+    }
+    .align-bars-license {
+      padding: 15px 0px;
+      .align-bars-opper {
+        height: 6px;
+        background-color: #709fff;
+        margin-bottom: 5px;
+      }
+      .align-bars-lower {
+        height: 5px;
+        background-color: #709fff;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+
+.styled-checkbox {
+  position: absolute; // take it out of document flow
+  opacity: 0;
+
+  & + label {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  // Box.
+  & + label:before {
+    content: "";
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    background: white;
+    border: 1px solid lightgray;
+  }
+
+  // Box hover
+  &:hover + label:before {
+    background: #709fff;
+  }
+
+  // Box focus
+  &:focus + label:before {
+    /*          box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12); */
+  }
+
+  // Box checked
+  &:checked + label:before {
+    background: #709fff;
+  }
+
+  // Disabled state label.
+  &:disabled + label {
+    color: #b8b8b8;
+    cursor: auto;
+  }
+
+  // Disabled box.
+  &:disabled + label:before {
+    box-shadow: none;
+    background: #ddd;
+  }
+
+  // Checkmark. Could be replaced with an image
+  &:checked + label:after {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 9.5px;
+    background: white;
+    width: 2px;
+    height: 2px;
+    box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white,
+      4px -6px 0 white, 4px -8px 0 white;
+    transform: rotate(45deg);
+  }
+}
+
+//Responsiveness
+@media only screen and (max-width: 600px) {
+  .card-area.disable {
+    margin: 0px;
+
+    .licenseCard-left-shadow {
+      @include licenseCard-shadow-styles;
+      left: 0;
+      top: 39px;
+      width: 42%;
+      height: 41px;
+      transform: rotate3d(1, 1, 4, 80deg);
+    }
+    .licenseCard-right-shadow {
+      @include licenseCard-shadow-styles;
+      right: 0;
+      top: 39px;
+      width: 42%;
+      height: 41px;
+      transform: rotate3d(1, 1, 4, 105deg);
+    }
+  }
+
+  .card-area.active {
+    margin: 0px;
+
+    .licenseCard-left-shadow {
+      @include licenseCard-shadow-styles;
+      left: 0;
+      top: 39px;
+      width: 42%;
+      height: 41px;
+      transform: rotate3d(1, 1, 4, 80deg);
+      background: rgb(0, 212, 255);
+      background: linear-gradient(
+        90deg,
+        #f8f9fa,
+        62%,
+        #6c757d,
+        95%,
+        #17a2b8 100%
+      );
+    }
+    .licenseCard-right-shadow {
+      @include licenseCard-shadow-styles;
+      right: 0;
+      top: 39px;
+      width: 42%;
+      height: 41px;
+      transform: rotate3d(1, 1, 4, 105deg);
+      background: rgb(0, 212, 255);
+      background: linear-gradient(
+        90deg,
+        #f8f9fa,
+        62%,
+        #6c757d,
+        95%,
+        #17a2b8 100%
+      );
+    }
+  }
+}
+.label-initial-general {
+  height: 15px !important;
+  width: 15px !important;
+  display: inline-block !important;
+  background-color: #ffd35c !important;
+  margin-right: 5px;
+  margin-bottom: -2px;
+  display: inline-block;
+}
+.label-compulsory-icon {
+  color: #b51818 !important;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 1;
+}

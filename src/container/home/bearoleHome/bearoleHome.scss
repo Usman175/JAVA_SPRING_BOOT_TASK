@@ -1,0 +1,428 @@
+.bearole-home {
+  .bearole-home-container {
+    height: 100vh;
+    min-height: 650px;
+    position: relative;
+    background: transparent
+      radial-gradient(closest-side at 50% 50%, #0d2146 0%, #0c1e40 100%) 0% 0%
+      no-repeat padding-box;
+    .bearole-home-container-header {
+      height: 80%;
+      min-height: 400px;
+      .bearole-home-header-div {
+        padding: 30px 100px;
+        .bearole-home-header-div-sec1 {
+          .bearole-home-header-h2 {
+            font: normal normal normal 32px/40px Noto Sans;
+          }
+          .bearole-home-header-p {
+            font: normal normal normal 14px/18px Roboto;
+            font-weight: 100;
+          }
+          .bearole-home-header-btn {
+            border: 0;
+            border-radius: calc(0.5 * 50px);
+            height: 30px;
+            margin-top: 40px;
+            background: #3f66ab 0% 0% no-repeat padding-box;
+            .bearole-home-header-btn-img {
+              width: 18px;
+              margin-right: 10px;
+            }
+            .bearole-home-header-btn-span {
+              margin-right: 30px;
+              font: normal normal normal 11px/14px Roboto;
+            }
+          }
+        }
+        .bearole-home-header-div-sec2 {
+          width: 28%;
+        }
+      }
+    }
+    .bearole-home-container-footer {
+      height: 20%;
+      min-height: 80px;
+      img {
+        bottom: 0;
+        position: absolute;
+      }
+    }
+    .bearole-home-mouse-scroll-down {
+      margin: 0 0 0 -30px;
+      animation: arrow 0.5s 1s infinite ease-out alternate;
+      -webkit-animation: arrow 0.5s 1s infinite ease-out alternate;
+      position: absolute;
+      top: 85%;
+      width: 20px;
+      left: 50%;
+      width: 75px;
+      flex-direction: column;
+      color: white;
+      img {
+        width: 18px;
+        margin: 8px 0;
+      }
+      span {
+        font-size: 12px;
+        font-weight: 100;
+      }
+    }
+    .bearole-home-mouse-scroll-down:hover {
+      animation-play-state: paused;
+      -webkit-animation-play-state: paused;
+    }
+    @keyframes arrow {
+      0% {
+        bottom: 0px;
+      }
+      100% {
+        bottom: 40px;
+      }
+    }
+    @-webkit-keyframes arrow {
+      0% {
+        bottom: 0px;
+      }
+      100% {
+        bottom: 40px;
+      }
+    }
+  }
+  .bearole-home-container2 {
+    background: transparent
+      radial-gradient(closest-side at 50% 50%, #41a7f3 0%, #21547a 100%) 0% 0%
+      no-repeat padding-box;
+    height: 100vh;
+    position: relative;
+    min-height: 600px;
+    .bearole-home-container2-header {
+      padding: 70px 80px;
+      height: 80%;
+      .bearole-home-container2-header-sec1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .bearoleHomeSecond {
+          width: 400px;
+          margin-top: 20%;
+          height: 350px;
+        }
+      }
+      .bearole-home-container2-header-sec2 {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 42%;
+        .bearole-home-container2-header-h2 {
+          margin-bottom: 12px;
+          margin-top: 16%;
+          font: normal normal normal 26px/30px Noto Sans;
+        }
+        .bearole-home-container2-header-p {
+          margin-bottom: 9px;
+          font: normal normal normal 14px/20px Consolas;
+        }
+      }
+    }
+    .bearole-home-container-footer {
+      height: 20%;
+      min-height: 80px;
+      position: relative;
+      img {
+        position: absolute;
+        bottom: -5px;
+        width: 100%;
+      }
+    }
+    .bearole-home-mouse-scroll-down {
+      margin: 0 0 0 -30px;
+      animation: arrow 0.5s 1s infinite ease-out alternate;
+      -webkit-animation: arrow 0.5s 1s infinite ease-out alternate;
+      position: absolute;
+      top: 75%;
+      width: 20px;
+      left: 50%;
+      width: 75px;
+      flex-direction: column;
+      color: white;
+      img {
+        width: 18px;
+        margin: 8px 0;
+      }
+      span {
+        font-size: 12px;
+        font-weight: 100;
+      }
+    }
+    .bearole-home-mouse-scroll-down:hover {
+      animation-play-state: paused;
+      -webkit-animation-play-state: paused;
+    }
+    @keyframes arrow {
+      0% {
+        bottom: 0px;
+      }
+      100% {
+        bottom: 40px;
+      }
+    }
+    @-webkit-keyframes arrow {
+      0% {
+        bottom: 0px;
+      }
+      100% {
+        bottom: 40px;
+      }
+    }
+  }
+  .bearole-home-container3 {
+    height: 100vh;
+    min-height: 600px;
+    position: relative;
+    background: transparent
+      radial-gradient(closest-side at 50% 50%, #5b21c1 0%, #2e1161 100%) 0% 0%
+      no-repeat padding-box;
+    .circle {
+      position: relative;
+      .circle1 {
+        position: absolute;
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+        background: #5820bb 0% 0% no-repeat padding-box;
+        top: 0;
+        left: 190px;
+        .circle2 {
+          width: 100px;
+          position: absolute;
+          height: 100px;
+          top: 20%;
+          left: -60%;
+          border-radius: 50%;
+          background: #5720b8 0% 0% no-repeat padding-box;
+          .circle3 {
+            position: absolute;
+            width: 75px;
+            height: 75px;
+            top: 40%;
+            left: -60%;
+            border-radius: 50%;
+            background: #4f1da7 0% 0% no-repeat padding-box;
+            .circle4 {
+              position: absolute;
+              top: 40%;
+              left: -60%;
+              width: 60px;
+              height: 60px;
+              border-radius: 50%;
+              background: #5820bb 0% 0% no-repeat padding-box;
+              .circle5 {
+                position: absolute;
+                top: 62%;
+                left: -70%;
+                width: 60px;
+                height: 60px;
+                background: #5820ba 0% 0% no-repeat padding-box;
+                border-radius: 50%;
+              }
+            }
+          }
+        }
+      }
+    }
+    .bearole-home-container3-header {
+      height: 85%;
+      min-height: 400px;
+      .bearole-home-header-div1 {
+        padding: 80px;
+        .bearole-home-header-div1-sec1 {
+          display: flex;
+          justify-content: center;
+          .bearole-home-header3-h2 {
+            margin-top: 15%;
+            font: normal normal normal 26px/36px Noto Sans;
+          }
+          .bearole-home-header3-p {
+            font: normal normal normal 12px/18px Consolas;
+          }
+        }
+        .bearole-home-header3-div-sec2 {
+          .bearole-home-header3-div-sec2-img {
+            width: 400px;
+            height: 350px;
+          }
+        }
+      }
+    }
+    .bearole-home-container3-footer {
+      height: 15%;
+      min-height: 80px;
+      position: relative;
+      img {
+        position: absolute;
+        width: 100%;
+      }
+    }
+  }
+  .container4 {
+    justify-content: space-evenly;
+    height: 100px;
+    background-color: #ececec;
+    div {
+      span {
+        font: normal normal normal 13px/20px Roboto;
+        font-weight: 500;
+      }
+      span:nth-child(2) {
+        padding-left: 15px;
+      }
+    }
+  }
+  @media (min-width: 1900px) {
+    .bearole-home-container {
+      min-height: 900px;
+      .bearole-home-container-header {
+        .bearole-home-header-div {
+          padding: 70px 150px;
+          .bearole-home-header-div-sec1 {
+            .bearole-home-header-h2 {
+              font: normal normal normal 55px/80px Noto Sans;
+            }
+            .bearole-home-header-p {
+              font: normal normal normal 18px/22px Consolas;
+            }
+            .bearole-home-header-btn {
+              height: 48px;
+              margin-top: 35px;
+              .bearole-home-header-btn-img {
+                width: 25px;
+              }
+              .bearole-home-header-btn-span {
+                font: normal normal normal 14px/18px Roboto;
+              }
+            }
+          }
+          .bearole-home-header-div-sec2 {
+            margin-right: 5%;
+            span {
+              font: normal normal normal 21px/30px Noto Sans;
+              margin: 58px;
+            }
+          }
+        }
+      }
+      .bearole-home-mouse-scroll-down {
+        width: 75px;
+        img {
+          width: 25px;
+        }
+        span {
+          font-size: 14px;
+        }
+      }
+    }
+    .bearole-home-container2 {
+      min-height: 900px;
+      .bearole-home-container2-header {
+        .bearole-home-container2-header-sec1 {
+          .bearoleHomeSecond {
+            width: 600px;
+            margin-top: 20%;
+            height: 550px;
+          }
+        }
+        .bearole-home-container2-header-sec2 {
+          .bearole-home-container2-header-h2 {
+            font: normal normal normal 34px/49px Noto Sans;
+          }
+          .bearole-home-container2-header-p {
+            font: normal normal normal 18px/22px Consolas;
+          }
+        }
+      }
+      .bearole-home-mouse-scroll-down {
+        width: 75px;
+        img {
+          width: 25px;
+        }
+        span {
+          font-size: 14px;
+        }
+      }
+      .bearole-home-container-footer {
+        img {
+          position: absolute;
+          bottom: -15px;
+        }
+      }
+    }
+    .bearole-home-container3 {
+      min-height: 900px;
+      .circle {
+        position: relative;
+        .circle1 {
+          width: 178px;
+          height: 178px;
+          top: 0;
+          left: 225px;
+          .circle2 {
+            width: 119px;
+            height: 119px;
+            top: 20%;
+            left: -50%;
+            .circle3 {
+              width: 92px;
+              height: 92px;
+              .circle4 {
+                width: 75px;
+                height: 75px;
+                .circle5 {
+                  width: 72px;
+                  height: 72px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .bearole-home-container3-header {
+        .bearole-home-header-div1 {
+          padding: 225px 150px;
+          .bearole-home-header-div1-sec1 {
+            .bearole-home-header3-h2 {
+              font: normal normal normal 37px/54px Noto Sans;
+            }
+            .bearole-home-header3-p {
+              margin-top: 40px;
+              font: normal normal normal 18px/22px Consolas;
+            }
+          }
+          .bearole-home-header3-div-sec2 {
+            .bearole-home-header3-div-sec2-img {
+              width: 600px;
+              height: 500px;
+            }
+          }
+        }
+      }
+    }
+    .container4 {
+      height: 225px;
+      div {
+        span {
+          font: normal normal normal 23px/30px Roboto;
+          font-weight: 500;
+          section {
+            width: 25px;
+          }
+        }
+        span:nth-child(2) {
+          padding-left: 25px;
+        }
+      }
+    }
+  }
+}

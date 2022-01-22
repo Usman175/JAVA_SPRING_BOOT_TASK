@@ -1,0 +1,336 @@
+.client_review {
+  padding-top: 10px;
+border-bottom: 1px dotted lightgray;
+.feedback-top-label{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+  i {
+    font-size: 15px;
+  }
+  font-weight: 500;
+  font-size: 18px;
+  span{
+  
+  }
+  .amount-review{
+    margin-left: 10px;
+  }
+  .feed-back-rating-rating{
+    display: inline-block;
+    margin-left: 15px;
+    span{
+      margin-left: -3px;
+    }
+  }
+}
+.freelancer_skillNameArea_mobile{
+  @media(max-width:595px){
+    padding-left: 25px !important;
+    margin-left: 0 !important;
+    margin-top: 5px;
+  }
+  @media(max-width:305px){
+    padding-left: 35px !important;
+    margin-left: 0 !important; 
+  }
+  @media(max-width:1100px) and (min-width:670px){ 
+    margin-left: 0 !important; 
+  }
+  .freelancer-stats-area{
+    label {
+      @media(max-width:595px){
+        width: 49% !important; 
+      }
+    } 
+  }
+}
+.job-success-rate-label {
+  font-size: 11px;
+  margin-top: -10px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.client_detail{
+  
+  .freelancer_textArea_skillShow_Pc{
+    display: block;
+    @media(max-width:595px){
+      display: none;
+    }
+
+    .showMorePc_freelancerText{
+    @media(min-width:695px) {  
+      margin: 0 0 2rem;
+    }
+   }
+  }
+}
+.freelancer-profile-area {
+  position: relative;
+  height: 80px;
+  width: 80px !important;
+  // border: 6px solid lightgray;
+  border-radius: 5px;
+  .freelancer-profile-img {
+    height: 80px;
+    width: 80px !important;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  .online {
+    position: absolute;
+    bottom: -4px;
+
+    right: -4px;
+    width: 14px;
+    height: 14px;
+    background: #14a800 0% 0% no-repeat padding-box;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    z-index: 100;
+  }
+  .offline {
+    position: absolute;
+    bottom: -4px;
+
+    right: -4px;
+    width: 14px;
+    height: 14px;
+    background: #292a29 0% 0% no-repeat padding-box;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    z-index: 100;
+  }
+} 
+.freelancer-stats-area {
+  margin-bottom: 10px;
+  label {
+    font-size: 13px;
+    font-weight: 500;
+    span {
+      font-weight: 500 !important;
+      white-space: nowrap;
+      display: inline-block;
+    }
+  }
+}
+.filled-star {
+  color: green;
+}
+.freelancer-skills-area {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  @media(min-width:695px) {  
+    position: absolute;
+    bottom: -25px; 
+  }
+  .custom-skills-area {
+    flex-wrap: wrap;
+    a {
+      background-color: #d7d7d7 !important;
+      color: #333333 !important;
+      font-size: 12px !important;
+      font-weight: 500 !important;
+      margin: 5px 10px 10px 0px;
+    }
+  }
+}
+.freelancer-detail-plus-icon {
+  margin-top: -30px;
+}
+.freelancer-card-right-area {
+  border-left: 2px solid lightgray;
+  padding-left: 15px;
+  height: 100%;
+  @media(max-width:595px){
+    border-left: 0;
+    padding-left: 0px;
+    padding-top: 10px;
+  }
+
+
+  .freelancer_textArea_skillShow_mobile{
+    display: none;
+    @media(max-width:595px){
+      display: block;
+    }
+
+    .content-css{ 
+
+        @media(max-width:595px){
+          text-align: left;
+        } 
+      p{
+        @media(max-width:595px){
+          text-align: left;
+        }
+      }
+    }
+
+  }
+
+
+  .freelancer-id-shortlist-area {
+    display: flex;
+    justify-content: space-between !important;
+    //   flex-wrap: wrap;
+    @media(max-width:595px){ 
+      padding-top: 10px;
+    }
+    h6 {
+      color: #669900;
+      font-size: 13px;
+      font-weight: 500; 
+      text-align: left; 
+    }
+    i {
+      cursor: pointer;
+      font-size: 20px;
+      color: lightgray;
+    }
+    i.active {
+      font-size: 20px;
+      color: #ffae00;
+      cursor: pointer;
+    }
+  }
+  .freelancer-available-area {
+    margin: 5px 0px;
+    display: flex;
+    justify-content: flex-start;
+    p {
+      border: 2px solid #a2a2a2;
+      border-radius: 10px;
+      height: 20px;
+      text-align: center;
+      font-size: 13px;
+      line-height: 17px;
+      width: 90px;
+      font-weight: 500;
+      color: #669900;
+      margin-bottom: 0px;
+      margin-right: 15px;
+    }
+  }
+  .freelancer-stats-area {
+    p {
+      font-size: 13px;
+      font-weight: 500 !important;
+      text-align: left;
+      margin-bottom: 0px;
+    }
+  }
+}
+.right-area-score-freelancer {
+  max-width: 100px;
+}
+.freelancer-profile-box {
+  h5 {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14px !important;
+    cursor: pointer;
+  }
+  h4 {
+    margin-top: 5px;
+    font-size: 14px !important;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 80px !important;
+    text-align: center;
+  }
+}
+.custom-plus_btn {
+  background-color: #669900;
+  color: white;
+
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  margin-top: 6px;
+}
+.title-hide-more-lineifreealncer {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 90% !important;
+}
+.company-label {
+  position: relative;
+  left: 5px;
+  font-size: 12px;
+  bottom: 5px;
+  background-color: #669900;
+  color: white;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-top: -13px;
+  margin-left: -5px;
+  width: 80px;
+}
+.individual-label {
+  position: absolute;
+  left: 0px;
+  padding: 0px 4px;
+  font-size: 12px;
+  bottom: 0px;
+  background-color: white;
+  color: #669900;
+  border: 1px solid #669900;
+  border-bottom-left-radius: 5px;
+  width: 81px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+}
+.green_text {
+  cursor: pointer;
+}
+.portfolio-image-all-freelancer{
+  width: 120px !important;
+  height: 100px !important;
+  object-fit: cover;
+}
+.jungle-modal-content-notify .custom-close {
+  position: absolute;
+  right: -28px;
+  top: -15px;
+  font-size: 40px;
+  line-height: 40px;
+  background-color: rgba(0, 0, 0, 0.36);
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-align: center;
+  border-radius: 50%;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  cursor: pointer;
+  color: white;
+  font-weight: 500 !important;
+ 
+}
+.portfolio-modal-image{
+  width: 100%;
+}
+
+//  skeleton loading classes
+.skeletonLoading_mobile {
+  display: none;
+  @media (max-width: 595px) {
+    display: block;
+  }
+}
+//

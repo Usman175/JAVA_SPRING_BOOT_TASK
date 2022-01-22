@@ -1,0 +1,38 @@
+.tested_skill {
+  .collapse.show {
+    max-height: 2000px;
+    animation: expand 2s;
+  }
+
+  @keyframes expand {
+    from {
+      max-height: 0px;
+    }
+    to {
+      max-height: 1000px;
+    }
+  }
+
+  @keyframes collaps {
+    from {
+      max-height: 1000px;
+    }
+    to {
+      max-height: 0px;
+    }
+  }
+}
+.custom-padding-collapse {
+}
+.viewDetail {
+  cursor: pointer;
+}
+
+//  skeleton loading classes
+.skeletonLoading_mobile {
+  display: none;
+  @media (max-width: 595px) {
+    display: block;
+  }
+}
+//

@@ -1,0 +1,168 @@
+
+
+/* Banner-section css start here ===== */
+.banner_sec {
+  padding: 95px 0 180px;
+  background: #0d2146;
+}
+
+@media (max-width: 595px) {
+  .banner_sec {
+    padding: 95px 0 120px;
+    background: #0d2146;
+  }
+}
+
+.header .navbar {
+  background: #0d2146 !important;
+}
+
+
+@-webkit-keyframes gelatine {
+  from,
+  to {
+    -webkit-transform: scale(1, 1);
+  }
+  25% {
+    -webkit-transform: scale(0.9, 1.1);
+  }
+  50% {
+    -webkit-transform: scale(1.1, 0.9);
+  }
+  75% {
+    -webkit-transform: scale(0.95, 1.05);
+  }
+  from,
+  to {
+    -webkit-transform: scale(1, 1);
+  }
+  25% {
+    -webkit-transform: scale(0.9, 1.1);
+  }
+  50% {
+    -webkit-transform: scale(1.1, 0.9);
+  }
+  75% {
+    -webkit-transform: scale(0.95, 1.05);
+  }
+}
+/* .tool_icon a span {
+    display: block;
+    text-align: center;
+    max-width: 26px;
+    min-width: 26px;
+    margin: 0 auto 10px;
+} */
+.banner_text1 h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.banner_text1 h2 span img {
+  margin-top: -30px;
+}
+@media(max-width: 1305px) and (min-width: 1005px){
+  .banner_text1 h2 span img {
+    margin-top: -20px; 
+  }
+}
+@media(max-width: 595px){
+  .banner_text1 h2 span img {
+    margin-top: -18px;
+    width: 20% !important;
+  }
+}
+@media(max-width: 395px){
+  .banner_text1 h2 span img {
+    margin-top: -10px;
+    width: 19% !important;
+  }
+}
+@media(max-width: 335px){
+  .banner_text1 h2 span img {
+    margin-top: 0;
+    width: 18% !important;
+  }
+}
+.banner_sec p {
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0 0 15px;
+  max-width: 640px;
+}
+.banner_sec .btn {
+  border-radius: 24px;
+  background: #3f66ab;
+  padding: 10.5px 20px;
+  color: #fff;
+  font-size: 16px;
+  min-width: 400px;
+  border: none;
+  margin-top: 25px;
+}
+.banner_sec .btn img {
+  margin-right: 15px;
+}
+.design_img {
+  margin-top: 40px;
+}
+.design_img p {
+  max-width: 450px;
+}
+.design_img img{
+  width: 80%;
+}
+.design_img1 img{
+  width: 70%;
+}
+/* Banner-section css end here ===== */
+
+/* ManPc-section css start here ===== */
+.mainPc_sec,
+.loc_sec,
+.msg_sec {
+  background: #0d2146;
+}
+.cup_media {
+  margin-top: 30px;
+}
+.cup_media .media_left {
+  min-width: 65px;
+  margin-right: 40px;
+}
+.loc_sec {
+  padding: 10%; 
+}
+.loc_sec .tab_list img {
+  margin-top: 25px;
+ 
+}
+
+.msg_sec {
+  padding-bottom: 100px;
+}
+@media (max-width:595px)  {
+  .msg_sec {
+    padding: 50px 0;
+  }
+} 
+
+/* ManPc-section css end here ===== */
+
+/* Footer-section css start here ===== */
+.footer_sec {
+  background: #000;
+  padding: 40px 0;
+}
+.footer_sec a {
+  font-size: 14px;
+  color: #fff;
+  padding: 0 4px;
+}
+.scroll_top {
+  position: fixed;
+  z-index: 99;
+  bottom: 140px;
+  right: 170px;
+}
+/* Footer-section css end here ===== */
