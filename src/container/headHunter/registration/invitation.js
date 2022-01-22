@@ -38,7 +38,7 @@ function Invitation(props) {
     <div className="send-invitation-to-employment post_form ">
       <Heading
         heading={" Send Invitation to Consultants"}
-        step={"4"}
+        step={"3"}
         shadow={true}
       />
 

@@ -10,7 +10,7 @@ function ConditionSetup(props) {
   const [registration, setRegistration] = useState("");
   return (
     <section className="card_sec" style={{ padding: "0px" }}>
-      <Heading heading={"Condition Set Up "} step={"3"} shadow={true} />{" "}
+      <Heading heading={"Condition Set Up "} step={"2"} shadow={true} />{" "}
       <div hidden={true} className="text-danger">
         {" "}
         Sorry this service is currently not available until 2021 jan
@@ -29,9 +29,37 @@ function ConditionSetup(props) {
                       <div className="d-flex mb-10 pb-5 pb-md-0 mb-md-20">
                         <div class="icon-check">
                           <div class="m-0 text-primary up-icon">
+                          <img src={"https://jungleworksassetsbucket.s3.ap-northeast-2.amazonaws.com/bearoleImages/hire/customerServiceIcon.svg"} alt="" />
                             </div></div>
                       </div>
-                      <div class="feature-description"><strong>10</strong> Resumes
+                      <div class="feature-description">Cacter only 2,500 Resumes
+                      </div>
+                    </li>
+                    <li className="mb-0">
+                      <div className="d-flex mb-10 pb-5 pb-md-0 mb-md-20">
+                        <div class="icon-check">
+                          <div class="m-0 text-primary up-icon">
+                            </div></div>
+                      </div>
+                      <div class="feature-description">Only see user profile
+                      </div>
+                    </li>
+                    <li className="mb-0">
+                      <div className="d-flex mb-10 pb-5 pb-md-0 mb-md-20">
+                        <div class="icon-check">
+                          <div class="m-0 text-primary up-icon">
+                            </div></div>
+                      </div>
+                      <div class="feature-description">Only see user profile
+                      </div>
+                    </li>
+                    <li className="mb-0">
+                      <div className="d-flex mb-10 pb-5 pb-md-0 mb-md-20">
+                        <div class="icon-check">
+                          <div class="m-0 text-primary up-icon">
+                            </div></div>
+                      </div>
+                      <div class="feature-description">Only see user profile
                       </div>
                     </li>
                   </ul>
@@ -55,7 +83,35 @@ function ConditionSetup(props) {
                               </div>
                               </div>
                       </div>
-                      <div class="feature-description"><strong>10</strong> CResumes
+                      <div class="feature-description">Cacter only 3,500 Resumes
+                      </div>
+                    </li>
+                    <li className="mb-0">
+                      <div className="d-flex mb-10 pb-5 pb-md-0 mb-md-20">
+                        <div class="icon-check">
+                          <div class="m-0 text-primary up-icon">
+                            </div></div>
+                      </div>
+                      <div class="feature-description">Cacter only 2,500 Resumes
+                      </div>
+                    </li>
+                    <li className="mb-0">
+                      <div className="d-flex mb-10 pb-5 pb-md-0 mb-md-20">
+                        <div class="icon-check">
+                          <div class="m-0 text-primary up-icon">
+                            </div></div>
+                      </div>
+                      <div class="feature-description">Cacter only 2,500 Resumes
+                      </div>
+                    </li>
+                    <li className="mb-0">
+                      <div className="d-flex mb-10 pb-5 pb-md-0 mb-md-20">
+                        <div class="icon-check">
+                          <div class="m-0 text-primary up-icon">
+
+                            </div></div>
+                      </div>
+                      <div class="feature-description">Cacter only 2,500 Resumes
                       </div>
                     </li>
                   </ul>
@@ -77,9 +133,37 @@ function ConditionSetup(props) {
                           <div class="m-0 text-primary up-icon">
                               </div></div>
                       </div>
-                      <div class="feature-description"><strong>10</strong> Resumes
+                      <div class="feature-description">Cacter only 2,500 Resumes
                       </div>
                     </li>
+                    <li className="mb-0">
+                      <div className="d-flex mb-10 pb-5 pb-md-0 mb-md-20">
+                        <div class="icon-check">
+                          <div class="m-0 text-primary up-icon">
+                            </div></div>
+                      </div>
+                      <div class="feature-description">Cacter only 2,500 Resumes
+                      </div>
+                    </li>
+                    <li className="mb-0">
+                      <div className="d-flex mb-10 pb-5 pb-md-0 mb-md-20">
+                        <div class="icon-check">
+                          <div class="m-0 text-primary up-icon">
+                            </div></div>
+                      </div>
+                      <div class="feature-description">Cacter only 2,500 Resumes
+                      </div>
+                    </li>
+                    <li className="mb-0">
+                      <div className="d-flex mb-10 pb-5 pb-md-0 mb-md-20">
+                        <div class="icon-check">
+                          <div class="m-0 text-primary up-icon">
+                            </div></div>
+                      </div>
+                      <div class="feature-description">Cacter only 2,500 Resumes
+                      </div>
+                    </li>
+                  
                   </ul>
                 </div>
               </div>
@@ -89,6 +173,28 @@ function ConditionSetup(props) {
 
         </div>
 
+      </div>
+      <div className="create-freelancer-bottom-steps">
+        <button
+          onClick={() => {
+            props.handleBack("HeadHunterProfile");
+          }}
+          className="create-freelancer-bottom-steps-back"
+        >
+          Back
+        </button>
+        <button
+          onClick={() => {
+            props.handleNext("Invitation");
+            window.scrollTo({
+              top: "0",
+              behavior: "smooth",
+            });
+          }}
+          className="create-freelancer-bottom-steps-skip"
+        >
+          Next
+        </button>
       </div>
     </section>
   );

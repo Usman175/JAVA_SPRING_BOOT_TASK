@@ -6,7 +6,7 @@ function HeaderHunterRegistration(props) {
     <section className="card_sec" style={{ padding: "0px" }}>
       <Heading
         heading={"Register Headhunting Contract "}
-        step={"5"}
+        step={"4"}
         shadow={true}
       />
       <div className="resume-add-confirmation-area">

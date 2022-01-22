@@ -10,7 +10,7 @@ export default function ConfirmationPage(props) {
             <div className="row">
               <div className="col-xl-9 col-lg-12 col-md-12">
                 <div className="project_post "> */}
-        <Heading heading={"Confirmation"} step={"6"} shadow={true} />
+        <Heading heading={"Confirmation"} step={"5"} shadow={true} />
       </section>
       <div class="post_form">
         {/* <div class="save_cancel" style={{marginTop:'200px'}}>
